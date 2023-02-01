@@ -41,7 +41,7 @@ jobs:
       - name: Deploy to S3 Bucket
         uses: shallwefootball/s3-upload-action@673c5bb70368c2dde8c5970bc67eb5263542b8a4
         with:
-          aws_key_id: ${{ secrets.AWS_KEY_ID }}
+          aws_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
           aws_bucket: ${{ secrets.AWS_BUCKET }}
           source_dir: 'dist'
