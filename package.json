@@ -1,7 +1,7 @@
 {
   "name": "handoff-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A demo of the figma design token pipeline built on handoff (www.handoff.com)",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/convertiv-motiv/scripts/watch.js",
@@ -27,9 +27,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://bitbucket.org/convertiv-dev/design-documentation/issues"
+    "url": "https://github.com/Convertiv/handoff-demo/issues"
   },
-  "homepage": "https://bitbucket.org/convertiv-dev/design-documentation#readme",
+  "homepage": "https://www.handoff.com/",
   "dependencies": {
     "convertiv-motiv": "0.7.*"
   }
