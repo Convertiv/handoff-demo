@@ -1,15 +1,15 @@
 # Handoff Demo
 
 This is a demo of the handoff design token toolchain. It uses the open source
-library handoff-app to fetch design data and abstract it as json. Then that json data
-is read into a react app which can be published to a static host.
+library handoff-app to fetch design data and abstract it as json. Then that 
+json data is read into a react app which can be published to a static host.
 
-This library is designed to be run either on a schedule and published to a central host
-or run adhoc by a developer.
+This library is designed to be run either on a schedule and published to a 
+central host or run adhoc by a developer.
 
-The code in this project falls into three categories - Configuration, Exported artifacts,
-and specific customizations. All of the principle fetch and build logic is provided by
-the handoff-app npm repository.
+The code in this project falls into three categories - Configuration, Exported 
+artifacts, and specific customizations. All of the principle fetch and build 
+logic is provided by the handoff-app npm repository.
 
 ### Artifacts
 
