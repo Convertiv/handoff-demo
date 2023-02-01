@@ -1,0 +1,626 @@
+{
+  "components": {
+    "buttons": [
+      {
+        "id": "design-theme-light-type-primary-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-primary\">Primary Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-primary\">Primary Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-primary-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-primary\">Primary Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-primary\">Primary Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-primary\" disabled>Disabled Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-primary\" disabled>Disabled Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-custom-type-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-custom-type\">Warning Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-custom-type\">Warning Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-custom-type-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-custom-type\">Warning Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-custom-type\">Warning Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-custom-type\">Disabled Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-custom-type\">Disabled Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-outline-secondary-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-outline-secondary\">Outline Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-secondary\">Outline Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-outline-secondary-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-outline-secondary\">Outline Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-secondary\">Outline Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-outline-secondary\">Disabled Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-secondary\">Disabled Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-danger-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-danger\">Danger Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-danger\">Danger Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-danger-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-danger\">Danger Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-danger\">Danger Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-danger\">Disabled Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-danger\">Disabled Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-light-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-light\">Light Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-light\">Light Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-light-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-light\">Light Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-light\">Light Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-light\">Disabled Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-light\">Disabled Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-dark-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-dark\">Dark Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-dark\">Dark Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-dark-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-dark\">Dark Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-dark\">Dark Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-dark\">Disabled Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-dark\">Disabled Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-secondary-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-secondary\">Secondary Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-secondary\">Secondary Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-secondary-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-secondary\">Secondary Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-secondary\">Secondary Button</button>"
+      },
+      {
+        "id": "design-theme-light-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n  <button class=\"btn btn-secondary\">Disabled Button</button>\n</body>\n",
+        "code": "<button class=\"btn btn-secondary\">Disabled Button</button>"
+      },
+      {
+        "id": "design-theme-dark-type-primary-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-primary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-primary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-primary-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-primary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-primary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-primary\" disabled>Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-primary\" disabled>Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-custom-type-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-custom-type\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-custom-type\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-custom-type-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-custom-type\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-custom-type\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-custom-type\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-custom-type\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-outline-secondary-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-outline-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-secondary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-outline-secondary-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-outline-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-secondary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-outline-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-secondary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-danger-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-danger\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-danger\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-danger-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-danger\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-danger\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-danger\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-danger\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-light-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-light\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-light\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-light-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-light\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-light\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-light\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-light\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-dark-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-dark\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-dark\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-dark-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-dark\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-dark\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-dark\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-dark\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-secondary-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-secondary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-secondary-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-secondary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n  <button class=\"btn btn-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-secondary\">Button text</button>"
+      },
+      {
+        "id": "layout-size-small",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <button class=\"btn btn-primary btn-sm\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-primary btn-sm\">Button text</button>"
+      },
+      {
+        "id": "layout-size-medium",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <button class=\"btn btn-primary btn-md\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-primary btn-md\">Button text</button>"
+      },
+      {
+        "id": "layout-size-large",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <button class=\"btn btn-primary btn-lg\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-primary btn-lg\">Button text</button>"
+      }
+    ],
+    "selects": [
+      {
+        "id": "design-theme-dark-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <select class=\"form-select\" aria-label=\"Default select example\" disabled>\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>\n</body>\n",
+        "code": "<select class=\"form-select\" aria-label=\"Default select example\" disabled>\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>"
+      },
+      {
+        "id": "design-theme-dark-state-error",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <select class=\"form-select is-invalid\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>\n</body>\n",
+        "code": "<select class=\"form-select is-invalid\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>"
+      },
+      {
+        "id": "design-theme-dark-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>\n</body>\n",
+        "code": "<select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>"
+      },
+      {
+        "id": "design-theme-dark-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>\n</body>\n",
+        "code": "<select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>"
+      },
+      {
+        "id": "design-theme-light-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <select class=\"form-select\" aria-label=\"Default select example\" disabled>\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>\n</body>\n",
+        "code": "<select class=\"form-select\" aria-label=\"Default select example\" disabled>\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>"
+      },
+      {
+        "id": "design-theme-light-state-error",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <select class=\"form-select is-invalid\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>\n</body>\n",
+        "code": "<select class=\"form-select is-invalid\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>"
+      },
+      {
+        "id": "design-theme-light-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>\n</body>\n",
+        "code": "<select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>"
+      },
+      {
+        "id": "design-theme-light-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>\n</body>\n",
+        "code": "<select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>"
+      },
+      {
+        "id": "layout-size-small",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>\n</body>\n",
+        "code": "<select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>"
+      },
+      {
+        "id": "layout-size-medium",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>\n</body>\n",
+        "code": "<select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>"
+      },
+      {
+        "id": "layout-size-large",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>\n</body>\n",
+        "code": "<select class=\"form-select\" aria-label=\"Default select example\">\n    <option selected>Open this select menu</option>\n    <option value=\"1\">One</option>\n    <option value=\"2\">Two</option>\n    <option value=\"3\">Three</option>\n  </select>"
+      }
+    ],
+    "checkboxes": [
+      {
+        "id": "design-theme-dark-state-disabled-activity-on",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>\n</body>",
+        "code": "<div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-dark-state-hover-activity-on",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-dark-state-default-activity-on",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-dark-state-disabled-activity-off",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>\n</body>",
+        "code": "<div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-dark-state-hover-activity-off",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-dark-state-default-activity-off",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-light-state-disabled-activity-on",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>\n</body>",
+        "code": "<div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-light-state-hover-activity-on",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-light-state-default-activity-on",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-light-state-disabled-activity-off",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>\n</body>",
+        "code": "<div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-light-state-hover-activity-off",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-light-state-default-activity-off",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "layout-size-small",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-\">\n    <div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "layout-size-medium",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-\">\n    <div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "layout-size-large",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-\">\n    <div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+      }
+    ],
+    "inputs": [
+      {
+        "id": "design-theme-dark-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Disabled</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" disabled />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Disabled</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\" disabled></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Disabled</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" disabled >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Disabled</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\" disabled></textarea>\n    <small>Additional Info</small>\n  </div>"
+      },
+      {
+        "id": "design-theme-dark-state-error",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Validation</label>\n    <input type=\"text\" class=\"form-control is-invalid\" id=\"text\" placeholder=\"Placeholder...\" />\n    <div class=\"invalid-feedback\">Validation error message example</div>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Validation</label>\n    <textarea class=\"form-control is-invalid\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <div class=\"invalid-feedback\">Validation error message example</div>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Validation</label>\n    <input type=\"text\" class=\"form-control is-invalid\" id=\"text\" placeholder=\"Placeholder...\" >\n    <div class=\"invalid-feedback\">Validation error message example</div>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Validation</label>\n    <textarea class=\"form-control is-invalid\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <div class=\"invalid-feedback\">Validation error message example</div>\n  </div>"
+      },
+      {
+        "id": "design-theme-dark-state-complete",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Complete</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Complete</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Complete</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Complete</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>"
+      },
+      {
+        "id": "design-theme-dark-state-active",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Active</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"J|\" />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Active</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"J|\"></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Active</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"J|\" >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Active</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"J|\"></textarea>\n    <small>Additional Info</small>\n  </div>"
+      },
+      {
+        "id": "design-theme-dark-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Hover</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Hover</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Hover</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Hover</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>"
+      },
+      {
+        "id": "design-theme-dark-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Label</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Label</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Label</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Label</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>"
+      },
+      {
+        "id": "design-theme-light-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Disabled</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" disabled />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Disabled</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\" disabled></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Disabled</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" disabled >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Disabled</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\" disabled></textarea>\n    <small>Additional Info</small>\n  </div>"
+      },
+      {
+        "id": "design-theme-light-state-error",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Validation</label>\n    <input type=\"text\" class=\"form-control is-invalid\" id=\"text\" placeholder=\"Placeholder...\" />\n    <div class=\"invalid-feedback\">Validation error message text</div>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Validation</label>\n    <textarea class=\"form-control is-invalid\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <div class=\"invalid-feedback\">Validation error message text</div>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Validation</label>\n    <input type=\"text\" class=\"form-control is-invalid\" id=\"text\" placeholder=\"Placeholder...\" >\n    <div class=\"invalid-feedback\">Validation error message text</div>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Validation</label>\n    <textarea class=\"form-control is-invalid\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <div class=\"invalid-feedback\">Validation error message text</div>\n  </div>"
+      },
+      {
+        "id": "design-theme-light-state-complete",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Complete</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"John\" />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Complete</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"John\"></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Complete</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"John\" >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Complete</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"John\"></textarea>\n    <small>Additional Info</small>\n  </div>"
+      },
+      {
+        "id": "design-theme-light-state-active",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Active</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"J|\" />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Active</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"J|\"></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Active</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"J|\" >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Active</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"J|\"></textarea>\n    <small>Additional Info</small>\n  </div>"
+      },
+      {
+        "id": "design-theme-light-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Hover</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Hover</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Hover</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Hover</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>"
+      },
+      {
+        "id": "design-theme-light-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Label</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Label</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Label</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Label</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>"
+      },
+      {
+        "id": "layout-size-small",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Label</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Label</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Label</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Label</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>"
+      },
+      {
+        "id": "layout-size-medium",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Label</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Label</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Label</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Label</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>"
+      },
+      {
+        "id": "layout-size-large",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"flex-column input\">\n  <div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Label</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" />\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Label</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>\n</body>\n",
+        "code": "<div class=\"mb-3\">\n    <label class=\"form-label\" htmlFor=\"text\">Input Label</label>\n    <input type=\"text\" class=\"form-control\" id=\"text\" placeholder=\"Placeholder...\" >\n    <small>Additional Info</small>\n  </div>\n  <div class=\"mb-3\">\n    <label class=\"form-label\">Input Label</label>\n    <textarea class=\"form-control\" id=\"exampleFormControlTextarea1\" rows=\"3\" placeholder=\"Placeholder...\"></textarea>\n    <small>Additional Info</small>\n  </div>"
+      }
+    ],
+    "tooltips": [
+      {
+        "id": "design-vertical-top-horizontal-right",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"gap-2\">\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n    Tooltip on top\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n    Tooltip on right\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n    Tooltip on bottom\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n    Tooltip on left\n  </button>\n</body>\n",
+        "code": "<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n    Tooltip on top\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n    Tooltip on right\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n    Tooltip on bottom\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n    Tooltip on left\n  </button>"
+      },
+      {
+        "id": "design-vertical-top-horizontal-center",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"gap-2\">\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n    Tooltip on top\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n    Tooltip on right\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n    Tooltip on bottom\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n    Tooltip on left\n  </button>\n</body>\n",
+        "code": "<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n    Tooltip on top\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n    Tooltip on right\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n    Tooltip on bottom\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n    Tooltip on left\n  </button>"
+      },
+      {
+        "id": "design-vertical-top-horizontal-left",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"gap-2\">\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n    Tooltip on top\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n    Tooltip on right\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n    Tooltip on bottom\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n    Tooltip on left\n  </button>\n</body>\n",
+        "code": "<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n    Tooltip on top\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n    Tooltip on right\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n    Tooltip on bottom\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n    Tooltip on left\n  </button>"
+      },
+      {
+        "id": "design-vertical-bottom-horizontal-right",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"gap-2\">\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n    Tooltip on top\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n    Tooltip on right\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n    Tooltip on bottom\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n    Tooltip on left\n  </button>\n</body>\n",
+        "code": "<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n    Tooltip on top\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n    Tooltip on right\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n    Tooltip on bottom\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n    Tooltip on left\n  </button>"
+      },
+      {
+        "id": "design-vertical-bottom-horizontal-center",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"gap-2\">\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n    Tooltip on top\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n    Tooltip on right\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n    Tooltip on bottom\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n    Tooltip on left\n  </button>\n</body>\n",
+        "code": "<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n    Tooltip on top\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n    Tooltip on right\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n    Tooltip on bottom\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n    Tooltip on left\n  </button>"
+      },
+      {
+        "id": "design-vertical-bottom-horizontal-left",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"gap-2\">\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n    Tooltip on top\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n    Tooltip on right\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n    Tooltip on bottom\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n    Tooltip on left\n  </button>\n</body>\n",
+        "code": "<button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"Tooltip on top\">\n    Tooltip on top\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"right\" data-bs-title=\"Tooltip on right\">\n    Tooltip on right\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" data-bs-title=\"Tooltip on bottom\">\n    Tooltip on bottom\n  </button>\n  <button type=\"button\" class=\"btn btn-secondary\" data-bs-toggle=\"tooltip\" data-bs-placement=\"left\" data-bs-title=\"Tooltip on left\">\n    Tooltip on left\n  </button>"
+      }
+    ],
+    "alerts": [
+      {
+        "id": "design-type-primary",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-primary alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-primary alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+      },
+      {
+        "id": "design-type-secondary",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-secondary alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-secondary alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+      },
+      {
+        "id": "design-type-dark",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-dark alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-dark alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+      },
+      {
+        "id": "design-type-light",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-light alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-light alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+      },
+      {
+        "id": "design-type-info",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-info alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-info alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+      },
+      {
+        "id": "design-type-success",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-success alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-success alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+      },
+      {
+        "id": "design-type-warning",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-warning alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-warning alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+      },
+      {
+        "id": "design-type-danger",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-danger alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-danger alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+      },
+      {
+        "id": "design-type-type9",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-type9 alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-type9 alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+      },
+      {
+        "id": "layout-horizontal",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-horizontal alert-dismissible w-100\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-horizontal alert-dismissible w-100\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+      },
+      {
+        "id": "layout-vertical",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-vertical alert-dismissible\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-vertical alert-dismissible\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+      }
+    ],
+    "switches": [
+      {
+        "id": "design-theme-dark-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "design-theme-dark-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "design-theme-dark-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "design-theme-light-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "design-theme-light-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "design-theme-light-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "layout-size-small",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "layout-size-medium",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "layout-size-large",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      }
+    ],
+    "pagination": [
+      {
+        "id": "design-theme-dark-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "design-theme-dark-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "design-theme-dark-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "design-theme-light-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "design-theme-light-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "design-theme-light-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "layout-size-small",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "layout-size-medium",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      },
+      {
+        "id": "layout-size-large",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
+        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+      }
+    ],
+    "radios": []
+  }
+}

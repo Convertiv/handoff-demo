@@ -1,0 +1,54 @@
+name: Deploy to production
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: us-east-1
+      AWS_DEFAULT_OUTPUT: json
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+        
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Set Git Defaults
+        run: |
+          git config --global user.email "ops@convertiv.com"
+          git config --global user.name "Convertiv Development"
+      - name: Fetch from figma
+        run: |
+          npm install --legacy-peer-deps
+          npm run fetch
+          git commit -a -m "[skip ci] updating changelog with latest figma changes"
+          git push
+      - name: Build static site
+        run: |
+          npm run build
+      - name: Deploy to S3 Bucket
+        uses: shallwefootball/s3-upload-action@673c5bb
+        with:
+          aws_key_id: ${{ secrets.AWS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+          aws_bucket: ${{ secrets.AWS_BUCKET }}
+          source_dir: 'dist'
+      - name: Invalidate CloudFront
+        uses: chetan/invalidate-cloudfront-action@c384d5f
+        env:
+          DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
+          PATHS: "/index.html"
+          AWS_REGION: "us-east-1"
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

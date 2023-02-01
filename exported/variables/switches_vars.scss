@@ -1,0 +1,170 @@
+//  switch, theme: Dark, state: Disabled
+$switch-dark-disabled-background: #258cf2;
+$switch-dark-disabled-border-weight: 1px;
+$switch-dark-disabled-border-radius: 174px;
+$switch-dark-disabled-border-color: transparent;
+$switch-label-dark-disabled-spacing: undefinedpx;
+$switch-label-dark-disabled-font-family: 'Inter';
+$switch-label-dark-disabled-font-size: 14px;
+$switch-label-dark-disabled-font-weight: 400;
+$switch-label-dark-disabled-line-height: 1.4285714721679688;
+$switch-label-dark-disabled-letter-spacing: -0.28px;
+$switch-label-dark-disabled-text-align: left;
+$switch-label-dark-disabled-text-transform: none;
+$switch-label-dark-disabled-text-decoration: none;
+$switch-label-dark-disabled-color: rgba(255, 255, 255, 0.44999998807907104);
+$switch-thumb-dark-disabled-background: #ffffff;
+$switch-thumb-dark-disabled-border-weight: 1px;
+$switch-thumb-dark-disabled-border-color: transparent;
+
+//  switch, theme: Dark, state: Hover
+$switch-dark-hover-background: #0073e6;
+$switch-dark-hover-border-weight: 1px;
+$switch-dark-hover-border-radius: 174px;
+$switch-dark-hover-border-color: transparent;
+$switch-label-dark-hover-spacing: undefinedpx;
+$switch-label-dark-hover-font-family: 'Inter';
+$switch-label-dark-hover-font-size: 14px;
+$switch-label-dark-hover-font-weight: 400;
+$switch-label-dark-hover-line-height: 1.4285714721679688;
+$switch-label-dark-hover-letter-spacing: -0.28px;
+$switch-label-dark-hover-text-align: left;
+$switch-label-dark-hover-text-transform: none;
+$switch-label-dark-hover-text-decoration: none;
+$switch-label-dark-hover-color: rgba(255, 255, 255, 0.8500000238418579);
+$switch-thumb-dark-hover-background: #ffffff;
+$switch-thumb-dark-hover-border-weight: 1px;
+$switch-thumb-dark-hover-border-color: transparent;
+
+//  switch, theme: Dark, state: Default
+$switch-dark-background: #258cf2;
+$switch-dark-border-weight: 1px;
+$switch-dark-border-radius: 174px;
+$switch-dark-border-color: transparent;
+$switch-label-dark-spacing: undefinedpx;
+$switch-label-dark-font-family: 'Inter';
+$switch-label-dark-font-size: 14px;
+$switch-label-dark-font-weight: 400;
+$switch-label-dark-line-height: 1.4285714721679688;
+$switch-label-dark-letter-spacing: -0.28px;
+$switch-label-dark-text-align: left;
+$switch-label-dark-text-transform: none;
+$switch-label-dark-text-decoration: none;
+$switch-label-dark-color: rgba(255, 255, 255, 0.8500000238418579);
+$switch-thumb-dark-background: #ffffff;
+$switch-thumb-dark-border-weight: 1px;
+$switch-thumb-dark-border-color: transparent;
+
+//  switch, theme: Light, state: Disabled
+$switch-disabled-background: #258cf2;
+$switch-disabled-border-weight: 1px;
+$switch-disabled-border-radius: 174px;
+$switch-disabled-border-color: transparent;
+$switch-label-disabled-spacing: undefinedpx;
+$switch-label-disabled-font-family: 'Inter';
+$switch-label-disabled-font-size: 14px;
+$switch-label-disabled-font-weight: 400;
+$switch-label-disabled-line-height: 1.4285714721679688;
+$switch-label-disabled-letter-spacing: -0.28px;
+$switch-label-disabled-text-align: left;
+$switch-label-disabled-text-transform: none;
+$switch-label-disabled-text-decoration: none;
+$switch-label-disabled-color: #777777;
+$switch-thumb-disabled-background: #ffffff;
+$switch-thumb-disabled-border-weight: 1px;
+$switch-thumb-disabled-border-color: transparent;
+
+//  switch, theme: Light, state: Hover
+$switch-hover-background: #0f69c1;
+$switch-hover-border-weight: 2px;
+$switch-hover-border-radius: 174px;
+$switch-hover-border-color: transparent;
+$switch-label-hover-spacing: undefinedpx;
+$switch-label-hover-font-family: 'Inter';
+$switch-label-hover-font-size: 14px;
+$switch-label-hover-font-weight: 400;
+$switch-label-hover-line-height: 1.4285714721679688;
+$switch-label-hover-letter-spacing: -0.28px;
+$switch-label-hover-text-align: left;
+$switch-label-hover-text-transform: none;
+$switch-label-hover-text-decoration: none;
+$switch-label-hover-color: rgba(0, 0, 0, 0.800000011920929);
+$switch-thumb-hover-background: #ffffff;
+$switch-thumb-hover-border-weight: 1px;
+$switch-thumb-hover-border-color: transparent;
+
+//  switch, theme: Light, state: Default
+$switch-background: #0073e6;
+$switch-border-weight: 1px;
+$switch-border-radius: 174px;
+$switch-border-color: transparent;
+$switch-label-spacing: undefinedpx;
+$switch-label-font-family: 'Inter';
+$switch-label-font-size: 14px;
+$switch-label-font-weight: 400;
+$switch-label-line-height: 1.4285714721679688;
+$switch-label-letter-spacing: -0.28px;
+$switch-label-text-align: left;
+$switch-label-text-transform: none;
+$switch-label-text-decoration: none;
+$switch-label-color: rgba(0, 0, 0, 0.800000011920929);
+$switch-thumb-background: #ffffff;
+$switch-thumb-border-weight: 1px;
+$switch-thumb-border-color: transparent;
+
+// Small switch
+$switch-small-background: transparent;
+$switch-small-border-weight: 1px;
+$switch-small-border-radius: 174px;
+$switch-small-border-color: #000000;
+$switch-small-label-spacing: undefinedpx;
+$switch-small-label-font-family: 'Inter';
+$switch-small-label-font-size: 12px;
+$switch-small-label-font-weight: 400;
+$switch-small-label-line-height: 1.6666667175292968;
+$switch-small-label-letter-spacing: -0.24px;
+$switch-small-label-text-align: left;
+$switch-small-label-text-transform: none;
+$switch-small-label-text-decoration: none;
+$switch-small-label-color: #555555;
+$switch-small-thumb-background: #000000;
+$switch-small-thumb-border-weight: 1px;
+$switch-small-thumb-border-color: transparent;
+
+// Medium switch
+$switch-medium-background: transparent;
+$switch-medium-border-weight: 1px;
+$switch-medium-border-radius: 174px;
+$switch-medium-border-color: #000000;
+$switch-medium-label-spacing: undefinedpx;
+$switch-medium-label-font-family: 'Inter';
+$switch-medium-label-font-size: 14px;
+$switch-medium-label-font-weight: 400;
+$switch-medium-label-line-height: 1.4285714721679688;
+$switch-medium-label-letter-spacing: -0.28px;
+$switch-medium-label-text-align: left;
+$switch-medium-label-text-transform: none;
+$switch-medium-label-text-decoration: none;
+$switch-medium-label-color: #555555;
+$switch-medium-thumb-background: #000000;
+$switch-medium-thumb-border-weight: 1px;
+$switch-medium-thumb-border-color: transparent;
+
+// Large switch
+$switch-large-background: transparent;
+$switch-large-border-weight: 1px;
+$switch-large-border-radius: 174px;
+$switch-large-border-color: #000000;
+$switch-large-label-spacing: undefinedpx;
+$switch-large-label-font-family: 'Inter';
+$switch-large-label-font-size: 16px;
+$switch-large-label-font-weight: 400;
+$switch-large-label-line-height: 1.25;
+$switch-large-label-letter-spacing: -0.32px;
+$switch-large-label-text-align: left;
+$switch-large-label-text-transform: none;
+$switch-large-label-text-decoration: none;
+$switch-large-label-color: #555555;
+$switch-large-thumb-background: #000000;
+$switch-large-thumb-border-weight: 1px;
+$switch-large-thumb-border-color: transparent;

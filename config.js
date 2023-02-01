@@ -2,9 +2,9 @@
 
 /** @type {import('convertiv-motiv/client-config').Config} */
 const config = {
-    title: "Demo Design System",
+    title: "Handoff Demo Design System",
     homepage: "",
-    client: "Demo Software",
+    client: "Convertiv",
     primary: false,
     secondary: false,
     components: true,
