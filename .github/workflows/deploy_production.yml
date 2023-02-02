@@ -14,6 +14,8 @@ jobs:
       DEV_ACCESS_TOKEN: ${{ secrets.DEV_ACCESS_TOKEN }}
       AWS_CLOUDFRONT_DIST_ID: ${{ secrets.AWS_DISTRIBUTION }}
       AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
     strategy:
       matrix:
