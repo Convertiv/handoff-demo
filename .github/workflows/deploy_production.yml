@@ -8,12 +8,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_DEFAULT_REGION: us-east-1
       AWS_DEFAULT_OUTPUT: json
       FIGMA_PROJECT_ID: ${{ secrets.FIGMA_PROJECT_ID }}
       DEV_ACCESS_TOKEN: ${{ secrets.DEV_ACCESS_TOKEN }}
+      AWS_CLOUDFRONT_DIST_ID: ${{ secrets.AWS_CLOUDFRONT_DIST_ID }}
+      AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
 
     strategy:
       matrix:
@@ -39,17 +39,7 @@ jobs:
         run: |
           npm run build
       - name: Deploy to S3 Bucket
-        uses: shallwefootball/s3-upload-action@673c5bb70368c2dde8c5970bc67eb5263542b8a4
-        with:
-          aws_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
-          aws_bucket: ${{ secrets.AWS_BUCKET }}
-          source_dir: 'dist'
-      - name: Invalidate CloudFront
-        uses: chetan/invalidate-cloudfront-action@c384d5f09592318a77b1e5c0c8d4772317e48b25
-        env:
-          DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
-          PATHS: "/index.html"
-          AWS_REGION: "us-east-1"
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          aws s3 sync --delete dist/ s3://${{env.AWS_S3_BUCKET}}/
+          aws cloudfront create-invalidation --distribution-id ${{ env.AWS_CLOUDFRONT_DIST_ID}} --paths /\*
+        
