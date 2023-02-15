@@ -287,78 +287,78 @@
     "checkboxes": [
       {
         "id": "design-theme-dark-state-disabled-activity-on",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>\n</body>",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark checkbox\">\n    <div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>\n</body>",
         "code": "<div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "design-theme-dark-state-hover-activity-on",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
-        "code": "<div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark checkbox\">\n    <!-- <div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div> -->\n    <div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "design-theme-dark-state-default-activity-on",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
-        "code": "<div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark checkbox\">\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "design-theme-dark-state-disabled-activity-off",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>\n</body>",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark checkbox\">\n    <div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>\n</body>",
         "code": "<div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "design-theme-dark-state-hover-activity-off",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
-        "code": "<div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark checkbox\">\n    <!-- <div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div> -->\n    <div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "design-theme-dark-state-default-activity-off",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
-        "code": "<div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark checkbox\">\n    <div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "design-theme-light-state-disabled-activity-on",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>\n</body>",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light checkbox\">\n    <div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>\n</body>",
         "code": "<div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "design-theme-light-state-hover-activity-on",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
-        "code": "<div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light checkbox\">\n    <!-- <div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div> -->\n    <div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "design-theme-light-state-default-activity-on",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
-        "code": "<div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light checkbox\">\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "design-theme-light-state-disabled-activity-off",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>\n</body>",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light checkbox\">\n    <div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>\n</body>",
         "code": "<div class=\"form-check form-check-disabled\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexCheckDisabled\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "design-theme-light-state-hover-activity-off",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
-        "code": "<div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light checkbox\">\n    <!-- <div class=\"form-check form-check-hover\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div> -->\n    <div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "design-theme-light-state-default-activity-off",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
-        "code": "<div class=\"form-check form-check-default\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light checkbox\">\n    <div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "layout-size-small",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-\">\n    <div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
-        "code": "<div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme- checkbox\">\n    <!-- <div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div> -->\n    <div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "layout-size-medium",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-\">\n    <div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
-        "code": "<div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme- checkbox\">\n    <!-- <div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div> -->\n    <div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>"
       },
       {
         "id": "layout-size-large",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-\">\n    <div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
-        "code": "<div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme- checkbox\">\n    <!-- <div class=\"form-check form-check-\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div> -->\n    <div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check me-5\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckDefault\">\n        <label class=\"form-check-label\" for=\"flexCheckDefault\">\n            Checkbox Label\n        </label>\n    </div>\n    <div class=\"form-check\">\n        <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"flexCheckChecked\" checked>\n        <label class=\"form-check-label\" for=\"flexCheckChecked\">\n            Checkbox Label\n        </label>\n    </div>"
       }
     ],
     "inputs": [
@@ -473,48 +473,48 @@
     "alerts": [
       {
         "id": "design-type-primary",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-primary alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
-        "code": "<div class=\"alert alert-primary alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-primary w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-primary w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>"
       },
       {
         "id": "design-type-secondary",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-secondary alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
-        "code": "<div class=\"alert alert-secondary alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-secondary w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-secondary w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>"
       },
       {
         "id": "design-type-dark",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-dark alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
-        "code": "<div class=\"alert alert-dark alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-dark w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-dark w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>"
       },
       {
         "id": "design-type-light",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-light alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
-        "code": "<div class=\"alert alert-light alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-light w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-light w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>"
       },
       {
         "id": "design-type-info",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-info alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
-        "code": "<div class=\"alert alert-info alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-info w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-info w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>"
       },
       {
         "id": "design-type-success",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-success alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
-        "code": "<div class=\"alert alert-success alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-success w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-success w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>"
       },
       {
         "id": "design-type-warning",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-warning alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
-        "code": "<div class=\"alert alert-warning alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-warning w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-warning w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>"
       },
       {
         "id": "design-type-danger",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-danger alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
-        "code": "<div class=\"alert alert-danger alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-danger w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-danger w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>"
       },
       {
         "id": "design-type-type9",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-type9 alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>\n</body>\n",
-        "code": "<div class=\"alert alert-type9 alert-dismissible w-100 mb-0\" role=\"alert\">\n    <h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n    <p>Notification text</p>\n    <p>\n      <a href=\"#\">Learn more</a>\n    </p>\n    <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n  </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"alert alert-type9 w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>\n</body>\n",
+        "code": "<div class=\"alert alert-type9 w-100 mb-0\" role=\"alert\">\n    Notification text\n  </div>"
       },
       {
         "id": "layout-horizontal",
@@ -574,53 +574,83 @@
         "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
       }
     ],
-    "pagination": [
+    "pagination": [],
+    "radios": [
       {
-        "id": "design-theme-dark-state-disabled",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
-        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+        "id": "design-theme-dark-state-disabled-activity-on",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-radio-disabled\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDisabled\" id=\"flexRadioDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexRadioDisabled\">\n            Radio Label\n        </label>\n    </div>\n</body>",
+        "code": "<div class=\"form-check form-radio-disabled\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDisabled\" id=\"flexRadioDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexRadioDisabled\">\n            Radio Label\n        </label>\n    </div>"
       },
       {
-        "id": "design-theme-dark-state-hover",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
-        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+        "id": "design-theme-dark-state-hover-activity-on",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-radio-hover\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-radio-hover\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>"
       },
       {
-        "id": "design-theme-dark-state-default",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
-        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+        "id": "design-theme-dark-state-default-activity-on",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-radio-default\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-radio-default\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>"
       },
       {
-        "id": "design-theme-light-state-disabled",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
-        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+        "id": "design-theme-dark-state-disabled-activity-off",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-radio-disabled\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDisabled\" id=\"flexRadioDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexRadioDisabled\">\n            Radio Label\n        </label>\n    </div>\n</body>",
+        "code": "<div class=\"form-check form-radio-disabled\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDisabled\" id=\"flexRadioDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexRadioDisabled\">\n            Radio Label\n        </label>\n    </div>"
       },
       {
-        "id": "design-theme-light-state-hover",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
-        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+        "id": "design-theme-dark-state-hover-activity-off",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-radio-hover\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-radio-hover\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>"
       },
       {
-        "id": "design-theme-light-state-default",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
-        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+        "id": "design-theme-dark-state-default-activity-off",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark\">\n    <div class=\"form-check form-radio-default\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-radio-default\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-light-state-disabled-activity-on",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-radio-disabled\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDisabled\" id=\"flexRadioDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexRadioDisabled\">\n            Radio Label\n        </label>\n    </div>\n</body>",
+        "code": "<div class=\"form-check form-radio-disabled\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDisabled\" id=\"flexRadioDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexRadioDisabled\">\n            Radio Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-light-state-hover-activity-on",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-radio-hover\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-radio-hover\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-light-state-default-activity-on",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-radio-default\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-radio-default\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-light-state-disabled-activity-off",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-radio-disabled\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDisabled\" id=\"flexRadioDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexRadioDisabled\">\n            Radio Label\n        </label>\n    </div>\n</body>",
+        "code": "<div class=\"form-check form-radio-disabled\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDisabled\" id=\"flexRadioDisabled\" disabled>\n        <label class=\"form-check-label\" for=\"flexRadioDisabled\">\n            Radio Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-light-state-hover-activity-off",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-radio-hover\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-radio-hover\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>"
+      },
+      {
+        "id": "design-theme-light-state-default-activity-off",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light\">\n    <div class=\"form-check form-radio-default\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-radio-default\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>"
       },
       {
         "id": "layout-size-small",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
-        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-\">\n    <div class=\"form-check form-radio-\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-radio-\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>"
       },
       {
         "id": "layout-size-medium",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
-        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-\">\n    <div class=\"form-check form-radio-\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-radio-\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>"
       },
       {
         "id": "layout-size-large",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body>\n  <div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" />\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>\n</body>\n",
-        "code": "<div class=\"form-check form-switch\">\n    <input class=\"form-check-input\" type=\"checkbox\" role=\"switch\" id=\"flexSwitchCheckDefault\" >\n    <label class=\"form-check-label\" for=\"flexSwitchCheckDefault\">Default switch checkbox input</label>\n  </div>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-\">\n    <div class=\"form-check form-radio-\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>\n</body>\n",
+        "code": "<div class=\"form-check form-radio-\">\n        <input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"flexRadioDefault1\">\n        <label class=\"form-check-label\" for=\"flexRadioDefault1\">\n           Radio Label\n        </label>\n    </div>"
       }
-    ],
-    "radios": []
+    ]
   }
 }
