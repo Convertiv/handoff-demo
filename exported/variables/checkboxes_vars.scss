@@ -1,7 +1,7 @@
 // input, theme: Dark, state: Disabled
 $checkbox-disabled-on-background: #258cf2;
-$checkbox-disabled-on-height: 18;
-$checkbox-disabled-on-width: 18;
+$checkbox-disabled-on-height: 18px;
+$checkbox-disabled-on-width: 18px;
 $checkbox-disabled-on-padding-y: 0px;
 $checkbox-disabled-on-padding-x: 0px;
 $checkbox-disabled-on-padding-top: 0px;
@@ -26,8 +26,8 @@ $input-disabled-label-on-color: #ffffff;
 
 // input, theme: Dark, state: Hover
 $checkbox-hover-on-background: #0073e6;
-$checkbox-hover-on-height: 18;
-$checkbox-hover-on-width: 18;
+$checkbox-hover-on-height: 18px;
+$checkbox-hover-on-width: 18px;
 $checkbox-hover-on-padding-y: 0px;
 $checkbox-hover-on-padding-x: 0px;
 $checkbox-hover-on-padding-top: 0px;
@@ -52,8 +52,8 @@ $input-hover-label-on-color: #ffffff;
 
 // input, theme: Dark, state: Default
 $checkbox-on-background: #258cf2;
-$checkbox-on-height: 18;
-$checkbox-on-width: 18;
+$checkbox-on-height: 18px;
+$checkbox-on-width: 18px;
 $checkbox-on-padding-y: 0px;
 $checkbox-on-padding-x: 0px;
 $checkbox-on-padding-top: 0px;
@@ -78,8 +78,8 @@ $input-label-on-color: #ffffff;
 
 // input, theme: Dark, state: Disabled
 $checkbox-disabled-off-background: #6e6e6e;
-$checkbox-disabled-off-height: 18;
-$checkbox-disabled-off-width: 18;
+$checkbox-disabled-off-height: 18px;
+$checkbox-disabled-off-width: 18px;
 $checkbox-disabled-off-padding-y: 0px;
 $checkbox-disabled-off-padding-x: 0px;
 $checkbox-disabled-off-padding-top: 0px;
@@ -104,8 +104,8 @@ $input-disabled-label-off-color: #ffffff;
 
 // input, theme: Dark, state: Hover
 $checkbox-hover-off-background: transparent;
-$checkbox-hover-off-height: 18;
-$checkbox-hover-off-width: 18;
+$checkbox-hover-off-height: 18px;
+$checkbox-hover-off-width: 18px;
 $checkbox-hover-off-padding-y: 0px;
 $checkbox-hover-off-padding-x: 0px;
 $checkbox-hover-off-padding-top: 0px;
@@ -130,8 +130,8 @@ $input-hover-label-off-color: #ffffff;
 
 // input, theme: Dark, state: Default
 $checkbox-off-background: transparent;
-$checkbox-off-height: 18;
-$checkbox-off-width: 18;
+$checkbox-off-height: 18px;
+$checkbox-off-width: 18px;
 $checkbox-off-padding-y: 0px;
 $checkbox-off-padding-x: 0px;
 $checkbox-off-padding-top: 0px;
@@ -156,8 +156,8 @@ $input-label-off-color: #ffffff;
 
 // input, theme: Light, state: Disabled
 $checkbox-disabled-on-background: #7158dd;
-$checkbox-disabled-on-height: 18;
-$checkbox-disabled-on-width: 18;
+$checkbox-disabled-on-height: 18px;
+$checkbox-disabled-on-width: 18px;
 $checkbox-disabled-on-padding-y: 0px;
 $checkbox-disabled-on-padding-x: 0px;
 $checkbox-disabled-on-padding-top: 0px;
@@ -182,8 +182,8 @@ $input-disabled-label-on-color: #777777;
 
 // input, theme: Light, state: Hover
 $checkbox-hover-on-background: #3b2794;
-$checkbox-hover-on-height: 18;
-$checkbox-hover-on-width: 18;
+$checkbox-hover-on-height: 18px;
+$checkbox-hover-on-width: 18px;
 $checkbox-hover-on-padding-y: 0px;
 $checkbox-hover-on-padding-x: 0px;
 $checkbox-hover-on-padding-top: 0px;
@@ -208,8 +208,8 @@ $input-hover-label-on-color: #000000;
 
 // input, theme: Light, state: Default
 $checkbox-on-background: #4c34b6;
-$checkbox-on-height: 18;
-$checkbox-on-width: 18;
+$checkbox-on-height: 18px;
+$checkbox-on-width: 18px;
 $checkbox-on-padding-y: 0px;
 $checkbox-on-padding-x: 0px;
 $checkbox-on-padding-top: 0px;
@@ -234,8 +234,8 @@ $input-label-on-color: #000000;
 
 // input, theme: Light, state: Disabled
 $checkbox-disabled-off-background: #cccccc;
-$checkbox-disabled-off-height: 18;
-$checkbox-disabled-off-width: 18;
+$checkbox-disabled-off-height: 18px;
+$checkbox-disabled-off-width: 18px;
 $checkbox-disabled-off-padding-y: 0px;
 $checkbox-disabled-off-padding-x: 0px;
 $checkbox-disabled-off-padding-top: 0px;
@@ -260,8 +260,8 @@ $input-disabled-label-off-color: #777777;
 
 // input, theme: Light, state: Hover
 $checkbox-hover-off-background: transparent;
-$checkbox-hover-off-height: 18;
-$checkbox-hover-off-width: 18;
+$checkbox-hover-off-height: 18px;
+$checkbox-hover-off-width: 18px;
 $checkbox-hover-off-padding-y: 0px;
 $checkbox-hover-off-padding-x: 0px;
 $checkbox-hover-off-padding-top: 0px;
@@ -286,8 +286,8 @@ $input-hover-label-off-color: #000000;
 
 // input, theme: Light, state: Default
 $checkbox-off-background: transparent;
-$checkbox-off-height: 18;
-$checkbox-off-width: 18;
+$checkbox-off-height: 18px;
+$checkbox-off-width: 18px;
 $checkbox-off-padding-y: 0px;
 $checkbox-off-padding-x: 0px;
 $checkbox-off-padding-top: 0px;
@@ -312,8 +312,8 @@ $input-label-off-color: #555555;
 
 // Small input
 $checkbox-small-off-background: transparent;
-$checkbox-small-off-height: 16;
-$checkbox-small-off-width: 16;
+$checkbox-small-off-height: 16px;
+$checkbox-small-off-width: 16px;
 $checkbox-small-off-padding-y: 0px;
 $checkbox-small-off-padding-x: 0px;
 $checkbox-small-off-padding-top: 0px;
@@ -338,8 +338,8 @@ $input-small-label-off-color: #555555;
 
 // Medium input
 $checkbox-medium-off-background: transparent;
-$checkbox-medium-off-height: 18;
-$checkbox-medium-off-width: 18;
+$checkbox-medium-off-height: 18px;
+$checkbox-medium-off-width: 18px;
 $checkbox-medium-off-padding-y: 0px;
 $checkbox-medium-off-padding-x: 0px;
 $checkbox-medium-off-padding-top: 0px;
@@ -364,8 +364,8 @@ $input-medium-label-off-color: #555555;
 
 // Large input
 $checkbox-large-off-background: transparent;
-$checkbox-large-off-height: 20;
-$checkbox-large-off-width: 20;
+$checkbox-large-off-height: 20px;
+$checkbox-large-off-width: 20px;
 $checkbox-large-off-padding-y: 0px;
 $checkbox-large-off-padding-x: 0px;
 $checkbox-large-off-padding-top: 0px;

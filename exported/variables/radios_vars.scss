@@ -1,7 +1,7 @@
 //  pagination, theme: Dark, state: Disabled
 $radio-disabled-on-background: #258cf2;
-$radio-disabled-on-height: 18;
-$radio-disabled-on-width: 18;
+$radio-disabled-on-height: 18px;
+$radio-disabled-on-width: 18px;
 $radio-disabled-on-padding-y: 0px;
 $radio-disabled-on-padding-x: 0px;
 $radio-disabled-on-padding-top: 0px;
@@ -26,8 +26,8 @@ $input-disabled-label-on-color: #ffffff;
 
 //  pagination, theme: Dark, state: Hover
 $radio-hover-on-background: #0073e6;
-$radio-hover-on-height: 18;
-$radio-hover-on-width: 18;
+$radio-hover-on-height: 18px;
+$radio-hover-on-width: 18px;
 $radio-hover-on-padding-y: 0px;
 $radio-hover-on-padding-x: 0px;
 $radio-hover-on-padding-top: 0px;
@@ -52,8 +52,8 @@ $input-hover-label-on-color: #ffffff;
 
 //  pagination, theme: Dark, state: Default
 $radio-on-background: #258cf2;
-$radio-on-height: 18;
-$radio-on-width: 18;
+$radio-on-height: 18px;
+$radio-on-width: 18px;
 $radio-on-padding-y: 0px;
 $radio-on-padding-x: 0px;
 $radio-on-padding-top: 0px;
@@ -78,8 +78,8 @@ $input-label-on-color: #ffffff;
 
 //  pagination, theme: Dark, state: Disabled
 $radio-disabled-off-background: #6e6e6e;
-$radio-disabled-off-height: 18;
-$radio-disabled-off-width: 18;
+$radio-disabled-off-height: 18px;
+$radio-disabled-off-width: 18px;
 $radio-disabled-off-padding-y: 0px;
 $radio-disabled-off-padding-x: 0px;
 $radio-disabled-off-padding-top: 0px;
@@ -104,8 +104,8 @@ $input-disabled-label-off-color: #ffffff;
 
 //  pagination, theme: Dark, state: Hover
 $radio-hover-off-background: transparent;
-$radio-hover-off-height: 18;
-$radio-hover-off-width: 18;
+$radio-hover-off-height: 18px;
+$radio-hover-off-width: 18px;
 $radio-hover-off-padding-y: 0px;
 $radio-hover-off-padding-x: 0px;
 $radio-hover-off-padding-top: 0px;
@@ -130,8 +130,8 @@ $input-hover-label-off-color: #ffffff;
 
 //  pagination, theme: Dark, state: Default
 $radio-off-background: transparent;
-$radio-off-height: 18;
-$radio-off-width: 18;
+$radio-off-height: 18px;
+$radio-off-width: 18px;
 $radio-off-padding-y: 0px;
 $radio-off-padding-x: 0px;
 $radio-off-padding-top: 0px;
@@ -156,8 +156,8 @@ $input-label-off-color: #ffffff;
 
 //  pagination, theme: Light, state: Disabled
 $radio-disabled-on-background: #ffce39;
-$radio-disabled-on-height: 18;
-$radio-disabled-on-width: 18;
+$radio-disabled-on-height: 18px;
+$radio-disabled-on-width: 18px;
 $radio-disabled-on-padding-y: 0px;
 $radio-disabled-on-padding-x: 0px;
 $radio-disabled-on-padding-top: 0px;
@@ -182,8 +182,8 @@ $input-disabled-label-on-color: #777777;
 
 //  pagination, theme: Light, state: Hover
 $radio-hover-on-background: #e0aa09;
-$radio-hover-on-height: 18;
-$radio-hover-on-width: 18;
+$radio-hover-on-height: 18px;
+$radio-hover-on-width: 18px;
 $radio-hover-on-padding-y: 0px;
 $radio-hover-on-padding-x: 0px;
 $radio-hover-on-padding-top: 0px;
@@ -208,8 +208,8 @@ $input-hover-label-on-color: #000000;
 
 //  pagination, theme: Light, state: Default
 $radio-on-background: #ffc107;
-$radio-on-height: 18;
-$radio-on-width: 18;
+$radio-on-height: 18px;
+$radio-on-width: 18px;
 $radio-on-padding-y: 0px;
 $radio-on-padding-x: 0px;
 $radio-on-padding-top: 0px;
@@ -234,8 +234,8 @@ $input-label-on-color: #000000;
 
 //  pagination, theme: Light, state: Disabled
 $radio-disabled-off-background: #cccccc;
-$radio-disabled-off-height: 18;
-$radio-disabled-off-width: 18;
+$radio-disabled-off-height: 18px;
+$radio-disabled-off-width: 18px;
 $radio-disabled-off-padding-y: 0px;
 $radio-disabled-off-padding-x: 0px;
 $radio-disabled-off-padding-top: 0px;
@@ -260,8 +260,8 @@ $input-disabled-label-off-color: #777777;
 
 //  pagination, theme: Light, state: Hover
 $radio-hover-off-background: transparent;
-$radio-hover-off-height: 18;
-$radio-hover-off-width: 18;
+$radio-hover-off-height: 18px;
+$radio-hover-off-width: 18px;
 $radio-hover-off-padding-y: 0px;
 $radio-hover-off-padding-x: 0px;
 $radio-hover-off-padding-top: 0px;
@@ -286,8 +286,8 @@ $input-hover-label-off-color: #000000;
 
 //  pagination, theme: Light, state: Default
 $radio-off-background: transparent;
-$radio-off-height: 18;
-$radio-off-width: 18;
+$radio-off-height: 18px;
+$radio-off-width: 18px;
 $radio-off-padding-y: 0px;
 $radio-off-padding-x: 0px;
 $radio-off-padding-top: 0px;
@@ -312,8 +312,8 @@ $input-label-off-color: #555555;
 
 // Small pagination
 $radio-small-off-background: transparent;
-$radio-small-off-height: 16;
-$radio-small-off-width: 16;
+$radio-small-off-height: 16px;
+$radio-small-off-width: 16px;
 $radio-small-off-padding-y: 0px;
 $radio-small-off-padding-x: 0px;
 $radio-small-off-padding-top: 0px;
@@ -338,8 +338,8 @@ $input-small-label-off-color: #555555;
 
 // Medium pagination
 $radio-medium-off-background: transparent;
-$radio-medium-off-height: 18;
-$radio-medium-off-width: 18;
+$radio-medium-off-height: 18px;
+$radio-medium-off-width: 18px;
 $radio-medium-off-padding-y: 0px;
 $radio-medium-off-padding-x: 0px;
 $radio-medium-off-padding-top: 0px;
@@ -364,8 +364,8 @@ $input-medium-label-off-color: #555555;
 
 // Large pagination
 $radio-large-off-background: transparent;
-$radio-large-off-height: 20;
-$radio-large-off-width: 20;
+$radio-large-off-height: 20px;
+$radio-large-off-width: 20px;
 $radio-large-off-padding-y: 0px;
 $radio-large-off-padding-x: 0px;
 $radio-large-off-padding-top: 0px;
