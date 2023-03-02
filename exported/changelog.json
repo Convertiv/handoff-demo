@@ -1,5 +1,311 @@
 [
   {
+    "timestamp": "2023-03-02T19:44:34.929Z",
+    "design": {
+      "colors": [
+        {
+          "type": "add",
+          "object": {
+            "name": "Gradient test",
+            "group": "border",
+            "type": "color",
+            "hex": "#d9d9d9",
+            "rgb": {
+              "r": 0.8509804010391235,
+              "g": 0.8509804010391235,
+              "b": 0.8509804010391235,
+              "a": 1
+            },
+            "sass": "$color-border-gradient-test"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "name": "Base",
+            "group": "border",
+            "type": "color",
+            "hex": "#e8e8e8",
+            "rgb": {
+              "r": 0.9098039269447327,
+              "g": 0.9098039269447327,
+              "b": 0.9098039269447327,
+              "a": 1
+            },
+            "sass": "$color-border-base"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "name": "Transparent",
+            "group": "neutral",
+            "type": "color",
+            "hex": "#000000",
+            "rgb": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "sass": "$color-neutral-transparent"
+          }
+        },
+        {
+          "type": "delete",
+          "object": {
+            "name": "Base 300",
+            "group": "shadow",
+            "type": "color",
+            "hex": "#d9d9d9",
+            "rgb": {
+              "r": 0.8509804010391235,
+              "g": 0.8509804010391235,
+              "b": 0.8509804010391235,
+              "a": 1
+            },
+            "sass": "$color-shadow-base-300"
+          }
+        },
+        {
+          "type": "delete",
+          "object": {
+            "name": "Base 900",
+            "group": "shadow",
+            "type": "color",
+            "hex": "#d9d9d9",
+            "rgb": {
+              "r": 0.8509804010391235,
+              "g": 0.8509804010391235,
+              "b": 0.8509804010391235,
+              "a": 1
+            },
+            "sass": "$color-shadow-base-900"
+          }
+        },
+        {
+          "type": "delete",
+          "object": {
+            "name": "Base 500",
+            "group": "shadow",
+            "type": "color",
+            "hex": "#d9d9d9",
+            "rgb": {
+              "r": 0.8509804010391235,
+              "g": 0.8509804010391235,
+              "b": 0.8509804010391235,
+              "a": 1
+            },
+            "sass": "$color-shadow-base-500"
+          }
+        },
+        {
+          "type": "delete",
+          "object": {
+            "name": "Base 700",
+            "group": "shadow",
+            "type": "color",
+            "hex": "#d9d9d9",
+            "rgb": {
+              "r": 0.8509804010391235,
+              "g": 0.8509804010391235,
+              "b": 0.8509804010391235,
+              "a": 1
+            },
+            "sass": "$color-shadow-base-700"
+          }
+        },
+        {
+          "type": "delete",
+          "object": {
+            "name": "Base 100",
+            "group": "shadow",
+            "type": "color",
+            "hex": "#d9d9d9",
+            "rgb": {
+              "r": 0.8509804010391235,
+              "g": 0.8509804010391235,
+              "b": 0.8509804010391235,
+              "a": 1
+            },
+            "sass": "$color-shadow-base-100"
+          }
+        },
+        {
+          "type": "delete",
+          "object": {
+            "name": "Transparent",
+            "group": "",
+            "type": "color",
+            "hex": "#000000",
+            "rgb": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "sass": "$color--transparent"
+          }
+        },
+        {
+          "type": "delete",
+          "object": {
+            "name": "Border",
+            "group": "border",
+            "type": "color",
+            "hex": "#d1d1d1",
+            "rgb": {
+              "r": 0.8196078538894653,
+              "g": 0.8196078538894653,
+              "b": 0.8196078538894653,
+              "a": 1
+            },
+            "sass": "$color-border-border"
+          }
+        }
+      ],
+      "typography": [
+        {
+          "type": "change",
+          "old": {
+            "name": "Button/Text Large",
+            "machine_name": "text-large",
+            "group": "button",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textCase": "UPPER",
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 16,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.32,
+              "lineHeightPx": 20,
+              "lineHeightPercent": 103.28638458251953,
+              "lineHeightPercentFontSize": 125,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          },
+          "new": {
+            "name": "Button/Text Large",
+            "machine_name": "text-large",
+            "group": "button",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 16,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.32,
+              "lineHeightPx": 20,
+              "lineHeightPercent": 103.28638458251953,
+              "lineHeightPercentFontSize": 125,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "change",
+          "old": {
+            "name": "Button/Text Medium",
+            "machine_name": "text-medium",
+            "group": "button",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 14,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.28,
+              "lineHeightPx": 18,
+              "lineHeightPercent": 106.2374267578125,
+              "lineHeightPercentFontSize": 128.57142639160156,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          },
+          "new": {
+            "name": "Button/Text Medium",
+            "machine_name": "text-medium",
+            "group": "button",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 14,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.28,
+              "lineHeightPx": 18,
+              "lineHeightPercent": 106.2374267578125,
+              "lineHeightPercentFontSize": 128.57142639160156,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "change",
+          "old": {
+            "name": "Button/Text Small",
+            "machine_name": "text-small",
+            "group": "button",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textCase": "UPPER",
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 12,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.24,
+              "lineHeightPx": 16,
+              "lineHeightPercent": 110.1721420288086,
+              "lineHeightPercentFontSize": 133.3333282470703,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          },
+          "new": {
+            "name": "Button/Text Small",
+            "machine_name": "text-small",
+            "group": "button",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 12,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.24,
+              "lineHeightPx": 16,
+              "lineHeightPercent": 110.1721420288086,
+              "lineHeightPercentFontSize": 133.3333282470703,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
     "timestamp": "2023-02-02T17:05:03.016Z",
     "design": {
       "typography": [

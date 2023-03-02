@@ -4,7 +4,7 @@ $alert-primary-padding-top: 18px;
 $alert-primary-padding-right: 16px;
 $alert-primary-padding-bottom: 18px;
 $alert-primary-padding-left: 16px;
-$alert-primary-border-weight: 1px;
+$alert-primary-border-width: 1px;
 $alert-primary-border-radius: 6px;
 $alert-primary-border-color: #0073e6;
 $alert-primary-box-shadow: none;
@@ -39,7 +39,7 @@ $alert-primary-actions-line-height: 1.3333332824707032;
 $alert-primary-actions-letter-spacing: -0.24px;
 $alert-primary-actions-text-align: left;
 $alert-primary-actions-text-decoration: none;
-$alert-primary-actions-text-transform: uppercase;
+$alert-primary-actions-text-transform: none;
 $alert-primary-actions-color: #ffffff;
 
 // Secondary alert
@@ -48,7 +48,7 @@ $alert-secondary-padding-top: 18px;
 $alert-secondary-padding-right: 16px;
 $alert-secondary-padding-bottom: 18px;
 $alert-secondary-padding-left: 16px;
-$alert-secondary-border-weight: 1px;
+$alert-secondary-border-width: 1px;
 $alert-secondary-border-radius: 6px;
 $alert-secondary-border-color: #7158dd;
 $alert-secondary-box-shadow: none;
@@ -83,7 +83,7 @@ $alert-secondary-actions-line-height: 1.3333332824707032;
 $alert-secondary-actions-letter-spacing: -0.24px;
 $alert-secondary-actions-text-align: left;
 $alert-secondary-actions-text-decoration: none;
-$alert-secondary-actions-text-transform: uppercase;
+$alert-secondary-actions-text-transform: none;
 $alert-secondary-actions-color: #ffffff;
 
 // Dark alert
@@ -92,7 +92,7 @@ $alert-dark-padding-top: 18px;
 $alert-dark-padding-right: 16px;
 $alert-dark-padding-bottom: 18px;
 $alert-dark-padding-left: 16px;
-$alert-dark-border-weight: 1px;
+$alert-dark-border-width: 1px;
 $alert-dark-border-radius: 6px;
 $alert-dark-border-color: transparent;
 $alert-dark-box-shadow: none;
@@ -127,7 +127,7 @@ $alert-dark-actions-line-height: 1.3333332824707032;
 $alert-dark-actions-letter-spacing: -0.24px;
 $alert-dark-actions-text-align: left;
 $alert-dark-actions-text-decoration: none;
-$alert-dark-actions-text-transform: uppercase;
+$alert-dark-actions-text-transform: none;
 $alert-dark-actions-color: #ffffff;
 
 // Light alert
@@ -136,7 +136,7 @@ $alert-light-padding-top: 18px;
 $alert-light-padding-right: 16px;
 $alert-light-padding-bottom: 18px;
 $alert-light-padding-left: 16px;
-$alert-light-border-weight: 1px;
+$alert-light-border-width: 1px;
 $alert-light-border-radius: 6px;
 $alert-light-border-color: transparent;
 $alert-light-box-shadow: none;
@@ -171,7 +171,7 @@ $alert-light-actions-line-height: 1.3333332824707032;
 $alert-light-actions-letter-spacing: -0.24px;
 $alert-light-actions-text-align: left;
 $alert-light-actions-text-decoration: none;
-$alert-light-actions-text-transform: uppercase;
+$alert-light-actions-text-transform: none;
 $alert-light-actions-color: #000000;
 
 // Info alert
@@ -180,7 +180,7 @@ $alert-info-padding-top: 18px;
 $alert-info-padding-right: 16px;
 $alert-info-padding-bottom: 18px;
 $alert-info-padding-left: 16px;
-$alert-info-border-weight: 1px;
+$alert-info-border-width: 1px;
 $alert-info-border-radius: 6px;
 $alert-info-border-color: transparent;
 $alert-info-box-shadow: none;
@@ -215,7 +215,7 @@ $alert-info-actions-line-height: 1.3333332824707032;
 $alert-info-actions-letter-spacing: -0.24px;
 $alert-info-actions-text-align: left;
 $alert-info-actions-text-decoration: none;
-$alert-info-actions-text-transform: uppercase;
+$alert-info-actions-text-transform: none;
 $alert-info-actions-color: #ffffff;
 
 // Success alert
@@ -224,7 +224,7 @@ $alert-success-padding-top: 18px;
 $alert-success-padding-right: 16px;
 $alert-success-padding-bottom: 18px;
 $alert-success-padding-left: 16px;
-$alert-success-border-weight: 1px;
+$alert-success-border-width: 1px;
 $alert-success-border-radius: 6px;
 $alert-success-border-color: transparent;
 $alert-success-box-shadow: none;
@@ -259,7 +259,7 @@ $alert-success-actions-line-height: 1.3333332824707032;
 $alert-success-actions-letter-spacing: -0.24px;
 $alert-success-actions-text-align: left;
 $alert-success-actions-text-decoration: none;
-$alert-success-actions-text-transform: uppercase;
+$alert-success-actions-text-transform: none;
 $alert-success-actions-color: #ffffff;
 
 // Warning alert
@@ -268,7 +268,7 @@ $alert-warning-padding-top: 18px;
 $alert-warning-padding-right: 16px;
 $alert-warning-padding-bottom: 18px;
 $alert-warning-padding-left: 16px;
-$alert-warning-border-weight: 1px;
+$alert-warning-border-width: 1px;
 $alert-warning-border-radius: 6px;
 $alert-warning-border-color: transparent;
 $alert-warning-box-shadow: none;
@@ -303,7 +303,7 @@ $alert-warning-actions-line-height: 1.3333332824707032;
 $alert-warning-actions-letter-spacing: -0.24px;
 $alert-warning-actions-text-align: left;
 $alert-warning-actions-text-decoration: none;
-$alert-warning-actions-text-transform: uppercase;
+$alert-warning-actions-text-transform: none;
 $alert-warning-actions-color: #000000;
 
 // Danger alert
@@ -312,7 +312,7 @@ $alert-danger-padding-top: 18px;
 $alert-danger-padding-right: 16px;
 $alert-danger-padding-bottom: 18px;
 $alert-danger-padding-left: 16px;
-$alert-danger-border-weight: 1px;
+$alert-danger-border-width: 1px;
 $alert-danger-border-radius: 6px;
 $alert-danger-border-color: transparent;
 $alert-danger-box-shadow: none;
@@ -347,7 +347,7 @@ $alert-danger-actions-line-height: 1.3333332824707032;
 $alert-danger-actions-letter-spacing: -0.24px;
 $alert-danger-actions-text-align: left;
 $alert-danger-actions-text-decoration: none;
-$alert-danger-actions-text-transform: uppercase;
+$alert-danger-actions-text-transform: none;
 $alert-danger-actions-color: #ffffff;
 
 // Type9 alert
@@ -356,7 +356,7 @@ $alert-type9-padding-top: 18px;
 $alert-type9-padding-right: 16px;
 $alert-type9-padding-bottom: 18px;
 $alert-type9-padding-left: 16px;
-$alert-type9-border-weight: 1px;
+$alert-type9-border-width: 1px;
 $alert-type9-border-radius: 6px;
 $alert-type9-border-color: transparent;
 $alert-type9-box-shadow: none;
@@ -391,7 +391,7 @@ $alert-type9-actions-line-height: 1.3333332824707032;
 $alert-type9-actions-letter-spacing: -0.24px;
 $alert-type9-actions-text-align: left;
 $alert-type9-actions-text-decoration: none;
-$alert-type9-actions-text-transform: uppercase;
+$alert-type9-actions-text-transform: none;
 $alert-type9-actions-color: #ffffff;
 
 // Horizontal alert
@@ -400,7 +400,7 @@ $alert-horizontal-padding-top: 18px;
 $alert-horizontal-padding-right: 16px;
 $alert-horizontal-padding-bottom: 18px;
 $alert-horizontal-padding-left: 16px;
-$alert-horizontal-border-weight: 1px;
+$alert-horizontal-border-width: 1px;
 $alert-horizontal-border-radius: 6px;
 $alert-horizontal-border-color: transparent;
 $alert-horizontal-box-shadow: none;
@@ -435,7 +435,7 @@ $alert-horizontal-actions-line-height: 1.3333332824707032;
 $alert-horizontal-actions-letter-spacing: -0.24px;
 $alert-horizontal-actions-text-align: left;
 $alert-horizontal-actions-text-decoration: none;
-$alert-horizontal-actions-text-transform: uppercase;
+$alert-horizontal-actions-text-transform: none;
 $alert-horizontal-actions-color: #ffffff;
 
 // Vertical alert
@@ -444,7 +444,7 @@ $alert-vertical-padding-top: 13px;
 $alert-vertical-padding-right: 16px;
 $alert-vertical-padding-bottom: 13px;
 $alert-vertical-padding-left: 16px;
-$alert-vertical-border-weight: 1px;
+$alert-vertical-border-width: 1px;
 $alert-vertical-border-radius: 6px;
 $alert-vertical-border-color: transparent;
 $alert-vertical-box-shadow: none;
@@ -479,5 +479,5 @@ $alert-vertical-actions-line-height: 1.3333332824707032;
 $alert-vertical-actions-letter-spacing: -0.24px;
 $alert-vertical-actions-text-align: left;
 $alert-vertical-actions-text-decoration: none;
-$alert-vertical-actions-text-transform: uppercase;
+$alert-vertical-actions-text-transform: none;
 $alert-vertical-actions-color: #ffffff;
