@@ -31,6 +31,6 @@
   },
   "homepage": "https://www.handoff.com/",
   "dependencies": {
-    "convertiv-motiv": "0.7.*"
+    "convertiv-motiv": "0.8.*"
   }
 }
