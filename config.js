@@ -1,101 +1,32 @@
 // @ts-check
 
-/** @type {import('convertiv-motiv/client-config').Config} */
+/** @type {import('handoff-app/client-config').Config} */
 const config = {
-  title: "Handoff Demo Design System",
-  homepage: "",
-  client: "Convertiv",
-  type_copy: "Almost before we knew it, we had left the ground",
-  components: true,
-  type_sort: [
-    "Heading 1",
-    "Heading 2",
-    "Heading 3",
-    "Heading 4",
-    "Heading 5",
-    "Heading 6",
-    "Paragraph",
-    "Subheading",
-    "Blockquote",
-    "Input Labels",
-    "Link",
+  title: 'Demo Design System',  // The Title of your project
+  client: 'Demo Software',      // The name of your org
+  google_tag_manager: null,     // A GTM tag id. If null, GTM will not be added
+  components: true,             // Enable components
+  poweredBy: true,              // Show Powered By Handoff at the bottom of the site
+  logo: '/logo.svg',             // The logo to use on the site
+  favicon: '/favicon.ico',       // The Favicon for the site
+  type_sort: [                  // The prefered type sorting
+    'Heading 1',
+    'Heading 2',
+    'Heading 3',
+    'Heading 4',
+    'Heading 5',
+    'Heading 6',
+    'Paragraph',
+    'Subheading',
+    'Blockquote',
+    'Input Labels',
+    'Link',
   ],
-  design: { color: [], typography: [] },
-  assets: { icons: [], logos: [] },
-  google_tag_manager: 'GTM-K5QJC6L',
-  show_components: {
-    alert: 'Alert',
-    button: 'Button',
-    checkbox:'Checkbox',
-    input:'Input',
-    modal:'Modal',
-    pagination: null,
-    radio:'Radio',
-    select:'Select',
-    switch:'Switch',
-    tooltip: 'Tooltip',
-  },
-  color_sort: ["primary", "secondary", "extra", "system"],
-  component_sort: ["primary", "secondary", "transparent"],
-  image_styles_help: "Common image dimesions and formats for DEMO",
-  image_styles: [
-    {
-      name: "One Third",
-      style: "one_third",
-      description: "Blog entry input",
-      width: 400,
-      height: 225,
-    },
-    {
-      name: "Large Banner",
-      style: "banner_large",
-      description: "A wide tall banner image",
-      width: 3840,
-      height: 634,
-    },
-    {
-      name: "Small Banner",
-      style: "banner_small",
-      description: "A wide shorter banner image",
-      width: 3840,
-      height: 211,
-    },
-    {
-      name: "PDF Thumbnail",
-      style: "ccs_pdf_thumbnail",
-      description: "PDF thumbnail for resource case studies",
-      width: 157,
-      height: 141,
-    },
-    {
-      name: "Home Page Promo",
-      style: "home_promo",
-      description: "Square image for the home page",
-      width: 200,
-      height: 200,
-    },
-    {
-      name: "Home Page Promo",
-      style: "home_promo",
-      description: "Square image for the home page",
-      width: 200,
-      height: 200,
-    },
-    {
-      name: "Home Page Slider",
-      style: "home_page_slider",
-      description: "An image used on the slider of the home page",
-      width: 3840,
-      height: 634,
-    },
-    {
-      name: "Microsite page section",
-      style: "ms_page_section",
-      description: "Scaling for the page section on the microsite",
-      width: 440,
-      height: 260,
-    },
-  ],
+  design: { color: [], effect:[], typography: [] },  // Containers for holding design elements. Will be overwritten on fetch
+  assets: { icons: [], logos: [] },       // Containers for holding assets. Will be overwritten on fetch
+  type_copy: 'Almost before we knew it, we had left the ground.', // The sample text to use on the typography page
+  color_sort: ['primary', 'secondary', 'extra', 'system'],        // The sort order of the color types
+  component_sort: ['primary', 'secondary', 'transparent'],  
 };
 
 module.exports = config;

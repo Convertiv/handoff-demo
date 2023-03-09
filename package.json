@@ -4,9 +4,9 @@
   "description": "A demo of the figma design token pipeline built on handoff (www.handoff.com)",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/convertiv-motiv/scripts/watch.js",
-    "build": "node node_modules/convertiv-motiv/scripts/build.js",
-    "fetch": "node node_modules/convertiv-motiv/figma-exporter/dist/figma-exporter.cjs.js && mv ./exported/*.zip ./public/"
+    "start": "node ./node_modules/handoff-app/scripts/watch.js",
+    "build": "node node_modules/handoff-app/scripts/build.js",
+    "fetch": "node node_modules/handoff-app/figma-exporter/dist/figma-exporter.cjs.js && mv ./exported/*.zip ./public/"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,6 @@
   },
   "homepage": "https://www.handoff.com/",
   "dependencies": {
-    "convertiv-motiv": "0.8.*"
+    "handoff-app": "^0.1.0"
   }
 }
