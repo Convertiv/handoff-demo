@@ -480,7 +480,7 @@
   --button-primary-hover-text-decoration: none;
   --button-primary-hover-text-transform: none;
   --button-primary-hover-color: #ffffff;
-  --button-primary-hover-box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+  --button-primary-hover-box-shadow: none;
   --button-primary-hover-opacity: 1;
 
  /* button Primary , theme: Light, state: Disabled*/
@@ -841,7 +841,7 @@
   --button-secondary-opacity: 1;
 
  /* button Secondary , theme: Light, state: Hover*/
-   --button-secondary-hover-background: linear-gradient(270deg, rgba(5, 232, 0) 50%, rgba(2, 89, 0) 63.1%), #198754;
+   --button-secondary-hover-background: #198754;
   --button-secondary-hover-padding-top: 13px;
   --button-secondary-hover-padding-right: 20px;
   --button-secondary-hover-padding-bottom: 13px;

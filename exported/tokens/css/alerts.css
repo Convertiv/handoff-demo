@@ -221,7 +221,7 @@
 	--alert-info-actions-color: #ffffff;
 
 	/* alert Success */
-	--alert-success-background: linear-gradient(270deg, rgba(5, 232, 0) 50%, rgba(2, 89, 0) 63.1%), #198754;
+	--alert-success-background: #198754;
 	--alert-success-padding-top: 18px;
 	--alert-success-padding-right: 16px;
 	--alert-success-padding-bottom: 18px;
