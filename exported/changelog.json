@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2023-03-09T17:29:33.871Z",
+    "timestamp": "2023-04-18T18:17:02.097Z",
     "design": {
       "colors": [
         {
@@ -8,15 +8,10 @@
           "object": {
             "name": "Blue",
             "group": "primary",
-            "type": "color",
-            "hex": "#0073e6",
-            "rgb": {
-              "r": 0,
-              "g": 0.45098039507865906,
-              "b": 0.9019607901573181,
-              "a": 1
-            },
-            "sass": "$color-primary-blue"
+            "value": "#0073e6",
+            "blend": "normal",
+            "sass": "$color-primary-blue",
+            "machineName": "blue"
           }
         },
         {
@@ -24,15 +19,10 @@
           "object": {
             "name": "Purple",
             "group": "secondary",
-            "type": "color",
-            "hex": "#4c34b6",
-            "rgb": {
-              "r": 0.2980392277240753,
-              "g": 0.20392157137393951,
-              "b": 0.7137255072593689,
-              "a": 1
-            },
-            "sass": "$color-secondary-purple"
+            "value": "#4c34b6",
+            "blend": "normal",
+            "sass": "$color-secondary-purple",
+            "machineName": "purple"
           }
         },
         {
@@ -40,15 +30,10 @@
           "object": {
             "name": "Info",
             "group": "extra",
-            "type": "color",
-            "hex": "#307abf",
-            "rgb": {
-              "r": 0.1882352977991104,
-              "g": 0.47843137383461,
-              "b": 0.7490196228027344,
-              "a": 1
-            },
-            "sass": "$color-extra-info"
+            "value": "#307abf",
+            "blend": "normal",
+            "sass": "$color-extra-info",
+            "machineName": "info"
           }
         },
         {
@@ -56,15 +41,10 @@
           "object": {
             "name": "Success",
             "group": "extra",
-            "type": "color",
-            "hex": "#198754",
-            "rgb": {
-              "r": 0.09803921729326248,
-              "g": 0.529411792755127,
-              "b": 0.3294117748737335,
-              "a": 1
-            },
-            "sass": "$color-extra-success"
+            "value": "linear-gradient(270deg, rgba(5, 232, 0) 50%, rgba(2, 89, 0) 63.1%), #198754",
+            "blend": "normal, normal",
+            "sass": "$color-extra-success",
+            "machineName": "success"
           }
         },
         {
@@ -72,15 +52,10 @@
           "object": {
             "name": "Info - darker",
             "group": "extra",
-            "type": "color",
-            "hex": "#286aa7",
-            "rgb": {
-              "r": 0.1580902636051178,
-              "g": 0.4148010015487671,
-              "b": 0.6541666388511658,
-              "a": 1
-            },
-            "sass": "$color-extra-info--darker"
+            "value": "#286aa7",
+            "blend": "normal",
+            "sass": "$color-extra-info-darker",
+            "machineName": "info-darker"
           }
         },
         {
@@ -88,15 +63,10 @@
           "object": {
             "name": "Info - lighter",
             "group": "extra",
-            "type": "color",
-            "hex": "#4a98e0",
-            "rgb": {
-              "r": 0.289392352104187,
-              "g": 0.5945900678634644,
-              "b": 0.8791666626930237,
-              "a": 1
-            },
-            "sass": "$color-extra-info--lighter"
+            "value": "#4a98e0",
+            "blend": "normal",
+            "sass": "$color-extra-info-lighter",
+            "machineName": "info-lighter"
           }
         },
         {
@@ -104,15 +74,10 @@
           "object": {
             "name": "Success - darker",
             "group": "extra",
-            "type": "color",
-            "hex": "#167b4c",
-            "rgb": {
-              "r": 0.0845833420753479,
-              "g": 0.4833333194255829,
-              "b": 0.2984583377838135,
-              "a": 1
-            },
-            "sass": "$color-extra-success--darker"
+            "value": "#167b4c",
+            "blend": "normal",
+            "sass": "$color-extra-success-darker",
+            "machineName": "success-darker"
           }
         },
         {
@@ -120,15 +85,10 @@
           "object": {
             "name": "Success - lighter",
             "group": "extra",
-            "type": "color",
-            "hex": "#2fa870",
-            "rgb": {
-              "r": 0.18378472328186035,
-              "g": 0.6583333611488342,
-              "b": 0.43831533193588257,
-              "a": 1
-            },
-            "sass": "$color-extra-success--lighter"
+            "value": "#2fa870",
+            "blend": "normal",
+            "sass": "$color-extra-success-lighter",
+            "machineName": "success-lighter"
           }
         },
         {
@@ -136,15 +96,10 @@
           "object": {
             "name": "Warning",
             "group": "extra",
-            "type": "color",
-            "hex": "#ffc107",
-            "rgb": {
-              "r": 1,
-              "g": 0.7568627595901489,
-              "b": 0.027450980618596077,
-              "a": 1
-            },
-            "sass": "$color-extra-warning"
+            "value": "#ffc107",
+            "blend": "normal",
+            "sass": "$color-extra-warning",
+            "machineName": "warning"
           }
         },
         {
@@ -152,15 +107,10 @@
           "object": {
             "name": "Warning - darker",
             "group": "extra",
-            "type": "color",
-            "hex": "#e0aa09",
-            "rgb": {
-              "r": 0.8791666626930237,
-              "g": 0.6685329675674438,
-              "b": 0.03663194179534912,
-              "a": 1
-            },
-            "sass": "$color-extra-warning--darker"
+            "value": "#e0aa09",
+            "blend": "normal",
+            "sass": "$color-extra-warning-darker",
+            "machineName": "warning-darker"
           }
         },
         {
@@ -168,15 +118,10 @@
           "object": {
             "name": "Warning - lighter",
             "group": "extra",
-            "type": "color",
-            "hex": "#ffce39",
-            "rgb": {
-              "r": 1,
-              "g": 0.8062499761581421,
-              "b": 0.2250000238418579,
-              "a": 1
-            },
-            "sass": "$color-extra-warning--lighter"
+            "value": "#ffce39",
+            "blend": "normal",
+            "sass": "$color-extra-warning-lighter",
+            "machineName": "warning-lighter"
           }
         },
         {
@@ -184,15 +129,10 @@
           "object": {
             "name": "Danger",
             "group": "extra",
-            "type": "color",
-            "hex": "#dc3545",
-            "rgb": {
-              "r": 0.8627451062202454,
-              "g": 0.2078431397676468,
-              "b": 0.2705882489681244,
-              "a": 1
-            },
-            "sass": "$color-extra-danger"
+            "value": "#dc3545",
+            "blend": "normal",
+            "sass": "$color-extra-danger",
+            "machineName": "danger"
           }
         },
         {
@@ -200,15 +140,10 @@
           "object": {
             "name": "Danger - darker",
             "group": "extra",
-            "type": "color",
-            "hex": "#c32b3a",
-            "rgb": {
-              "r": 0.7666666507720947,
-              "g": 0.16930556297302246,
-              "b": 0.22653783857822418,
-              "a": 1
-            },
-            "sass": "$color-extra-danger--darker"
+            "value": "#c32b3a",
+            "blend": "normal",
+            "sass": "$color-extra-danger-darker",
+            "machineName": "danger-darker"
           }
         },
         {
@@ -216,15 +151,10 @@
           "object": {
             "name": "Danger - lighter",
             "group": "extra",
-            "type": "color",
-            "hex": "#f35d6c",
-            "rgb": {
-              "r": 0.9541666507720947,
-              "g": 0.36576390266418457,
-              "b": 0.42213788628578186,
-              "a": 1
-            },
-            "sass": "$color-extra-danger--lighter"
+            "value": "#f35d6c",
+            "blend": "normal",
+            "sass": "$color-extra-danger-lighter",
+            "machineName": "danger-lighter"
           }
         },
         {
@@ -232,15 +162,10 @@
           "object": {
             "name": "Hard",
             "group": "text",
-            "type": "color",
-            "hex": "#000000",
-            "rgb": {
-              "r": 0,
-              "g": 0,
-              "b": 0,
-              "a": 1
-            },
-            "sass": "$color-text-hard"
+            "value": "#000000",
+            "blend": "normal",
+            "sass": "$color-text-hard",
+            "machineName": "hard"
           }
         },
         {
@@ -248,15 +173,10 @@
           "object": {
             "name": "Base",
             "group": "text",
-            "type": "color",
-            "hex": "#000000",
-            "rgb": {
-              "r": 0,
-              "g": 0,
-              "b": 0,
-              "a": 1
-            },
-            "sass": "$color-text-base"
+            "value": "rgba(0, 0, 0, 0.8)",
+            "blend": "normal",
+            "sass": "$color-text-base",
+            "machineName": "base"
           }
         },
         {
@@ -264,15 +184,10 @@
           "object": {
             "name": "Soft",
             "group": "text",
-            "type": "color",
-            "hex": "#555555",
-            "rgb": {
-              "r": 0.3333333432674408,
-              "g": 0.3333333432674408,
-              "b": 0.3333333432674408,
-              "a": 1
-            },
-            "sass": "$color-text-soft"
+            "value": "#555555",
+            "blend": "normal",
+            "sass": "$color-text-soft",
+            "machineName": "soft"
           }
         },
         {
@@ -280,15 +195,10 @@
           "object": {
             "name": "Muted",
             "group": "text",
-            "type": "color",
-            "hex": "#777777",
-            "rgb": {
-              "r": 0.46666666865348816,
-              "g": 0.46666666865348816,
-              "b": 0.46666666865348816,
-              "a": 1
-            },
-            "sass": "$color-text-muted"
+            "value": "#777777",
+            "blend": "normal",
+            "sass": "$color-text-muted",
+            "machineName": "muted"
           }
         },
         {
@@ -296,15 +206,10 @@
           "object": {
             "name": "Hard [invert]",
             "group": "text",
-            "type": "color",
-            "hex": "#ffffff",
-            "rgb": {
-              "r": 1,
-              "g": 1,
-              "b": 1,
-              "a": 1
-            },
-            "sass": "$color-text-hard-invert-"
+            "value": "#ffffff",
+            "blend": "normal",
+            "sass": "$color-text-hard-invert",
+            "machineName": "hard-invert"
           }
         },
         {
@@ -312,15 +217,10 @@
           "object": {
             "name": "Base [invert]",
             "group": "text",
-            "type": "color",
-            "hex": "#ffffff",
-            "rgb": {
-              "r": 1,
-              "g": 1,
-              "b": 1,
-              "a": 1
-            },
-            "sass": "$color-text-base-invert-"
+            "value": "rgba(255, 255, 255, 0.85)",
+            "blend": "normal",
+            "sass": "$color-text-base-invert",
+            "machineName": "base-invert"
           }
         },
         {
@@ -328,15 +228,10 @@
           "object": {
             "name": "Soft [invert]",
             "group": "text",
-            "type": "color",
-            "hex": "#ffffff",
-            "rgb": {
-              "r": 1,
-              "g": 1,
-              "b": 1,
-              "a": 1
-            },
-            "sass": "$color-text-soft-invert-"
+            "value": "rgba(255, 255, 255, 0.65)",
+            "blend": "normal",
+            "sass": "$color-text-soft-invert",
+            "machineName": "soft-invert"
           }
         },
         {
@@ -344,15 +239,10 @@
           "object": {
             "name": "Muted [invert]",
             "group": "text",
-            "type": "color",
-            "hex": "#ffffff",
-            "rgb": {
-              "r": 1,
-              "g": 1,
-              "b": 1,
-              "a": 1
-            },
-            "sass": "$color-text-muted-invert-"
+            "value": "rgba(255, 255, 255, 0.45)",
+            "blend": "normal",
+            "sass": "$color-text-muted-invert",
+            "machineName": "muted-invert"
           }
         },
         {
@@ -360,15 +250,10 @@
           "object": {
             "name": "White",
             "group": "neutral",
-            "type": "color",
-            "hex": "#ffffff",
-            "rgb": {
-              "r": 1,
-              "g": 1,
-              "b": 1,
-              "a": 1
-            },
-            "sass": "$color-neutral-white"
+            "value": "#ffffff",
+            "blend": "normal",
+            "sass": "$color-neutral-white",
+            "machineName": "white"
           }
         },
         {
@@ -376,15 +261,10 @@
           "object": {
             "name": "Gray 100",
             "group": "neutral",
-            "type": "color",
-            "hex": "#f8f8f8",
-            "rgb": {
-              "r": 0.9708333611488342,
-              "g": 0.9708333611488342,
-              "b": 0.9708333611488342,
-              "a": 1
-            },
-            "sass": "$color-neutral-gray-100"
+            "value": "#f8f8f8",
+            "blend": "normal",
+            "sass": "$color-neutral-gray-100",
+            "machineName": "gray-100"
           }
         },
         {
@@ -392,15 +272,10 @@
           "object": {
             "name": "Blue - darker",
             "group": "primary",
-            "type": "color",
-            "hex": "#0f69c1",
-            "rgb": {
-              "r": 0.06003469228744507,
-              "g": 0.41087085008621216,
-              "b": 0.7583333253860474,
-              "a": 1
-            },
-            "sass": "$color-primary-blue--darker"
+            "value": "#0f69c1",
+            "blend": "normal",
+            "sass": "$color-primary-blue-darker",
+            "machineName": "blue-darker"
           }
         },
         {
@@ -408,15 +283,10 @@
           "object": {
             "name": "Blue - lighter",
             "group": "primary",
-            "type": "color",
-            "hex": "#258cf2",
-            "rgb": {
-              "r": 0.14645832777023315,
-              "g": 0.5482291579246521,
-              "b": 0.949999988079071,
-              "a": 1
-            },
-            "sass": "$color-primary-blue--lighter"
+            "value": "#258cf2",
+            "blend": "normal",
+            "sass": "$color-primary-blue-lighter",
+            "machineName": "blue-lighter"
           }
         },
         {
@@ -424,15 +294,10 @@
           "object": {
             "name": "Purple - darker",
             "group": "secondary",
-            "type": "color",
-            "hex": "#3b2794",
-            "rgb": {
-              "r": 0.23285478353500366,
-              "g": 0.15444442629814148,
-              "b": 0.5791666507720947,
-              "a": 1
-            },
-            "sass": "$color-secondary-purple--darker"
+            "value": "#3b2794",
+            "blend": "normal",
+            "sass": "$color-secondary-purple-darker",
+            "machineName": "purple-darker"
           }
         },
         {
@@ -440,31 +305,10 @@
           "object": {
             "name": "Purple - lighter",
             "group": "secondary",
-            "type": "color",
-            "hex": "#7158dd",
-            "rgb": {
-              "r": 0.44266676902770996,
-              "g": 0.3466666340827942,
-              "b": 0.8666666746139526,
-              "a": 1
-            },
-            "sass": "$color-secondary-purple--lighter"
-          }
-        },
-        {
-          "type": "add",
-          "object": {
-            "name": "Gradient test",
-            "group": "border",
-            "type": "color",
-            "hex": "#d9d9d9",
-            "rgb": {
-              "r": 0.8509804010391235,
-              "g": 0.8509804010391235,
-              "b": 0.8509804010391235,
-              "a": 1
-            },
-            "sass": "$color-border-gradient-test"
+            "value": "#7158dd",
+            "blend": "normal",
+            "sass": "$color-secondary-purple-lighter",
+            "machineName": "purple-lighter"
           }
         },
         {
@@ -472,15 +316,10 @@
           "object": {
             "name": "Dark",
             "group": "border",
-            "type": "color",
-            "hex": "#b3b3b3",
-            "rgb": {
-              "r": 0.7019608020782471,
-              "g": 0.7019608020782471,
-              "b": 0.7019608020782471,
-              "a": 1
-            },
-            "sass": "$color-border-dark"
+            "value": "#b3b3b3",
+            "blend": "normal",
+            "sass": "$color-border-dark",
+            "machineName": "dark"
           }
         },
         {
@@ -488,15 +327,10 @@
           "object": {
             "name": "Darker",
             "group": "border",
-            "type": "color",
-            "hex": "#929292",
-            "rgb": {
-              "r": 0.5708333253860474,
-              "g": 0.5708333253860474,
-              "b": 0.5708333253860474,
-              "a": 1
-            },
-            "sass": "$color-border-darker"
+            "value": "#929292",
+            "blend": "normal",
+            "sass": "$color-border-darker",
+            "machineName": "darker"
           }
         },
         {
@@ -504,15 +338,10 @@
           "object": {
             "name": "Darkest",
             "group": "border",
-            "type": "color",
-            "hex": "#000000",
-            "rgb": {
-              "r": 0,
-              "g": 0,
-              "b": 0,
-              "a": 1
-            },
-            "sass": "$color-border-darkest"
+            "value": "rgba(0, 0, 0, 0.6)",
+            "blend": "normal",
+            "sass": "$color-border-darkest",
+            "machineName": "darkest"
           }
         },
         {
@@ -520,15 +349,10 @@
           "object": {
             "name": "Invert",
             "group": "border",
-            "type": "color",
-            "hex": "#c8c8c8",
-            "rgb": {
-              "r": 0.7843137383460999,
-              "g": 0.7843137383460999,
-              "b": 0.7843137383460999,
-              "a": 1
-            },
-            "sass": "$color-border-invert"
+            "value": "rgba(200.00000327825546, 200.00000327825546, 200.00000327825546, 0.2)",
+            "blend": "normal",
+            "sass": "$color-border-invert",
+            "machineName": "invert"
           }
         },
         {
@@ -536,15 +360,10 @@
           "object": {
             "name": "Light",
             "group": "border",
-            "type": "color",
-            "hex": "#c8c8c8",
-            "rgb": {
-              "r": 0.7843137383460999,
-              "g": 0.7843137383460999,
-              "b": 0.7843137383460999,
-              "a": 1
-            },
-            "sass": "$color-border-light"
+            "value": "rgba(200.00000327825546, 200.00000327825546, 200.00000327825546, 0.4)",
+            "blend": "normal",
+            "sass": "$color-border-light",
+            "machineName": "light"
           }
         },
         {
@@ -552,15 +371,10 @@
           "object": {
             "name": "Lighter",
             "group": "border",
-            "type": "color",
-            "hex": "#ffffff",
-            "rgb": {
-              "r": 1,
-              "g": 1,
-              "b": 1,
-              "a": 1
-            },
-            "sass": "$color-border-lighter"
+            "value": "rgba(255, 255, 255, 0.4)",
+            "blend": "normal",
+            "sass": "$color-border-lighter",
+            "machineName": "lighter"
           }
         },
         {
@@ -568,15 +382,10 @@
           "object": {
             "name": "Lightest",
             "group": "border",
-            "type": "color",
-            "hex": "#ffffff",
-            "rgb": {
-              "r": 1,
-              "g": 1,
-              "b": 1,
-              "a": 1
-            },
-            "sass": "$color-border-lightest"
+            "value": "rgba(255, 255, 255, 0.75)",
+            "blend": "normal",
+            "sass": "$color-border-lightest",
+            "machineName": "lightest"
           }
         },
         {
@@ -584,15 +393,10 @@
           "object": {
             "name": "Base",
             "group": "border",
-            "type": "color",
-            "hex": "#e8e8e8",
-            "rgb": {
-              "r": 0.9098039269447327,
-              "g": 0.9098039269447327,
-              "b": 0.9098039269447327,
-              "a": 1
-            },
-            "sass": "$color-border-base"
+            "value": "#e8e8e8",
+            "blend": "normal",
+            "sass": "$color-border-base",
+            "machineName": "base"
           }
         },
         {
@@ -600,15 +404,10 @@
           "object": {
             "name": "Blue",
             "group": "secondary",
-            "type": "color",
-            "hex": "#134872",
-            "rgb": {
-              "r": 0.07616320252418518,
-              "g": 0.28297168016433716,
-              "b": 0.44583332538604736,
-              "a": 1
-            },
-            "sass": "$color-secondary-blue"
+            "value": "#134872",
+            "blend": "normal",
+            "sass": "$color-secondary-blue",
+            "machineName": "blue"
           }
         },
         {
@@ -616,15 +415,10 @@
           "object": {
             "name": "Blue - darker",
             "group": "secondary",
-            "type": "color",
-            "hex": "#103e62",
-            "rgb": {
-              "r": 0.06229168176651001,
-              "g": 0.2413991093635559,
-              "b": 0.38333332538604736,
-              "a": 1
-            },
-            "sass": "$color-secondary-blue--darker"
+            "value": "#103e62",
+            "blend": "normal",
+            "sass": "$color-secondary-blue-darker",
+            "machineName": "blue-darker"
           }
         },
         {
@@ -632,15 +426,10 @@
           "object": {
             "name": "Blue - lighter",
             "group": "secondary",
-            "type": "color",
-            "hex": "#2e6a99",
-            "rgb": {
-              "r": 0.18000000715255737,
-              "g": 0.414315789937973,
-              "b": 0.6000000238418579,
-              "a": 1
-            },
-            "sass": "$color-secondary-blue--lighter"
+            "value": "#2e6a99",
+            "blend": "normal",
+            "sass": "$color-secondary-blue-lighter",
+            "machineName": "blue-lighter"
           }
         },
         {
@@ -648,15 +437,10 @@
           "object": {
             "name": "Gray 200",
             "group": "neutral",
-            "type": "color",
-            "hex": "#e5e5e5",
-            "rgb": {
-              "r": 0.8980392217636108,
-              "g": 0.8980392217636108,
-              "b": 0.8980392217636108,
-              "a": 1
-            },
-            "sass": "$color-neutral-gray-200"
+            "value": "#e5e5e5",
+            "blend": "normal",
+            "sass": "$color-neutral-gray-200",
+            "machineName": "gray-200"
           }
         },
         {
@@ -664,15 +448,10 @@
           "object": {
             "name": "Gray 300",
             "group": "neutral",
-            "type": "color",
-            "hex": "#cccccc",
-            "rgb": {
-              "r": 0.800000011920929,
-              "g": 0.800000011920929,
-              "b": 0.800000011920929,
-              "a": 1
-            },
-            "sass": "$color-neutral-gray-300"
+            "value": "#cccccc",
+            "blend": "normal",
+            "sass": "$color-neutral-gray-300",
+            "machineName": "gray-300"
           }
         },
         {
@@ -680,15 +459,10 @@
           "object": {
             "name": "Gray 400",
             "group": "neutral",
-            "type": "color",
-            "hex": "#aaaaaa",
-            "rgb": {
-              "r": 0.6666666865348816,
-              "g": 0.6666666865348816,
-              "b": 0.6666666865348816,
-              "a": 1
-            },
-            "sass": "$color-neutral-gray-400"
+            "value": "#aaaaaa",
+            "blend": "normal",
+            "sass": "$color-neutral-gray-400",
+            "machineName": "gray-400"
           }
         },
         {
@@ -696,15 +470,10 @@
           "object": {
             "name": "Gray 500",
             "group": "neutral",
-            "type": "color",
-            "hex": "#888888",
-            "rgb": {
-              "r": 0.5333333611488342,
-              "g": 0.5333333611488342,
-              "b": 0.5333333611488342,
-              "a": 1
-            },
-            "sass": "$color-neutral-gray-500"
+            "value": "#888888",
+            "blend": "normal",
+            "sass": "$color-neutral-gray-500",
+            "machineName": "gray-500"
           }
         },
         {
@@ -712,15 +481,10 @@
           "object": {
             "name": "Gray 600",
             "group": "neutral",
-            "type": "color",
-            "hex": "#6e6e6e",
-            "rgb": {
-              "r": 0.4313725531101227,
-              "g": 0.4313725531101227,
-              "b": 0.4313725531101227,
-              "a": 1
-            },
-            "sass": "$color-neutral-gray-600"
+            "value": "#6e6e6e",
+            "blend": "normal",
+            "sass": "$color-neutral-gray-600",
+            "machineName": "gray-600"
           }
         },
         {
@@ -728,15 +492,10 @@
           "object": {
             "name": "Gray 700",
             "group": "neutral",
-            "type": "color",
-            "hex": "#555555",
-            "rgb": {
-              "r": 0.3333333432674408,
-              "g": 0.3333333432674408,
-              "b": 0.3333333432674408,
-              "a": 1
-            },
-            "sass": "$color-neutral-gray-700"
+            "value": "#555555",
+            "blend": "normal",
+            "sass": "$color-neutral-gray-700",
+            "machineName": "gray-700"
           }
         },
         {
@@ -744,15 +503,10 @@
           "object": {
             "name": "Gray 800",
             "group": "neutral",
-            "type": "color",
-            "hex": "#333333",
-            "rgb": {
-              "r": 0.20000000298023224,
-              "g": 0.20000000298023224,
-              "b": 0.20000000298023224,
-              "a": 1
-            },
-            "sass": "$color-neutral-gray-800"
+            "value": "#333333",
+            "blend": "normal",
+            "sass": "$color-neutral-gray-800",
+            "machineName": "gray-800"
           }
         },
         {
@@ -760,15 +514,10 @@
           "object": {
             "name": "Gray 900",
             "group": "neutral",
-            "type": "color",
-            "hex": "#191919",
-            "rgb": {
-              "r": 0.09803921729326248,
-              "g": 0.09803921729326248,
-              "b": 0.09803921729326248,
-              "a": 1
-            },
-            "sass": "$color-neutral-gray-900"
+            "value": "#191919",
+            "blend": "normal",
+            "sass": "$color-neutral-gray-900",
+            "machineName": "gray-900"
           }
         },
         {
@@ -776,15 +525,10 @@
           "object": {
             "name": "Black",
             "group": "neutral",
-            "type": "color",
-            "hex": "#000000",
-            "rgb": {
-              "r": 0,
-              "g": 0,
-              "b": 0,
-              "a": 1
-            },
-            "sass": "$color-neutral-black"
+            "value": "#000000",
+            "blend": "normal",
+            "sass": "$color-neutral-black",
+            "machineName": "black"
           }
         },
         {
@@ -792,15 +536,10 @@
           "object": {
             "name": "Transparent",
             "group": "neutral",
-            "type": "color",
-            "hex": "#000000",
-            "rgb": {
-              "r": 0,
-              "g": 0,
-              "b": 0,
-              "a": 1
-            },
-            "sass": "$color-neutral-transparent"
+            "value": "rgba(0, 0, 0, 0)",
+            "blend": "normal",
+            "sass": "$color-neutral-transparent",
+            "machineName": "transparent"
           }
         }
       ],
