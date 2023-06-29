@@ -6,4 +6,5 @@
   --effect-shadow-base-900: 0px 24px 42px rgba(0, 0, 0, 0.08);
   --effect-test-category-style: 0px 4px 4px rgba(0, 0, 0, 0.25);
   --effect-effects-new-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --effect-shadow-multilayer: 0px 20px 24px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 3px 2px rgba(0, 0, 0, 0.25) inset;
 }

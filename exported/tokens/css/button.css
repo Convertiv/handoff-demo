@@ -323,7 +323,7 @@
 	--button-light-dark-hover-text-align: center;
 	--button-light-dark-hover-text-decoration: none;
 	--button-light-dark-hover-text-transform: none;
-	--button-light-dark-hover-color: #0080ff;
+	--button-light-dark-hover-color: #0073e6;
 
 	/* Light button, theme: dark, state: default */
 	--button-light-dark-background: #ffffff;
@@ -373,7 +373,7 @@
 	--button-light-hover-text-align: center;
 	--button-light-hover-text-decoration: none;
 	--button-light-hover-text-transform: none;
-	--button-light-hover-color: #0080ff;
+	--button-light-hover-color: #0073e6;
 
 	/* Light button, theme: light, state: default */
 	--button-light-background: #dcedff;
@@ -551,7 +551,7 @@
 	--button-secondary-dark-color: #ffffff;
 
 	/* Secondary button, theme: light, state: hover */
-	--button-secondary-hover-background: #3b2794;
+	--button-secondary-hover-background: #198754;
 	--button-secondary-hover-border-width: 1px;
 	--button-secondary-hover-border-radius: 4px;
 	--button-secondary-hover-border-color: rgba(0, 0, 0, 0);
@@ -626,7 +626,7 @@
 	--button-primary-dark-hover-color: #ffffff;
 
 	/* Primary button, theme: dark, state: default */
-	--button-primary-dark-background: #0080ff;
+	--button-primary-dark-background: #0073e6;
 	--button-primary-dark-border-width: 1px;
 	--button-primary-dark-border-radius: 4px;
 	--button-primary-dark-border-color: rgba(0, 0, 0, 0);
@@ -651,7 +651,7 @@
 	--button-primary-dark-color: #ffffff;
 
 	/* Primary button, theme: light, state: hover */
-	--button-primary-hover-background: #23e22b;
+	--button-primary-hover-background: #0f69c1;
 	--button-primary-hover-border-width: 1px;
 	--button-primary-hover-border-radius: 4px;
 	--button-primary-hover-border-color: rgba(0, 0, 0, 0);
@@ -664,7 +664,7 @@
 	--button-primary-hover-padding-start: 20px;
 	--button-primary-hover-padding-end: 20px;
 	--button-primary-hover-spacing: 16px;
-	--button-primary-hover-box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+	--button-primary-hover-box-shadow: none;
 	--button-primary-hover-font-family: 'Inter';
 	--button-primary-hover-font-size: 14px;
 	--button-primary-hover-font-weight: 600;
@@ -676,7 +676,7 @@
 	--button-primary-hover-color: #ffffff;
 
 	/* Primary button, theme: light, state: default */
-	--button-primary-background: #4c34b6;
+	--button-primary-background: #0073e6;
 	--button-primary-border-width: 1px;
 	--button-primary-border-radius: 4px;
 	--button-primary-border-color: rgba(0, 0, 0, 0);
