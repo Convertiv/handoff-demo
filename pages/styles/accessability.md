@@ -1,8 +1,11 @@
 ---
 title: Accessability Standards
 description: A sample page documenting how you can build accessability standards
+weight: -5
 metaTitle: 'Accessability Guide | Handoff Design System'
 metaDescription: 'A sample page in the handoff design system, in markdown'
+enabled: true
+menu:
 ---
 
 Here's how you could document your accessability standards.

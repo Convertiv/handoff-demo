@@ -4,13 +4,10 @@
   "description": "A demo of the figma design token pipeline built on handoff (www.handoff.com)",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/handoff-app/scripts/watch.js",
-    "build": "node node_modules/handoff-app/scripts/build.js",
-    "fetch": "node node_modules/handoff-app/figma-exporter/dist/figma-exporter.cjs.js && mv ./exported/*.zip ./public/",
-    "postinstall": "cd node_modules/handoff-app/figma-exporter && npm install --omit=dev",
-    "transform:preview": "node node_modules/handoff-app/figma-exporter/dist/figma-exporter.cjs.js preview && mv ./exported/*.zip ./public/",
-      "transform:styles": "node node_modules/handoff-app/figma-exporter/dist/figma-exporter.cjs.js styles && mv ./exported/*.zip ./public/",
-      "transform:fonts": "node node_modules/handoff-app/figma-exporter/dist/figma-exporter.cjs.js styles && mv ./exported/*.zip ./public/"
+    "build:code": "tsc",
+    "start": "node dist/watch.js",
+    "build": "node dist/index.js",
+    "fetch": "handoff-app fetch"
   },
   "repository": {
     "type": "git",
@@ -35,6 +32,6 @@
   },
   "homepage": "https://www.handoff.com/",
   "dependencies": {
-    "handoff-app": "^0.2.0"
+    "handoff-app": "^0.6.0"
   }
 }

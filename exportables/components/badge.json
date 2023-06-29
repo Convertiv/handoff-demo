@@ -1,0 +1,57 @@
+{
+  "id": "badge",
+  "group": "Components",
+  "options": {
+    "exporter": {
+      "search": "Badge",
+      "supportedVariantProps": [
+        "THEME",
+        "TYPE",
+        "STATE(:disabled)"
+      ]
+    },
+    "transformer": {
+      "rootCssClass": "badge",
+      "cssVariableTemplate": "badge-{$type}{$size}-{$part}-{$theme}-{$state}-{$property}",
+      "scssVariableTemplate": "badge-{$type}{$size}-{$part}-{$theme}-{$state}-{$property}"
+    },
+    "demo": {
+      "tabs": {
+        "overview": {
+          "design": {
+            "state": "default"
+          },
+          "layout": {}
+        },
+        "designTokens": {
+          "design": {
+            "state": "default"
+          }
+        }
+      }
+    }
+  },
+  "parts": [
+    {
+      "id": "$",
+      "tokens": [
+        {
+          "from": "$",
+          "export": [
+            "BACKGROUND",
+            "BORDER",
+            "SPACING",
+            "EFFECT"
+          ]
+        },
+        {
+          "from": "TEXT",
+          "export": [
+            "TYPOGRAPHY",
+            "FILL"
+          ]
+        }
+      ]
+    }
+  ]
+}

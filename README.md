@@ -60,7 +60,7 @@ This document will be updated to reflect latest state.
   - You can find it by navigating to your project in figma
   - The id is in the url https://www.figma.com/file/{id}/{project}
   - Paste that personal access token into FIGMA_PROJECT_ID in your .env
-- Edit `config.json` in the root of the project to set up any project specs.
+- Edit `handoff.config.json` in the root of the project to set up any project specs.
   - This file allows rich configuration of large sets of the project. We'll continue
     to document the settings in this readme file.
 - Run `npm run fetch`.
@@ -70,14 +70,14 @@ This document will be updated to reflect latest state.
     - changelog.json documented the ongoing changes of the project (WIP)
 - Run `npm run build` to build the react app
   - This will build the exported data and the configuration
-  - The built site will be published to `dist`.
-  - This `dist` folder can be served from any web server
+  - The built site will be published to `out`.
+  - This `out` folder can be served from any web server
 
 ### Use in your CI
 
 This project is designed to be built and run regularly to keep the online
-documentation up to date. You can see an example pipeline in
-`bitbucket-pipelines.yml`.
+documentation up to date. You can see an example github action in
+`.github/workflows/deploy_production.yml`.
 
 To run in a CI, make sure your CI has node 16 and npm 8. Then script the
 following steps in the task runner
@@ -95,5 +95,3 @@ The following env vars must be set
 - `npm run fetch`
 - `npm run build`
 - Then publish the dist folder to a webserver
-
-#
