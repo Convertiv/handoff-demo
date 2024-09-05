@@ -1,7 +1,7 @@
 {
   "title": "Convertiv Design System",
   "client": "Convertiv",
-  "google_tag_manager": null,
+  "google_tag_manager": "GTM-MD6XJ6SH",
   "integration": {
     "name": "bootstrap",
     "version": "5.3"
