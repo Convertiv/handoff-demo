@@ -64,7 +64,7 @@
 	--modal-footer-spacing: 0px;
 	--modal-footer-border-width: 1px;
 	--modal-footer-border-radius: 0px;
-	--modal-footer-border-color: #e8e8e8;
+	--modal-footer-border-color: rgba(100.00000163912773, 100.00000163912773, 100.00000163912773, 0.15);
 	--modal-footer-box-shadow: none;
 
 	/* Modal, size: small */

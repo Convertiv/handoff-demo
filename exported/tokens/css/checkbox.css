@@ -11,7 +11,7 @@
 	--checkbox-disabled-dark-on-padding-end: 0px;
 	--checkbox-disabled-dark-on-spacing: 12px;
 	--checkbox-disabled-dark-on-opacity: 0.4000000059604645;
-	--checkbox-disabled-dark-on-color: #258cf2;
+	--checkbox-disabled-dark-on-color: #6e6e6e;
 	--checkbox-disabled-dark-on-border-width: 1px;
 	--checkbox-disabled-dark-on-border-radius: 3px;
 	--checkbox-disabled-dark-on-border-color: rgba(0, 0, 0, 0);
@@ -27,7 +27,7 @@
 	--checkbox-disabled-label-dark-on-text-align: left;
 	--checkbox-disabled-label-dark-on-text-decoration: none;
 	--checkbox-disabled-label-dark-on-text-transform: none;
-	--checkbox-disabled-label-dark-on-color: rgba(255, 255, 255, 0.45);
+	--checkbox-disabled-label-dark-on-color: rgba(255, 255, 255, 0.65);
 	--checkbox-disabled-label-dark-on-opacity: 1;
 	--checkbox-disabled-check-dark-on-border-width: 1px;
 	--checkbox-disabled-check-dark-on-border-radius: 3px;
@@ -38,10 +38,10 @@
 	--checkbox-disabled-check-dark-on-height-raw: 18;
 	--checkbox-disabled-check-dark-on-box-shadow: none;
 	--checkbox-disabled-check-dark-on-color: #ffffff;
-	--checkbox-disabled-icon-dark-on-width: 12.599609375px;
-	--checkbox-disabled-icon-dark-on-width-raw: 12.599609375;
-	--checkbox-disabled-icon-dark-on-height: 12.5999755859375px;
-	--checkbox-disabled-icon-dark-on-height-raw: 12.5999755859375;
+	--checkbox-disabled-icon-dark-on-width: 12.600000381469727px;
+	--checkbox-disabled-icon-dark-on-width-raw: 12.600000381469727;
+	--checkbox-disabled-icon-dark-on-height: 12.600000381469727px;
+	--checkbox-disabled-icon-dark-on-height-raw: 12.600000381469727;
 	--checkbox-disabled-icon-dark-on-color: #ffffff;
 
 	/* Checkbox, theme: dark, state: hover, activity: on */
@@ -55,7 +55,7 @@
 	--checkbox-hover-dark-on-padding-end: 0px;
 	--checkbox-hover-dark-on-spacing: 12px;
 	--checkbox-hover-dark-on-opacity: 1;
-	--checkbox-hover-dark-on-color: #0073e6;
+	--checkbox-hover-dark-on-color: #258cf2;
 	--checkbox-hover-dark-on-border-width: 1px;
 	--checkbox-hover-dark-on-border-radius: 3px;
 	--checkbox-hover-dark-on-border-color: rgba(0, 0, 0, 0);
@@ -71,7 +71,7 @@
 	--checkbox-hover-label-dark-on-text-align: left;
 	--checkbox-hover-label-dark-on-text-decoration: none;
 	--checkbox-hover-label-dark-on-text-transform: none;
-	--checkbox-hover-label-dark-on-color: rgba(255, 255, 255, 0.85);
+	--checkbox-hover-label-dark-on-color: #ffffff;
 	--checkbox-hover-label-dark-on-opacity: 1;
 	--checkbox-hover-check-dark-on-border-width: 1px;
 	--checkbox-hover-check-dark-on-border-radius: 3px;
@@ -82,10 +82,10 @@
 	--checkbox-hover-check-dark-on-height-raw: 18;
 	--checkbox-hover-check-dark-on-box-shadow: none;
 	--checkbox-hover-check-dark-on-color: #ffffff;
-	--checkbox-hover-icon-dark-on-width: 12.599609375px;
-	--checkbox-hover-icon-dark-on-width-raw: 12.599609375;
-	--checkbox-hover-icon-dark-on-height: 12.5999755859375px;
-	--checkbox-hover-icon-dark-on-height-raw: 12.5999755859375;
+	--checkbox-hover-icon-dark-on-width: 12.600000381469727px;
+	--checkbox-hover-icon-dark-on-width-raw: 12.600000381469727;
+	--checkbox-hover-icon-dark-on-height: 12.600000381469727px;
+	--checkbox-hover-icon-dark-on-height-raw: 12.600000381469727;
 	--checkbox-hover-icon-dark-on-color: #ffffff;
 
 	/* Checkbox, theme: dark, state: default, activity: on */
@@ -99,7 +99,7 @@
 	--checkbox-dark-on-padding-end: 0px;
 	--checkbox-dark-on-spacing: 12px;
 	--checkbox-dark-on-opacity: 1;
-	--checkbox-dark-on-color: #258cf2;
+	--checkbox-dark-on-color: #0073e6;
 	--checkbox-dark-on-border-width: 1px;
 	--checkbox-dark-on-border-radius: 3px;
 	--checkbox-dark-on-border-color: rgba(0, 0, 0, 0);
@@ -115,7 +115,7 @@
 	--checkbox-label-dark-on-text-align: left;
 	--checkbox-label-dark-on-text-decoration: none;
 	--checkbox-label-dark-on-text-transform: none;
-	--checkbox-label-dark-on-color: rgba(255, 255, 255, 0.85);
+	--checkbox-label-dark-on-color: #ffffff;
 	--checkbox-label-dark-on-opacity: 1;
 	--checkbox-check-dark-on-border-width: 1px;
 	--checkbox-check-dark-on-border-radius: 3px;
@@ -126,10 +126,10 @@
 	--checkbox-check-dark-on-height-raw: 18;
 	--checkbox-check-dark-on-box-shadow: none;
 	--checkbox-check-dark-on-color: #ffffff;
-	--checkbox-icon-dark-on-width: 12.599609375px;
-	--checkbox-icon-dark-on-width-raw: 12.599609375;
-	--checkbox-icon-dark-on-height: 12.5999755859375px;
-	--checkbox-icon-dark-on-height-raw: 12.5999755859375;
+	--checkbox-icon-dark-on-width: 12.600000381469727px;
+	--checkbox-icon-dark-on-width-raw: 12.600000381469727;
+	--checkbox-icon-dark-on-height: 12.600000381469727px;
+	--checkbox-icon-dark-on-height-raw: 12.600000381469727;
 	--checkbox-icon-dark-on-color: #ffffff;
 
 	/* Checkbox, theme: dark, state: disabled, activity: off */
@@ -159,7 +159,7 @@
 	--checkbox-disabled-label-dark-off-text-align: left;
 	--checkbox-disabled-label-dark-off-text-decoration: none;
 	--checkbox-disabled-label-dark-off-text-transform: none;
-	--checkbox-disabled-label-dark-off-color: rgba(255, 255, 255, 0.45);
+	--checkbox-disabled-label-dark-off-color: rgba(255, 255, 255, 0.65);
 	--checkbox-disabled-label-dark-off-opacity: 1;
 	--checkbox-disabled-check-dark-off-border-width: 1px;
 	--checkbox-disabled-check-dark-off-border-radius: 3px;
@@ -198,7 +198,7 @@
 	--checkbox-hover-label-dark-off-text-align: left;
 	--checkbox-hover-label-dark-off-text-decoration: none;
 	--checkbox-hover-label-dark-off-text-transform: none;
-	--checkbox-hover-label-dark-off-color: rgba(255, 255, 255, 0.85);
+	--checkbox-hover-label-dark-off-color: #ffffff;
 	--checkbox-hover-label-dark-off-opacity: 1;
 	--checkbox-hover-check-dark-off-border-width: 1px;
 	--checkbox-hover-check-dark-off-border-radius: 3px;
@@ -237,7 +237,7 @@
 	--checkbox-label-dark-off-text-align: left;
 	--checkbox-label-dark-off-text-decoration: none;
 	--checkbox-label-dark-off-text-transform: none;
-	--checkbox-label-dark-off-color: rgba(255, 255, 255, 0.65);
+	--checkbox-label-dark-off-color: rgba(255, 255, 255, 0.85);
 	--checkbox-label-dark-off-opacity: 1;
 	--checkbox-check-dark-off-border-width: 1px;
 	--checkbox-check-dark-off-border-radius: 3px;
@@ -259,8 +259,8 @@
 	--checkbox-disabled-on-padding-start: 0px;
 	--checkbox-disabled-on-padding-end: 0px;
 	--checkbox-disabled-on-spacing: 12px;
-	--checkbox-disabled-on-opacity: 0.30000001192092896;
-	--checkbox-disabled-on-color: #7158dd;
+	--checkbox-disabled-on-opacity: 0.5;
+	--checkbox-disabled-on-color: #cccccc;
 	--checkbox-disabled-on-border-width: 1px;
 	--checkbox-disabled-on-border-radius: 3px;
 	--checkbox-disabled-on-border-color: rgba(0, 0, 0, 0);
@@ -276,7 +276,7 @@
 	--checkbox-disabled-label-on-text-align: left;
 	--checkbox-disabled-label-on-text-decoration: none;
 	--checkbox-disabled-label-on-text-transform: none;
-	--checkbox-disabled-label-on-color: #777777;
+	--checkbox-disabled-label-on-color: #555555;
 	--checkbox-disabled-label-on-opacity: 1;
 	--checkbox-disabled-check-on-border-width: 1px;
 	--checkbox-disabled-check-on-border-radius: 3px;
@@ -287,10 +287,10 @@
 	--checkbox-disabled-check-on-height-raw: 18;
 	--checkbox-disabled-check-on-box-shadow: none;
 	--checkbox-disabled-check-on-color: #ffffff;
-	--checkbox-disabled-icon-on-width: 12.599609375px;
-	--checkbox-disabled-icon-on-width-raw: 12.599609375;
-	--checkbox-disabled-icon-on-height: 12.5999755859375px;
-	--checkbox-disabled-icon-on-height-raw: 12.5999755859375;
+	--checkbox-disabled-icon-on-width: 12.600000381469727px;
+	--checkbox-disabled-icon-on-width-raw: 12.600000381469727;
+	--checkbox-disabled-icon-on-height: 12.600000381469727px;
+	--checkbox-disabled-icon-on-height-raw: 12.600000381469727;
 	--checkbox-disabled-icon-on-color: #ffffff;
 
 	/* Checkbox, theme: light, state: hover, activity: on */
@@ -304,7 +304,7 @@
 	--checkbox-hover-on-padding-end: 0px;
 	--checkbox-hover-on-spacing: 12px;
 	--checkbox-hover-on-opacity: 1;
-	--checkbox-hover-on-color: #258cf2;
+	--checkbox-hover-on-color: #0f69c1;
 	--checkbox-hover-on-border-width: 1px;
 	--checkbox-hover-on-border-radius: 3px;
 	--checkbox-hover-on-border-color: rgba(0, 0, 0, 0);
@@ -320,7 +320,7 @@
 	--checkbox-hover-label-on-text-align: left;
 	--checkbox-hover-label-on-text-decoration: none;
 	--checkbox-hover-label-on-text-transform: none;
-	--checkbox-hover-label-on-color: rgba(0, 0, 0, 0.8);
+	--checkbox-hover-label-on-color: #000000;
 	--checkbox-hover-label-on-opacity: 1;
 	--checkbox-hover-check-on-border-width: 1px;
 	--checkbox-hover-check-on-border-radius: 3px;
@@ -331,10 +331,10 @@
 	--checkbox-hover-check-on-height-raw: 18;
 	--checkbox-hover-check-on-box-shadow: none;
 	--checkbox-hover-check-on-color: #ffffff;
-	--checkbox-hover-icon-on-width: 12.599609375px;
-	--checkbox-hover-icon-on-width-raw: 12.599609375;
-	--checkbox-hover-icon-on-height: 12.5999755859375px;
-	--checkbox-hover-icon-on-height-raw: 12.5999755859375;
+	--checkbox-hover-icon-on-width: 12.600000381469727px;
+	--checkbox-hover-icon-on-width-raw: 12.600000381469727;
+	--checkbox-hover-icon-on-height: 12.600000381469727px;
+	--checkbox-hover-icon-on-height-raw: 12.600000381469727;
 	--checkbox-hover-icon-on-color: #ffffff;
 
 	/* Checkbox, theme: light, state: default, activity: on */
@@ -348,7 +348,7 @@
 	--checkbox-on-padding-end: 0px;
 	--checkbox-on-spacing: 12px;
 	--checkbox-on-opacity: 1;
-	--checkbox-on-color: #4c34b6;
+	--checkbox-on-color: #0073e6;
 	--checkbox-on-border-width: 1px;
 	--checkbox-on-border-radius: 3px;
 	--checkbox-on-border-color: rgba(0, 0, 0, 0);
@@ -364,7 +364,7 @@
 	--checkbox-label-on-text-align: left;
 	--checkbox-label-on-text-decoration: none;
 	--checkbox-label-on-text-transform: none;
-	--checkbox-label-on-color: rgba(0, 0, 0, 0.8);
+	--checkbox-label-on-color: #000000;
 	--checkbox-label-on-opacity: 1;
 	--checkbox-check-on-border-width: 1px;
 	--checkbox-check-on-border-radius: 3px;
@@ -375,10 +375,10 @@
 	--checkbox-check-on-height-raw: 18;
 	--checkbox-check-on-box-shadow: none;
 	--checkbox-check-on-color: #ffffff;
-	--checkbox-icon-on-width: 12.599609375px;
-	--checkbox-icon-on-width-raw: 12.599609375;
-	--checkbox-icon-on-height: 12.5999755859375px;
-	--checkbox-icon-on-height-raw: 12.5999755859375;
+	--checkbox-icon-on-width: 12.600000381469727px;
+	--checkbox-icon-on-width-raw: 12.600000381469727;
+	--checkbox-icon-on-height: 12.600000381469727px;
+	--checkbox-icon-on-height-raw: 12.600000381469727;
 	--checkbox-icon-on-color: #ffffff;
 
 	/* Checkbox, theme: light, state: disabled, activity: off */
@@ -391,7 +391,7 @@
 	--checkbox-disabled-off-padding-start: 0px;
 	--checkbox-disabled-off-padding-end: 0px;
 	--checkbox-disabled-off-spacing: 12px;
-	--checkbox-disabled-off-opacity: 0.30000001192092896;
+	--checkbox-disabled-off-opacity: 0.5;
 	--checkbox-disabled-off-color: #cccccc;
 	--checkbox-disabled-off-border-width: 1px;
 	--checkbox-disabled-off-border-radius: 3px;
@@ -408,7 +408,7 @@
 	--checkbox-disabled-label-off-text-align: left;
 	--checkbox-disabled-label-off-text-decoration: none;
 	--checkbox-disabled-label-off-text-transform: none;
-	--checkbox-disabled-label-off-color: #777777;
+	--checkbox-disabled-label-off-color: #555555;
 	--checkbox-disabled-label-off-opacity: 1;
 	--checkbox-disabled-check-off-border-width: 1px;
 	--checkbox-disabled-check-off-border-radius: 3px;
@@ -434,7 +434,7 @@
 	--checkbox-hover-off-color: rgba(0, 0, 0, 0);
 	--checkbox-hover-off-border-width: 1px;
 	--checkbox-hover-off-border-radius: 3px;
-	--checkbox-hover-off-border-color: #929292;
+	--checkbox-hover-off-border-color: rgba(0, 0, 0, 0.6);
 	--checkbox-hover-off-width: 18px;
 	--checkbox-hover-off-width-raw: 18;
 	--checkbox-hover-off-height: 18px;
@@ -447,11 +447,11 @@
 	--checkbox-hover-label-off-text-align: left;
 	--checkbox-hover-label-off-text-decoration: none;
 	--checkbox-hover-label-off-text-transform: none;
-	--checkbox-hover-label-off-color: rgba(0, 0, 0, 0.8);
+	--checkbox-hover-label-off-color: #000000;
 	--checkbox-hover-label-off-opacity: 1;
 	--checkbox-hover-check-off-border-width: 1px;
 	--checkbox-hover-check-off-border-radius: 3px;
-	--checkbox-hover-check-off-border-color: #929292;
+	--checkbox-hover-check-off-border-color: rgba(0, 0, 0, 0.6);
 	--checkbox-hover-check-off-width: 18px;
 	--checkbox-hover-check-off-width-raw: 18;
 	--checkbox-hover-check-off-height: 18px;
@@ -473,7 +473,7 @@
 	--checkbox-off-color: rgba(0, 0, 0, 0);
 	--checkbox-off-border-width: 1px;
 	--checkbox-off-border-radius: 3px;
-	--checkbox-off-border-color: #b3b3b3;
+	--checkbox-off-border-color: rgba(0, 0, 0, 0.3);
 	--checkbox-off-width: 18px;
 	--checkbox-off-width-raw: 18;
 	--checkbox-off-height: 18px;
@@ -486,11 +486,11 @@
 	--checkbox-label-off-text-align: left;
 	--checkbox-label-off-text-decoration: none;
 	--checkbox-label-off-text-transform: none;
-	--checkbox-label-off-color: #555555;
+	--checkbox-label-off-color: rgba(0, 0, 0, 0.8);
 	--checkbox-label-off-opacity: 1;
 	--checkbox-check-off-border-width: 1px;
 	--checkbox-check-off-border-radius: 3px;
-	--checkbox-check-off-border-color: #b3b3b3;
+	--checkbox-check-off-border-color: rgba(0, 0, 0, 0.3);
 	--checkbox-check-off-width: 18px;
 	--checkbox-check-off-width-raw: 18;
 	--checkbox-check-off-height: 18px;
@@ -536,10 +536,10 @@
 	--checkbox-sm-check-height-raw: 16;
 	--checkbox-sm-check-box-shadow: none;
 	--checkbox-sm-check-color: #000000;
-	--checkbox-sm-icon-width: 11.2001953125px;
-	--checkbox-sm-icon-width-raw: 11.2001953125;
-	--checkbox-sm-icon-height: 11.199951171875px;
-	--checkbox-sm-icon-height-raw: 11.199951171875;
+	--checkbox-sm-icon-width: 11.199999809265137px;
+	--checkbox-sm-icon-width-raw: 11.199999809265137;
+	--checkbox-sm-icon-height: 11.199999809265137px;
+	--checkbox-sm-icon-height-raw: 11.199999809265137;
 	--checkbox-sm-icon-color: #ffffff;
 
 	/* Checkbox, size: medium */
@@ -580,10 +580,10 @@
 	--checkbox-md-check-height-raw: 18;
 	--checkbox-md-check-box-shadow: none;
 	--checkbox-md-check-color: #000000;
-	--checkbox-md-icon-width: 12.599609375px;
-	--checkbox-md-icon-width-raw: 12.599609375;
-	--checkbox-md-icon-height: 12.5999755859375px;
-	--checkbox-md-icon-height-raw: 12.5999755859375;
+	--checkbox-md-icon-width: 12.600000381469727px;
+	--checkbox-md-icon-width-raw: 12.600000381469727;
+	--checkbox-md-icon-height: 12.600000381469727px;
+	--checkbox-md-icon-height-raw: 12.600000381469727;
 	--checkbox-md-icon-color: #ffffff;
 
 	/* Checkbox, size: large */

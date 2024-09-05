@@ -1,204 +1,104 @@
 .btn {
 
-	/* Custom-type button, theme: light, state: hover */
-	--button-custom-type-hover-background: #e5ae06;
-	--button-custom-type-hover-border-width: 1px;
-	--button-custom-type-hover-border-radius: 4px;
-	--button-custom-type-hover-border-color: #c32b3a;
-	--button-custom-type-hover-padding-y: 13px;
-	--button-custom-type-hover-padding-x: 20px;
-	--button-custom-type-hover-padding-top: 13px;
-	--button-custom-type-hover-padding-right: 20px;
-	--button-custom-type-hover-padding-bottom: 13px;
-	--button-custom-type-hover-padding-left: 20px;
-	--button-custom-type-hover-padding-start: 20px;
-	--button-custom-type-hover-padding-end: 20px;
-	--button-custom-type-hover-spacing: 16px;
-	--button-custom-type-hover-box-shadow: none;
-	--button-custom-type-hover-font-family: 'Inter';
-	--button-custom-type-hover-font-size: 14px;
-	--button-custom-type-hover-font-weight: 600;
-	--button-custom-type-hover-line-height: 1.2857142639160157;
-	--button-custom-type-hover-letter-spacing: -0.28px;
-	--button-custom-type-hover-text-align: center;
-	--button-custom-type-hover-text-decoration: none;
-	--button-custom-type-hover-text-transform: none;
-	--button-custom-type-hover-color: #c32b3a;
+	/* Outline-danger button, theme: dark, state: hover */
+	--button-outline-danger-dark-hover-background: rgba(0, 0, 0, 0);
+	--button-outline-danger-dark-hover-border-width: 1px;
+	--button-outline-danger-dark-hover-border-radius: 4px;
+	--button-outline-danger-dark-hover-border-color: #f35d6c;
+	--button-outline-danger-dark-hover-padding-y: 13px;
+	--button-outline-danger-dark-hover-padding-x: 20px;
+	--button-outline-danger-dark-hover-padding-top: 13px;
+	--button-outline-danger-dark-hover-padding-right: 20px;
+	--button-outline-danger-dark-hover-padding-bottom: 13px;
+	--button-outline-danger-dark-hover-padding-left: 20px;
+	--button-outline-danger-dark-hover-padding-start: 20px;
+	--button-outline-danger-dark-hover-padding-end: 20px;
+	--button-outline-danger-dark-hover-spacing: 16px;
+	--button-outline-danger-dark-hover-box-shadow: none;
+	--button-outline-danger-dark-hover-font-family: 'Inter';
+	--button-outline-danger-dark-hover-font-size: 14px;
+	--button-outline-danger-dark-hover-font-weight: 600;
+	--button-outline-danger-dark-hover-line-height: 1.2857142639160157;
+	--button-outline-danger-dark-hover-letter-spacing: -0.28px;
+	--button-outline-danger-dark-hover-text-align: center;
+	--button-outline-danger-dark-hover-text-decoration: none;
+	--button-outline-danger-dark-hover-text-transform: none;
+	--button-outline-danger-dark-hover-color: #f35d6c;
 
-	/* Custom-type button, theme: light, state: default */
-	--button-custom-type-background: #ffc107;
-	--button-custom-type-border-width: 1px;
-	--button-custom-type-border-radius: 4px;
-	--button-custom-type-border-color: rgba(0, 0, 0, 0);
-	--button-custom-type-padding-y: 13px;
-	--button-custom-type-padding-x: 20px;
-	--button-custom-type-padding-top: 13px;
-	--button-custom-type-padding-right: 20px;
-	--button-custom-type-padding-bottom: 13px;
-	--button-custom-type-padding-left: 20px;
-	--button-custom-type-padding-start: 20px;
-	--button-custom-type-padding-end: 20px;
-	--button-custom-type-spacing: 16px;
-	--button-custom-type-box-shadow: none;
-	--button-custom-type-font-family: 'Inter';
-	--button-custom-type-font-size: 14px;
-	--button-custom-type-font-weight: 600;
-	--button-custom-type-line-height: 1.2857142639160157;
-	--button-custom-type-letter-spacing: -0.28px;
-	--button-custom-type-text-align: center;
-	--button-custom-type-text-decoration: none;
-	--button-custom-type-text-transform: none;
-	--button-custom-type-color: #333333;
+	/* Outline-danger button, theme: dark, state: default */
+	--button-outline-danger-dark-background: rgba(0, 0, 0, 0);
+	--button-outline-danger-dark-border-width: 1px;
+	--button-outline-danger-dark-border-radius: 4px;
+	--button-outline-danger-dark-border-color: #dc3545;
+	--button-outline-danger-dark-padding-y: 13px;
+	--button-outline-danger-dark-padding-x: 20px;
+	--button-outline-danger-dark-padding-top: 13px;
+	--button-outline-danger-dark-padding-right: 20px;
+	--button-outline-danger-dark-padding-bottom: 13px;
+	--button-outline-danger-dark-padding-left: 20px;
+	--button-outline-danger-dark-padding-start: 20px;
+	--button-outline-danger-dark-padding-end: 20px;
+	--button-outline-danger-dark-spacing: 16px;
+	--button-outline-danger-dark-box-shadow: none;
+	--button-outline-danger-dark-font-family: 'Inter';
+	--button-outline-danger-dark-font-size: 14px;
+	--button-outline-danger-dark-font-weight: 600;
+	--button-outline-danger-dark-line-height: 1.2857142639160157;
+	--button-outline-danger-dark-letter-spacing: -0.28px;
+	--button-outline-danger-dark-text-align: center;
+	--button-outline-danger-dark-text-decoration: none;
+	--button-outline-danger-dark-text-transform: none;
+	--button-outline-danger-dark-color: #dc3545;
 
-	/* Custom-type button, theme: dark, state: hover */
-	--button-custom-type-dark-hover-background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #e0aa09;
-	--button-custom-type-dark-hover-border-width: 1px;
-	--button-custom-type-dark-hover-border-radius: 4px;
-	--button-custom-type-dark-hover-border-color: #c32b3a;
-	--button-custom-type-dark-hover-padding-y: 13px;
-	--button-custom-type-dark-hover-padding-x: 20px;
-	--button-custom-type-dark-hover-padding-top: 13px;
-	--button-custom-type-dark-hover-padding-right: 20px;
-	--button-custom-type-dark-hover-padding-bottom: 13px;
-	--button-custom-type-dark-hover-padding-left: 20px;
-	--button-custom-type-dark-hover-padding-start: 20px;
-	--button-custom-type-dark-hover-padding-end: 20px;
-	--button-custom-type-dark-hover-spacing: 16px;
-	--button-custom-type-dark-hover-box-shadow: none;
-	--button-custom-type-dark-hover-font-family: 'Inter';
-	--button-custom-type-dark-hover-font-size: 14px;
-	--button-custom-type-dark-hover-font-weight: 600;
-	--button-custom-type-dark-hover-line-height: 1.2857142639160157;
-	--button-custom-type-dark-hover-letter-spacing: -0.28px;
-	--button-custom-type-dark-hover-text-align: center;
-	--button-custom-type-dark-hover-text-decoration: none;
-	--button-custom-type-dark-hover-text-transform: none;
-	--button-custom-type-dark-hover-color: #c32b3a;
+	/* Outline-danger button, theme: light, state: hover */
+	--button-outline-danger-hover-background: rgba(0, 0, 0, 0);
+	--button-outline-danger-hover-border-width: 1px;
+	--button-outline-danger-hover-border-radius: 4px;
+	--button-outline-danger-hover-border-color: #c32b3a;
+	--button-outline-danger-hover-padding-y: 13px;
+	--button-outline-danger-hover-padding-x: 20px;
+	--button-outline-danger-hover-padding-top: 13px;
+	--button-outline-danger-hover-padding-right: 20px;
+	--button-outline-danger-hover-padding-bottom: 13px;
+	--button-outline-danger-hover-padding-left: 20px;
+	--button-outline-danger-hover-padding-start: 20px;
+	--button-outline-danger-hover-padding-end: 20px;
+	--button-outline-danger-hover-spacing: 16px;
+	--button-outline-danger-hover-box-shadow: none;
+	--button-outline-danger-hover-font-family: 'Inter';
+	--button-outline-danger-hover-font-size: 14px;
+	--button-outline-danger-hover-font-weight: 600;
+	--button-outline-danger-hover-line-height: 1.2857142639160157;
+	--button-outline-danger-hover-letter-spacing: -0.28px;
+	--button-outline-danger-hover-text-align: center;
+	--button-outline-danger-hover-text-decoration: none;
+	--button-outline-danger-hover-text-transform: none;
+	--button-outline-danger-hover-color: #c32b3a;
 
-	/* Custom-type button, theme: dark, state: default */
-	--button-custom-type-dark-background: #ffc107;
-	--button-custom-type-dark-border-width: 1px;
-	--button-custom-type-dark-border-radius: 4px;
-	--button-custom-type-dark-border-color: rgba(0, 0, 0, 0);
-	--button-custom-type-dark-padding-y: 13px;
-	--button-custom-type-dark-padding-x: 20px;
-	--button-custom-type-dark-padding-top: 13px;
-	--button-custom-type-dark-padding-right: 20px;
-	--button-custom-type-dark-padding-bottom: 13px;
-	--button-custom-type-dark-padding-left: 20px;
-	--button-custom-type-dark-padding-start: 20px;
-	--button-custom-type-dark-padding-end: 20px;
-	--button-custom-type-dark-spacing: 16px;
-	--button-custom-type-dark-box-shadow: none;
-	--button-custom-type-dark-font-family: 'Inter';
-	--button-custom-type-dark-font-size: 14px;
-	--button-custom-type-dark-font-weight: 600;
-	--button-custom-type-dark-line-height: 1.2857142639160157;
-	--button-custom-type-dark-letter-spacing: -0.28px;
-	--button-custom-type-dark-text-align: center;
-	--button-custom-type-dark-text-decoration: none;
-	--button-custom-type-dark-text-transform: none;
-	--button-custom-type-dark-color: #333333;
-
-	/* Outline-secondary button, theme: dark, state: hover */
-	--button-outline-secondary-dark-hover-background: rgba(0, 0, 0, 0);
-	--button-outline-secondary-dark-hover-border-width: 1px;
-	--button-outline-secondary-dark-hover-border-radius: 4px;
-	--button-outline-secondary-dark-hover-border-color: #7158dd;
-	--button-outline-secondary-dark-hover-padding-y: 13px;
-	--button-outline-secondary-dark-hover-padding-x: 20px;
-	--button-outline-secondary-dark-hover-padding-top: 13px;
-	--button-outline-secondary-dark-hover-padding-right: 20px;
-	--button-outline-secondary-dark-hover-padding-bottom: 13px;
-	--button-outline-secondary-dark-hover-padding-left: 20px;
-	--button-outline-secondary-dark-hover-padding-start: 20px;
-	--button-outline-secondary-dark-hover-padding-end: 20px;
-	--button-outline-secondary-dark-hover-spacing: 16px;
-	--button-outline-secondary-dark-hover-box-shadow: none;
-	--button-outline-secondary-dark-hover-font-family: 'Inter';
-	--button-outline-secondary-dark-hover-font-size: 14px;
-	--button-outline-secondary-dark-hover-font-weight: 600;
-	--button-outline-secondary-dark-hover-line-height: 1.2857142639160157;
-	--button-outline-secondary-dark-hover-letter-spacing: -0.28px;
-	--button-outline-secondary-dark-hover-text-align: center;
-	--button-outline-secondary-dark-hover-text-decoration: none;
-	--button-outline-secondary-dark-hover-text-transform: none;
-	--button-outline-secondary-dark-hover-color: #7158dd;
-
-	/* Outline-secondary button, theme: dark, state: default */
-	--button-outline-secondary-dark-background: rgba(0, 0, 0, 0);
-	--button-outline-secondary-dark-border-width: 1px;
-	--button-outline-secondary-dark-border-radius: 4px;
-	--button-outline-secondary-dark-border-color: #4c34b6;
-	--button-outline-secondary-dark-padding-y: 13px;
-	--button-outline-secondary-dark-padding-x: 20px;
-	--button-outline-secondary-dark-padding-top: 13px;
-	--button-outline-secondary-dark-padding-right: 20px;
-	--button-outline-secondary-dark-padding-bottom: 13px;
-	--button-outline-secondary-dark-padding-left: 20px;
-	--button-outline-secondary-dark-padding-start: 20px;
-	--button-outline-secondary-dark-padding-end: 20px;
-	--button-outline-secondary-dark-spacing: 16px;
-	--button-outline-secondary-dark-box-shadow: none;
-	--button-outline-secondary-dark-font-family: 'Inter';
-	--button-outline-secondary-dark-font-size: 14px;
-	--button-outline-secondary-dark-font-weight: 600;
-	--button-outline-secondary-dark-line-height: 1.2857142639160157;
-	--button-outline-secondary-dark-letter-spacing: -0.28px;
-	--button-outline-secondary-dark-text-align: center;
-	--button-outline-secondary-dark-text-decoration: none;
-	--button-outline-secondary-dark-text-transform: none;
-	--button-outline-secondary-dark-color: #4c34b6;
-
-	/* Outline-secondary button, theme: light, state: hover */
-	--button-outline-secondary-hover-background: rgba(0, 0, 0, 0);
-	--button-outline-secondary-hover-border-width: 1px;
-	--button-outline-secondary-hover-border-radius: 4px;
-	--button-outline-secondary-hover-border-color: #3b2794;
-	--button-outline-secondary-hover-padding-y: 13px;
-	--button-outline-secondary-hover-padding-x: 20px;
-	--button-outline-secondary-hover-padding-top: 13px;
-	--button-outline-secondary-hover-padding-right: 20px;
-	--button-outline-secondary-hover-padding-bottom: 13px;
-	--button-outline-secondary-hover-padding-left: 20px;
-	--button-outline-secondary-hover-padding-start: 20px;
-	--button-outline-secondary-hover-padding-end: 20px;
-	--button-outline-secondary-hover-spacing: 16px;
-	--button-outline-secondary-hover-box-shadow: none;
-	--button-outline-secondary-hover-font-family: 'Inter';
-	--button-outline-secondary-hover-font-size: 14px;
-	--button-outline-secondary-hover-font-weight: 600;
-	--button-outline-secondary-hover-line-height: 1.2857142639160157;
-	--button-outline-secondary-hover-letter-spacing: -0.28px;
-	--button-outline-secondary-hover-text-align: center;
-	--button-outline-secondary-hover-text-decoration: none;
-	--button-outline-secondary-hover-text-transform: none;
-	--button-outline-secondary-hover-color: #3b2794;
-
-	/* Outline-secondary button, theme: light, state: default */
-	--button-outline-secondary-background: rgba(0, 0, 0, 0);
-	--button-outline-secondary-border-width: 1px;
-	--button-outline-secondary-border-radius: 4px;
-	--button-outline-secondary-border-color: #4c34b6;
-	--button-outline-secondary-padding-y: 13px;
-	--button-outline-secondary-padding-x: 20px;
-	--button-outline-secondary-padding-top: 13px;
-	--button-outline-secondary-padding-right: 20px;
-	--button-outline-secondary-padding-bottom: 13px;
-	--button-outline-secondary-padding-left: 20px;
-	--button-outline-secondary-padding-start: 20px;
-	--button-outline-secondary-padding-end: 20px;
-	--button-outline-secondary-spacing: 16px;
-	--button-outline-secondary-box-shadow: none;
-	--button-outline-secondary-font-family: 'Inter';
-	--button-outline-secondary-font-size: 14px;
-	--button-outline-secondary-font-weight: 600;
-	--button-outline-secondary-line-height: 1.2857142639160157;
-	--button-outline-secondary-letter-spacing: -0.28px;
-	--button-outline-secondary-text-align: center;
-	--button-outline-secondary-text-decoration: none;
-	--button-outline-secondary-text-transform: none;
-	--button-outline-secondary-color: #4c34b6;
+	/* Outline-danger button, theme: light, state: default */
+	--button-outline-danger-background: rgba(0, 0, 0, 0);
+	--button-outline-danger-border-width: 1px;
+	--button-outline-danger-border-radius: 4px;
+	--button-outline-danger-border-color: #dc3545;
+	--button-outline-danger-padding-y: 13px;
+	--button-outline-danger-padding-x: 20px;
+	--button-outline-danger-padding-top: 13px;
+	--button-outline-danger-padding-right: 20px;
+	--button-outline-danger-padding-bottom: 13px;
+	--button-outline-danger-padding-left: 20px;
+	--button-outline-danger-padding-start: 20px;
+	--button-outline-danger-padding-end: 20px;
+	--button-outline-danger-spacing: 16px;
+	--button-outline-danger-box-shadow: none;
+	--button-outline-danger-font-family: 'Inter';
+	--button-outline-danger-font-size: 14px;
+	--button-outline-danger-font-weight: 600;
+	--button-outline-danger-line-height: 1.2857142639160157;
+	--button-outline-danger-letter-spacing: -0.28px;
+	--button-outline-danger-text-align: center;
+	--button-outline-danger-text-decoration: none;
+	--button-outline-danger-text-transform: none;
+	--button-outline-danger-color: #dc3545;
 
 	/* Danger button, theme: dark, state: hover */
 	--button-danger-dark-hover-background: #f35d6c;
@@ -300,11 +200,211 @@
 	--button-danger-text-transform: none;
 	--button-danger-color: #ffffff;
 
+	/* Outline-secondary button, theme: dark, state: hover */
+	--button-outline-secondary-dark-hover-background: rgba(0, 0, 0, 0);
+	--button-outline-secondary-dark-hover-border-width: 1px;
+	--button-outline-secondary-dark-hover-border-radius: 4px;
+	--button-outline-secondary-dark-hover-border-color: #258cf2;
+	--button-outline-secondary-dark-hover-padding-y: 13px;
+	--button-outline-secondary-dark-hover-padding-x: 20px;
+	--button-outline-secondary-dark-hover-padding-top: 13px;
+	--button-outline-secondary-dark-hover-padding-right: 20px;
+	--button-outline-secondary-dark-hover-padding-bottom: 13px;
+	--button-outline-secondary-dark-hover-padding-left: 20px;
+	--button-outline-secondary-dark-hover-padding-start: 20px;
+	--button-outline-secondary-dark-hover-padding-end: 20px;
+	--button-outline-secondary-dark-hover-spacing: 16px;
+	--button-outline-secondary-dark-hover-box-shadow: none;
+	--button-outline-secondary-dark-hover-font-family: 'Inter';
+	--button-outline-secondary-dark-hover-font-size: 14px;
+	--button-outline-secondary-dark-hover-font-weight: 600;
+	--button-outline-secondary-dark-hover-line-height: 1.2857142639160157;
+	--button-outline-secondary-dark-hover-letter-spacing: -0.28px;
+	--button-outline-secondary-dark-hover-text-align: center;
+	--button-outline-secondary-dark-hover-text-decoration: none;
+	--button-outline-secondary-dark-hover-text-transform: none;
+	--button-outline-secondary-dark-hover-color: #258cf2;
+
+	/* Outline-secondary button, theme: dark, state: default */
+	--button-outline-secondary-dark-background: rgba(0, 0, 0, 0);
+	--button-outline-secondary-dark-border-width: 1px;
+	--button-outline-secondary-dark-border-radius: 4px;
+	--button-outline-secondary-dark-border-color: rgba(255, 255, 255, 0.75);
+	--button-outline-secondary-dark-padding-y: 13px;
+	--button-outline-secondary-dark-padding-x: 20px;
+	--button-outline-secondary-dark-padding-top: 13px;
+	--button-outline-secondary-dark-padding-right: 20px;
+	--button-outline-secondary-dark-padding-bottom: 13px;
+	--button-outline-secondary-dark-padding-left: 20px;
+	--button-outline-secondary-dark-padding-start: 20px;
+	--button-outline-secondary-dark-padding-end: 20px;
+	--button-outline-secondary-dark-spacing: 16px;
+	--button-outline-secondary-dark-box-shadow: none;
+	--button-outline-secondary-dark-font-family: 'Inter';
+	--button-outline-secondary-dark-font-size: 14px;
+	--button-outline-secondary-dark-font-weight: 600;
+	--button-outline-secondary-dark-line-height: 1.2857142639160157;
+	--button-outline-secondary-dark-letter-spacing: -0.28px;
+	--button-outline-secondary-dark-text-align: center;
+	--button-outline-secondary-dark-text-decoration: none;
+	--button-outline-secondary-dark-text-transform: none;
+	--button-outline-secondary-dark-color: #ffffff;
+
+	/* Outline-secondary button, theme: light, state: hover */
+	--button-outline-secondary-hover-background: rgba(0, 0, 0, 0);
+	--button-outline-secondary-hover-border-width: 1px;
+	--button-outline-secondary-hover-border-radius: 4px;
+	--button-outline-secondary-hover-border-color: #0f69c1;
+	--button-outline-secondary-hover-padding-y: 13px;
+	--button-outline-secondary-hover-padding-x: 20px;
+	--button-outline-secondary-hover-padding-top: 13px;
+	--button-outline-secondary-hover-padding-right: 20px;
+	--button-outline-secondary-hover-padding-bottom: 13px;
+	--button-outline-secondary-hover-padding-left: 20px;
+	--button-outline-secondary-hover-padding-start: 20px;
+	--button-outline-secondary-hover-padding-end: 20px;
+	--button-outline-secondary-hover-spacing: 16px;
+	--button-outline-secondary-hover-box-shadow: none;
+	--button-outline-secondary-hover-font-family: 'Inter';
+	--button-outline-secondary-hover-font-size: 14px;
+	--button-outline-secondary-hover-font-weight: 600;
+	--button-outline-secondary-hover-line-height: 1.2857142639160157;
+	--button-outline-secondary-hover-letter-spacing: -0.28px;
+	--button-outline-secondary-hover-text-align: center;
+	--button-outline-secondary-hover-text-decoration: none;
+	--button-outline-secondary-hover-text-transform: none;
+	--button-outline-secondary-hover-color: #0f69c1;
+
+	/* Outline-secondary button, theme: light, state: default */
+	--button-outline-secondary-background: rgba(0, 0, 0, 0);
+	--button-outline-secondary-border-width: 1px;
+	--button-outline-secondary-border-radius: 4px;
+	--button-outline-secondary-border-color: rgba(0, 0, 0, 0.6);
+	--button-outline-secondary-padding-y: 13px;
+	--button-outline-secondary-padding-x: 20px;
+	--button-outline-secondary-padding-top: 13px;
+	--button-outline-secondary-padding-right: 20px;
+	--button-outline-secondary-padding-bottom: 13px;
+	--button-outline-secondary-padding-left: 20px;
+	--button-outline-secondary-padding-start: 20px;
+	--button-outline-secondary-padding-end: 20px;
+	--button-outline-secondary-spacing: 16px;
+	--button-outline-secondary-box-shadow: none;
+	--button-outline-secondary-font-family: 'Inter';
+	--button-outline-secondary-font-size: 14px;
+	--button-outline-secondary-font-weight: 600;
+	--button-outline-secondary-line-height: 1.2857142639160157;
+	--button-outline-secondary-letter-spacing: -0.28px;
+	--button-outline-secondary-text-align: center;
+	--button-outline-secondary-text-decoration: none;
+	--button-outline-secondary-text-transform: none;
+	--button-outline-secondary-color: #000000;
+
+	/* Outline-primary button, theme: dark, state: hover */
+	--button-outline-primary-dark-hover-background: rgba(0, 0, 0, 0);
+	--button-outline-primary-dark-hover-border-width: 1px;
+	--button-outline-primary-dark-hover-border-radius: 4px;
+	--button-outline-primary-dark-hover-border-color: #258cf2;
+	--button-outline-primary-dark-hover-padding-y: 13px;
+	--button-outline-primary-dark-hover-padding-x: 20px;
+	--button-outline-primary-dark-hover-padding-top: 13px;
+	--button-outline-primary-dark-hover-padding-right: 20px;
+	--button-outline-primary-dark-hover-padding-bottom: 13px;
+	--button-outline-primary-dark-hover-padding-left: 20px;
+	--button-outline-primary-dark-hover-padding-start: 20px;
+	--button-outline-primary-dark-hover-padding-end: 20px;
+	--button-outline-primary-dark-hover-spacing: 16px;
+	--button-outline-primary-dark-hover-box-shadow: none;
+	--button-outline-primary-dark-hover-font-family: 'Inter';
+	--button-outline-primary-dark-hover-font-size: 14px;
+	--button-outline-primary-dark-hover-font-weight: 600;
+	--button-outline-primary-dark-hover-line-height: 1.2857142639160157;
+	--button-outline-primary-dark-hover-letter-spacing: -0.28px;
+	--button-outline-primary-dark-hover-text-align: center;
+	--button-outline-primary-dark-hover-text-decoration: none;
+	--button-outline-primary-dark-hover-text-transform: none;
+	--button-outline-primary-dark-hover-color: #258cf2;
+
+	/* Outline-primary button, theme: dark, state: default */
+	--button-outline-primary-dark-background: rgba(0, 0, 0, 0);
+	--button-outline-primary-dark-border-width: 1px;
+	--button-outline-primary-dark-border-radius: 4px;
+	--button-outline-primary-dark-border-color: #0073e6;
+	--button-outline-primary-dark-padding-y: 13px;
+	--button-outline-primary-dark-padding-x: 20px;
+	--button-outline-primary-dark-padding-top: 13px;
+	--button-outline-primary-dark-padding-right: 20px;
+	--button-outline-primary-dark-padding-bottom: 13px;
+	--button-outline-primary-dark-padding-left: 20px;
+	--button-outline-primary-dark-padding-start: 20px;
+	--button-outline-primary-dark-padding-end: 20px;
+	--button-outline-primary-dark-spacing: 16px;
+	--button-outline-primary-dark-box-shadow: none;
+	--button-outline-primary-dark-font-family: 'Inter';
+	--button-outline-primary-dark-font-size: 14px;
+	--button-outline-primary-dark-font-weight: 600;
+	--button-outline-primary-dark-line-height: 1.2857142639160157;
+	--button-outline-primary-dark-letter-spacing: -0.28px;
+	--button-outline-primary-dark-text-align: center;
+	--button-outline-primary-dark-text-decoration: none;
+	--button-outline-primary-dark-text-transform: none;
+	--button-outline-primary-dark-color: #0073e6;
+
+	/* Outline-primary button, theme: light, state: hover */
+	--button-outline-primary-hover-background: rgba(0, 0, 0, 0);
+	--button-outline-primary-hover-border-width: 1px;
+	--button-outline-primary-hover-border-radius: 4px;
+	--button-outline-primary-hover-border-color: #0f69c1;
+	--button-outline-primary-hover-padding-y: 13px;
+	--button-outline-primary-hover-padding-x: 20px;
+	--button-outline-primary-hover-padding-top: 13px;
+	--button-outline-primary-hover-padding-right: 20px;
+	--button-outline-primary-hover-padding-bottom: 13px;
+	--button-outline-primary-hover-padding-left: 20px;
+	--button-outline-primary-hover-padding-start: 20px;
+	--button-outline-primary-hover-padding-end: 20px;
+	--button-outline-primary-hover-spacing: 16px;
+	--button-outline-primary-hover-box-shadow: none;
+	--button-outline-primary-hover-font-family: 'Inter';
+	--button-outline-primary-hover-font-size: 14px;
+	--button-outline-primary-hover-font-weight: 600;
+	--button-outline-primary-hover-line-height: 1.2857142639160157;
+	--button-outline-primary-hover-letter-spacing: -0.28px;
+	--button-outline-primary-hover-text-align: center;
+	--button-outline-primary-hover-text-decoration: none;
+	--button-outline-primary-hover-text-transform: none;
+	--button-outline-primary-hover-color: #0f69c1;
+
+	/* Outline-primary button, theme: light, state: default */
+	--button-outline-primary-background: rgba(0, 0, 0, 0);
+	--button-outline-primary-border-width: 1px;
+	--button-outline-primary-border-radius: 4px;
+	--button-outline-primary-border-color: #0073e6;
+	--button-outline-primary-padding-y: 13px;
+	--button-outline-primary-padding-x: 20px;
+	--button-outline-primary-padding-top: 13px;
+	--button-outline-primary-padding-right: 20px;
+	--button-outline-primary-padding-bottom: 13px;
+	--button-outline-primary-padding-left: 20px;
+	--button-outline-primary-padding-start: 20px;
+	--button-outline-primary-padding-end: 20px;
+	--button-outline-primary-spacing: 16px;
+	--button-outline-primary-box-shadow: none;
+	--button-outline-primary-font-family: 'Inter';
+	--button-outline-primary-font-size: 14px;
+	--button-outline-primary-font-weight: 600;
+	--button-outline-primary-line-height: 1.2857142639160157;
+	--button-outline-primary-letter-spacing: -0.28px;
+	--button-outline-primary-text-align: center;
+	--button-outline-primary-text-decoration: none;
+	--button-outline-primary-text-transform: none;
+	--button-outline-primary-color: #0073e6;
+
 	/* Light button, theme: dark, state: hover */
-	--button-light-dark-hover-background: #ffffff;
+	--button-light-dark-hover-background: rgba(255, 255, 255, 0.1);
 	--button-light-dark-hover-border-width: 1px;
 	--button-light-dark-hover-border-radius: 4px;
-	--button-light-dark-hover-border-color: rgba(0, 0, 0, 0);
+	--button-light-dark-hover-border-color: transparent;
 	--button-light-dark-hover-padding-y: 13px;
 	--button-light-dark-hover-padding-x: 20px;
 	--button-light-dark-hover-padding-top: 13px;
@@ -323,13 +423,13 @@
 	--button-light-dark-hover-text-align: center;
 	--button-light-dark-hover-text-decoration: none;
 	--button-light-dark-hover-text-transform: none;
-	--button-light-dark-hover-color: #0073e6;
+	--button-light-dark-hover-color: #258cf2;
 
 	/* Light button, theme: dark, state: default */
-	--button-light-dark-background: #ffffff;
+	--button-light-dark-background: rgba(255, 255, 255, 0.1);
 	--button-light-dark-border-width: 1px;
 	--button-light-dark-border-radius: 4px;
-	--button-light-dark-border-color: rgba(0, 0, 0, 0);
+	--button-light-dark-border-color: transparent;
 	--button-light-dark-padding-y: 13px;
 	--button-light-dark-padding-x: 20px;
 	--button-light-dark-padding-top: 13px;
@@ -348,10 +448,10 @@
 	--button-light-dark-text-align: center;
 	--button-light-dark-text-decoration: none;
 	--button-light-dark-text-transform: none;
-	--button-light-dark-color: #000000;
+	--button-light-dark-color: #ffffff;
 
 	/* Light button, theme: light, state: hover */
-	--button-light-hover-background: #c8e1fc;
+	--button-light-hover-background: rgba(0, 0, 0, 0.08);
 	--button-light-hover-border-width: 1px;
 	--button-light-hover-border-radius: 4px;
 	--button-light-hover-border-color: transparent;
@@ -373,10 +473,10 @@
 	--button-light-hover-text-align: center;
 	--button-light-hover-text-decoration: none;
 	--button-light-hover-text-transform: none;
-	--button-light-hover-color: #0073e6;
+	--button-light-hover-color: #0f69c1;
 
 	/* Light button, theme: light, state: default */
-	--button-light-background: #dcedff;
+	--button-light-background: rgba(0, 0, 0, 0.08);
 	--button-light-border-width: 1px;
 	--button-light-border-radius: 4px;
 	--button-light-border-color: transparent;
@@ -401,7 +501,7 @@
 	--button-light-color: #000000;
 
 	/* Dark button, theme: dark, state: hover */
-	--button-dark-dark-hover-background: #0f69c1;
+	--button-dark-dark-hover-background: #258cf2;
 	--button-dark-dark-hover-border-width: 1px;
 	--button-dark-dark-hover-border-radius: 4px;
 	--button-dark-dark-hover-border-color: rgba(0, 0, 0, 0);
@@ -426,7 +526,7 @@
 	--button-dark-dark-hover-color: #ffffff;
 
 	/* Dark button, theme: dark, state: default */
-	--button-dark-dark-background: #333333;
+	--button-dark-dark-background: #ffffff;
 	--button-dark-dark-border-width: 1px;
 	--button-dark-dark-border-radius: 4px;
 	--button-dark-dark-border-color: rgba(0, 0, 0, 0);
@@ -448,10 +548,10 @@
 	--button-dark-dark-text-align: center;
 	--button-dark-dark-text-decoration: none;
 	--button-dark-dark-text-transform: none;
-	--button-dark-dark-color: #ffffff;
+	--button-dark-dark-color: #000000;
 
 	/* Dark button, theme: light, state: hover */
-	--button-dark-hover-background: #000000;
+	--button-dark-hover-background: #0f69c1;
 	--button-dark-hover-border-width: 1px;
 	--button-dark-hover-border-radius: 4px;
 	--button-dark-hover-border-color: rgba(0, 0, 0, 0);
@@ -551,7 +651,7 @@
 	--button-secondary-dark-color: #ffffff;
 
 	/* Secondary button, theme: light, state: hover */
-	--button-secondary-hover-background: #198754;
+	--button-secondary-hover-background: #3b2794;
 	--button-secondary-hover-border-width: 1px;
 	--button-secondary-hover-border-radius: 4px;
 	--button-secondary-hover-border-color: rgba(0, 0, 0, 0);
@@ -576,7 +676,7 @@
 	--button-secondary-hover-color: #ffffff;
 
 	/* Secondary button, theme: light, state: default */
-	--button-secondary-background: #2fa870;
+	--button-secondary-background: #4c34b6;
 	--button-secondary-border-width: 1px;
 	--button-secondary-border-radius: 4px;
 	--button-secondary-border-color: rgba(0, 0, 0, 0);
@@ -775,105 +875,55 @@
 	--button-lg-text-transform: none;
 	--button-lg-color: #ffffff;
 
-	/* Custom-type button, theme: light, state: disabled */
-	--button-custom-type-disabled-background: #e5e5e5;
-	--button-custom-type-disabled-border-width: 1px;
-	--button-custom-type-disabled-border-radius: 4px;
-	--button-custom-type-disabled-border-color: rgba(0, 0, 0, 0);
-	--button-custom-type-disabled-padding-y: 13px;
-	--button-custom-type-disabled-padding-x: 20px;
-	--button-custom-type-disabled-padding-top: 13px;
-	--button-custom-type-disabled-padding-right: 20px;
-	--button-custom-type-disabled-padding-bottom: 13px;
-	--button-custom-type-disabled-padding-left: 20px;
-	--button-custom-type-disabled-padding-start: 20px;
-	--button-custom-type-disabled-padding-end: 20px;
-	--button-custom-type-disabled-spacing: 16px;
-	--button-custom-type-disabled-box-shadow: none;
-	--button-custom-type-disabled-font-family: 'Inter';
-	--button-custom-type-disabled-font-size: 14px;
-	--button-custom-type-disabled-font-weight: 600;
-	--button-custom-type-disabled-line-height: 1.2857142639160157;
-	--button-custom-type-disabled-letter-spacing: -0.28px;
-	--button-custom-type-disabled-text-align: center;
-	--button-custom-type-disabled-text-decoration: none;
-	--button-custom-type-disabled-text-transform: none;
-	--button-custom-type-disabled-color: #777777;
+	/* Outline-danger button, theme: dark, state: disabled */
+	--button-outline-danger-dark-disabled-background: #333333;
+	--button-outline-danger-dark-disabled-border-width: 1px;
+	--button-outline-danger-dark-disabled-border-radius: 4px;
+	--button-outline-danger-dark-disabled-border-color: rgba(0, 0, 0, 0);
+	--button-outline-danger-dark-disabled-padding-y: 13px;
+	--button-outline-danger-dark-disabled-padding-x: 20px;
+	--button-outline-danger-dark-disabled-padding-top: 13px;
+	--button-outline-danger-dark-disabled-padding-right: 20px;
+	--button-outline-danger-dark-disabled-padding-bottom: 13px;
+	--button-outline-danger-dark-disabled-padding-left: 20px;
+	--button-outline-danger-dark-disabled-padding-start: 20px;
+	--button-outline-danger-dark-disabled-padding-end: 20px;
+	--button-outline-danger-dark-disabled-spacing: 16px;
+	--button-outline-danger-dark-disabled-box-shadow: none;
+	--button-outline-danger-dark-disabled-font-family: 'Inter';
+	--button-outline-danger-dark-disabled-font-size: 14px;
+	--button-outline-danger-dark-disabled-font-weight: 600;
+	--button-outline-danger-dark-disabled-line-height: 1.2857142639160157;
+	--button-outline-danger-dark-disabled-letter-spacing: -0.28px;
+	--button-outline-danger-dark-disabled-text-align: center;
+	--button-outline-danger-dark-disabled-text-decoration: none;
+	--button-outline-danger-dark-disabled-text-transform: none;
+	--button-outline-danger-dark-disabled-color: rgba(255, 255, 255, 0.45);
 
-	/* Custom-type button, theme: dark, state: disabled */
-	--button-custom-type-dark-disabled-background: #333333;
-	--button-custom-type-dark-disabled-border-width: 1px;
-	--button-custom-type-dark-disabled-border-radius: 4px;
-	--button-custom-type-dark-disabled-border-color: rgba(0, 0, 0, 0);
-	--button-custom-type-dark-disabled-padding-y: 13px;
-	--button-custom-type-dark-disabled-padding-x: 20px;
-	--button-custom-type-dark-disabled-padding-top: 13px;
-	--button-custom-type-dark-disabled-padding-right: 20px;
-	--button-custom-type-dark-disabled-padding-bottom: 13px;
-	--button-custom-type-dark-disabled-padding-left: 20px;
-	--button-custom-type-dark-disabled-padding-start: 20px;
-	--button-custom-type-dark-disabled-padding-end: 20px;
-	--button-custom-type-dark-disabled-spacing: 16px;
-	--button-custom-type-dark-disabled-box-shadow: none;
-	--button-custom-type-dark-disabled-font-family: 'Inter';
-	--button-custom-type-dark-disabled-font-size: 14px;
-	--button-custom-type-dark-disabled-font-weight: 600;
-	--button-custom-type-dark-disabled-line-height: 1.2857142639160157;
-	--button-custom-type-dark-disabled-letter-spacing: -0.28px;
-	--button-custom-type-dark-disabled-text-align: center;
-	--button-custom-type-dark-disabled-text-decoration: none;
-	--button-custom-type-dark-disabled-text-transform: none;
-	--button-custom-type-dark-disabled-color: rgba(255, 255, 255, 0.45);
-
-	/* Outline-secondary button, theme: dark, state: disabled */
-	--button-outline-secondary-dark-disabled-background: #333333;
-	--button-outline-secondary-dark-disabled-border-width: 1px;
-	--button-outline-secondary-dark-disabled-border-radius: 4px;
-	--button-outline-secondary-dark-disabled-border-color: rgba(0, 0, 0, 0);
-	--button-outline-secondary-dark-disabled-padding-y: 13px;
-	--button-outline-secondary-dark-disabled-padding-x: 20px;
-	--button-outline-secondary-dark-disabled-padding-top: 13px;
-	--button-outline-secondary-dark-disabled-padding-right: 20px;
-	--button-outline-secondary-dark-disabled-padding-bottom: 13px;
-	--button-outline-secondary-dark-disabled-padding-left: 20px;
-	--button-outline-secondary-dark-disabled-padding-start: 20px;
-	--button-outline-secondary-dark-disabled-padding-end: 20px;
-	--button-outline-secondary-dark-disabled-spacing: 16px;
-	--button-outline-secondary-dark-disabled-box-shadow: none;
-	--button-outline-secondary-dark-disabled-font-family: 'Inter';
-	--button-outline-secondary-dark-disabled-font-size: 14px;
-	--button-outline-secondary-dark-disabled-font-weight: 600;
-	--button-outline-secondary-dark-disabled-line-height: 1.2857142639160157;
-	--button-outline-secondary-dark-disabled-letter-spacing: -0.28px;
-	--button-outline-secondary-dark-disabled-text-align: center;
-	--button-outline-secondary-dark-disabled-text-decoration: none;
-	--button-outline-secondary-dark-disabled-text-transform: none;
-	--button-outline-secondary-dark-disabled-color: rgba(255, 255, 255, 0.45);
-
-	/* Outline-secondary button, theme: light, state: disabled */
-	--button-outline-secondary-disabled-background: #e5e5e5;
-	--button-outline-secondary-disabled-border-width: 1px;
-	--button-outline-secondary-disabled-border-radius: 4px;
-	--button-outline-secondary-disabled-border-color: rgba(0, 0, 0, 0);
-	--button-outline-secondary-disabled-padding-y: 13px;
-	--button-outline-secondary-disabled-padding-x: 20px;
-	--button-outline-secondary-disabled-padding-top: 13px;
-	--button-outline-secondary-disabled-padding-right: 20px;
-	--button-outline-secondary-disabled-padding-bottom: 13px;
-	--button-outline-secondary-disabled-padding-left: 20px;
-	--button-outline-secondary-disabled-padding-start: 20px;
-	--button-outline-secondary-disabled-padding-end: 20px;
-	--button-outline-secondary-disabled-spacing: 16px;
-	--button-outline-secondary-disabled-box-shadow: none;
-	--button-outline-secondary-disabled-font-family: 'Inter';
-	--button-outline-secondary-disabled-font-size: 14px;
-	--button-outline-secondary-disabled-font-weight: 600;
-	--button-outline-secondary-disabled-line-height: 1.2857142639160157;
-	--button-outline-secondary-disabled-letter-spacing: -0.28px;
-	--button-outline-secondary-disabled-text-align: center;
-	--button-outline-secondary-disabled-text-decoration: none;
-	--button-outline-secondary-disabled-text-transform: none;
-	--button-outline-secondary-disabled-color: #777777;
+	/* Outline-danger button, theme: light, state: disabled */
+	--button-outline-danger-disabled-background: #e5e5e5;
+	--button-outline-danger-disabled-border-width: 1px;
+	--button-outline-danger-disabled-border-radius: 4px;
+	--button-outline-danger-disabled-border-color: rgba(0, 0, 0, 0);
+	--button-outline-danger-disabled-padding-y: 13px;
+	--button-outline-danger-disabled-padding-x: 20px;
+	--button-outline-danger-disabled-padding-top: 13px;
+	--button-outline-danger-disabled-padding-right: 20px;
+	--button-outline-danger-disabled-padding-bottom: 13px;
+	--button-outline-danger-disabled-padding-left: 20px;
+	--button-outline-danger-disabled-padding-start: 20px;
+	--button-outline-danger-disabled-padding-end: 20px;
+	--button-outline-danger-disabled-spacing: 16px;
+	--button-outline-danger-disabled-box-shadow: none;
+	--button-outline-danger-disabled-font-family: 'Inter';
+	--button-outline-danger-disabled-font-size: 14px;
+	--button-outline-danger-disabled-font-weight: 600;
+	--button-outline-danger-disabled-line-height: 1.2857142639160157;
+	--button-outline-danger-disabled-letter-spacing: -0.28px;
+	--button-outline-danger-disabled-text-align: center;
+	--button-outline-danger-disabled-text-decoration: none;
+	--button-outline-danger-disabled-text-transform: none;
+	--button-outline-danger-disabled-color: rgba(85.0000025331974, 85.0000025331974, 85.0000025331974, 0.8);
 
 	/* Danger button, theme: dark, state: disabled */
 	--button-danger-dark-disabled-background: #333333;
@@ -923,7 +973,107 @@
 	--button-danger-disabled-text-align: center;
 	--button-danger-disabled-text-decoration: none;
 	--button-danger-disabled-text-transform: none;
-	--button-danger-disabled-color: #777777;
+	--button-danger-disabled-color: rgba(85.0000025331974, 85.0000025331974, 85.0000025331974, 0.8);
+
+	/* Outline-secondary button, theme: dark, state: disabled */
+	--button-outline-secondary-dark-disabled-background: #333333;
+	--button-outline-secondary-dark-disabled-border-width: 1px;
+	--button-outline-secondary-dark-disabled-border-radius: 4px;
+	--button-outline-secondary-dark-disabled-border-color: rgba(0, 0, 0, 0);
+	--button-outline-secondary-dark-disabled-padding-y: 13px;
+	--button-outline-secondary-dark-disabled-padding-x: 20px;
+	--button-outline-secondary-dark-disabled-padding-top: 13px;
+	--button-outline-secondary-dark-disabled-padding-right: 20px;
+	--button-outline-secondary-dark-disabled-padding-bottom: 13px;
+	--button-outline-secondary-dark-disabled-padding-left: 20px;
+	--button-outline-secondary-dark-disabled-padding-start: 20px;
+	--button-outline-secondary-dark-disabled-padding-end: 20px;
+	--button-outline-secondary-dark-disabled-spacing: 16px;
+	--button-outline-secondary-dark-disabled-box-shadow: none;
+	--button-outline-secondary-dark-disabled-font-family: 'Inter';
+	--button-outline-secondary-dark-disabled-font-size: 14px;
+	--button-outline-secondary-dark-disabled-font-weight: 600;
+	--button-outline-secondary-dark-disabled-line-height: 1.2857142639160157;
+	--button-outline-secondary-dark-disabled-letter-spacing: -0.28px;
+	--button-outline-secondary-dark-disabled-text-align: center;
+	--button-outline-secondary-dark-disabled-text-decoration: none;
+	--button-outline-secondary-dark-disabled-text-transform: none;
+	--button-outline-secondary-dark-disabled-color: rgba(255, 255, 255, 0.45);
+
+	/* Outline-secondary button, theme: light, state: disabled */
+	--button-outline-secondary-disabled-background: #e5e5e5;
+	--button-outline-secondary-disabled-border-width: 1px;
+	--button-outline-secondary-disabled-border-radius: 4px;
+	--button-outline-secondary-disabled-border-color: rgba(0, 0, 0, 0);
+	--button-outline-secondary-disabled-padding-y: 13px;
+	--button-outline-secondary-disabled-padding-x: 20px;
+	--button-outline-secondary-disabled-padding-top: 13px;
+	--button-outline-secondary-disabled-padding-right: 20px;
+	--button-outline-secondary-disabled-padding-bottom: 13px;
+	--button-outline-secondary-disabled-padding-left: 20px;
+	--button-outline-secondary-disabled-padding-start: 20px;
+	--button-outline-secondary-disabled-padding-end: 20px;
+	--button-outline-secondary-disabled-spacing: 16px;
+	--button-outline-secondary-disabled-box-shadow: none;
+	--button-outline-secondary-disabled-font-family: 'Inter';
+	--button-outline-secondary-disabled-font-size: 14px;
+	--button-outline-secondary-disabled-font-weight: 600;
+	--button-outline-secondary-disabled-line-height: 1.2857142639160157;
+	--button-outline-secondary-disabled-letter-spacing: -0.28px;
+	--button-outline-secondary-disabled-text-align: center;
+	--button-outline-secondary-disabled-text-decoration: none;
+	--button-outline-secondary-disabled-text-transform: none;
+	--button-outline-secondary-disabled-color: rgba(85.0000025331974, 85.0000025331974, 85.0000025331974, 0.8);
+
+	/* Outline-primary button, theme: dark, state: disabled */
+	--button-outline-primary-dark-disabled-background: #333333;
+	--button-outline-primary-dark-disabled-border-width: 1px;
+	--button-outline-primary-dark-disabled-border-radius: 4px;
+	--button-outline-primary-dark-disabled-border-color: rgba(0, 0, 0, 0);
+	--button-outline-primary-dark-disabled-padding-y: 13px;
+	--button-outline-primary-dark-disabled-padding-x: 20px;
+	--button-outline-primary-dark-disabled-padding-top: 13px;
+	--button-outline-primary-dark-disabled-padding-right: 20px;
+	--button-outline-primary-dark-disabled-padding-bottom: 13px;
+	--button-outline-primary-dark-disabled-padding-left: 20px;
+	--button-outline-primary-dark-disabled-padding-start: 20px;
+	--button-outline-primary-dark-disabled-padding-end: 20px;
+	--button-outline-primary-dark-disabled-spacing: 16px;
+	--button-outline-primary-dark-disabled-box-shadow: none;
+	--button-outline-primary-dark-disabled-font-family: 'Inter';
+	--button-outline-primary-dark-disabled-font-size: 14px;
+	--button-outline-primary-dark-disabled-font-weight: 600;
+	--button-outline-primary-dark-disabled-line-height: 1.2857142639160157;
+	--button-outline-primary-dark-disabled-letter-spacing: -0.28px;
+	--button-outline-primary-dark-disabled-text-align: center;
+	--button-outline-primary-dark-disabled-text-decoration: none;
+	--button-outline-primary-dark-disabled-text-transform: none;
+	--button-outline-primary-dark-disabled-color: rgba(255, 255, 255, 0.45);
+
+	/* Outline-primary button, theme: light, state: disabled */
+	--button-outline-primary-disabled-background: #e5e5e5;
+	--button-outline-primary-disabled-border-width: 1px;
+	--button-outline-primary-disabled-border-radius: 4px;
+	--button-outline-primary-disabled-border-color: rgba(0, 0, 0, 0);
+	--button-outline-primary-disabled-padding-y: 13px;
+	--button-outline-primary-disabled-padding-x: 20px;
+	--button-outline-primary-disabled-padding-top: 13px;
+	--button-outline-primary-disabled-padding-right: 20px;
+	--button-outline-primary-disabled-padding-bottom: 13px;
+	--button-outline-primary-disabled-padding-left: 20px;
+	--button-outline-primary-disabled-padding-start: 20px;
+	--button-outline-primary-disabled-padding-end: 20px;
+	--button-outline-primary-disabled-spacing: 16px;
+	--button-outline-primary-disabled-box-shadow: none;
+	--button-outline-primary-disabled-font-family: 'Inter';
+	--button-outline-primary-disabled-font-size: 14px;
+	--button-outline-primary-disabled-font-weight: 600;
+	--button-outline-primary-disabled-line-height: 1.2857142639160157;
+	--button-outline-primary-disabled-letter-spacing: -0.28px;
+	--button-outline-primary-disabled-text-align: center;
+	--button-outline-primary-disabled-text-decoration: none;
+	--button-outline-primary-disabled-text-transform: none;
+	--button-outline-primary-disabled-color: rgba(85.0000025331974, 85.0000025331974, 85.0000025331974, 0.8);
 
 	/* Light button, theme: dark, state: disabled */
 	--button-light-dark-disabled-background: #333333;
@@ -973,7 +1123,7 @@
 	--button-light-disabled-text-align: center;
 	--button-light-disabled-text-decoration: none;
 	--button-light-disabled-text-transform: none;
-	--button-light-disabled-color: #777777;
+	--button-light-disabled-color: rgba(85.0000025331974, 85.0000025331974, 85.0000025331974, 0.8);
 
 	/* Dark button, theme: dark, state: disabled */
 	--button-dark-dark-disabled-background: #333333;
@@ -1023,7 +1173,7 @@
 	--button-dark-disabled-text-align: center;
 	--button-dark-disabled-text-decoration: none;
 	--button-dark-disabled-text-transform: none;
-	--button-dark-disabled-color: #777777;
+	--button-dark-disabled-color: rgba(85.0000025331974, 85.0000025331974, 85.0000025331974, 0.8);
 
 	/* Secondary button, theme: dark, state: disabled */
 	--button-secondary-dark-disabled-background: #333333;
@@ -1073,7 +1223,7 @@
 	--button-secondary-disabled-text-align: center;
 	--button-secondary-disabled-text-decoration: none;
 	--button-secondary-disabled-text-transform: none;
-	--button-secondary-disabled-color: #777777;
+	--button-secondary-disabled-color: rgba(85.0000025331974, 85.0000025331974, 85.0000025331974, 0.8);
 
 	/* Primary button, theme: dark, state: disabled */
 	--button-primary-dark-disabled-background: #333333;
@@ -1123,5 +1273,5 @@
 	--button-primary-disabled-text-align: center;
 	--button-primary-disabled-text-decoration: none;
 	--button-primary-disabled-text-transform: none;
-	--button-primary-disabled-color: #777777;
+	--button-primary-disabled-color: rgba(85.0000025331974, 85.0000025331974, 85.0000025331974, 0.8);
 }

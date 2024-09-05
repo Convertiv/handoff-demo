@@ -42,11 +42,6 @@
         "code": "<div class=\"alert alert-danger w-100 mb-0\" role=\"alert\">\n\tNotification text\n</div>"
       },
       {
-        "id": "design-type-type9",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"preview-body\">\n<div class=\"alert alert-type9 w-100 mb-0\" role=\"alert\">\n\tNotification text\n</div>\n</body>\n",
-        "code": "<div class=\"alert alert-type9 w-100 mb-0\" role=\"alert\">\n\tNotification text\n</div>"
-      },
-      {
         "id": "layout-horizontal",
         "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"preview-body\">\n<div class=\"alert alert-horizontal alert-dismissible w-100\" role=\"alert\">\n\t<h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n\t<p>Notification text</p>\n\t<p>\n\t\t<a href=\"#\">Learn more</a>\n\t</p>\n\t<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n</div>\n</body>\n",
         "code": "<div class=\"alert alert-horizontal alert-dismissible w-100\" role=\"alert\">\n\t<h4 class=\"alert-heading\">Lorem Ipsum Dolor</h4>\n\t<p>Notification text</p>\n\t<p>\n\t\t<a href=\"#\">Learn more</a>\n\t</p>\n\t<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>\n</div>"
@@ -59,44 +54,24 @@
     ],
     "button": [
       {
-        "id": "design-theme-light-type-custom-type-state-hover",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-custom-type\">Warning Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-custom-type\">Warning Button</button>"
+        "id": "design-theme-dark-type-outline-danger-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-outline-danger\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-danger\">Button text</button>"
       },
       {
-        "id": "design-theme-light-type-custom-type-state-default",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-custom-type\">Warning Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-custom-type\">Warning Button</button>"
+        "id": "design-theme-dark-type-outline-danger-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-outline-danger\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-danger\">Button text</button>"
       },
       {
-        "id": "design-theme-dark-type-custom-type-state-hover",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-custom-type\">Button text</button>\n</body>\n",
-        "code": "<button class=\"btn btn-custom-type\">Button text</button>"
+        "id": "design-theme-light-type-outline-danger-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-outline-danger\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-danger\">Button text</button>"
       },
       {
-        "id": "design-theme-dark-type-custom-type-state-default",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-custom-type\">Button text</button>\n</body>\n",
-        "code": "<button class=\"btn btn-custom-type\">Button text</button>"
-      },
-      {
-        "id": "design-theme-dark-type-outline-secondary-state-hover",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-outline-secondary\">Button text</button>\n</body>\n",
-        "code": "<button class=\"btn btn-outline-secondary\">Button text</button>"
-      },
-      {
-        "id": "design-theme-dark-type-outline-secondary-state-default",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-outline-secondary\">Button text</button>\n</body>\n",
-        "code": "<button class=\"btn btn-outline-secondary\">Button text</button>"
-      },
-      {
-        "id": "design-theme-light-type-outline-secondary-state-hover",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-outline-secondary\">Outline Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-outline-secondary\">Outline Button</button>"
-      },
-      {
-        "id": "design-theme-light-type-outline-secondary-state-default",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-outline-secondary\">Outline Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-outline-secondary\">Outline Button</button>"
+        "id": "design-theme-light-type-outline-danger-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-outline-danger\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-danger\">Button text</button>"
       },
       {
         "id": "design-theme-dark-type-danger-state-hover",
@@ -110,13 +85,53 @@
       },
       {
         "id": "design-theme-light-type-danger-state-hover",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-danger\">Danger Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-danger\">Danger Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-danger\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-danger\">Button text</button>"
       },
       {
         "id": "design-theme-light-type-danger-state-default",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-danger\">Danger Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-danger\">Danger Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-danger\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-danger\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-outline-secondary-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-outline-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-secondary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-outline-secondary-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-outline-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-secondary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-light-type-outline-secondary-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-outline-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-secondary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-light-type-outline-secondary-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-outline-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-secondary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-outline-primary-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-outline-primary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-primary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-outline-primary-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-outline-primary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-primary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-light-type-outline-primary-state-hover",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-outline-primary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-primary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-light-type-outline-primary-state-default",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-outline-primary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-primary\">Button text</button>"
       },
       {
         "id": "design-theme-dark-type-light-state-hover",
@@ -130,13 +145,13 @@
       },
       {
         "id": "design-theme-light-type-light-state-hover",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-light\">Light Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-light\">Light Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-light\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-light\">Button text</button>"
       },
       {
         "id": "design-theme-light-type-light-state-default",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-light\">Light Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-light\">Light Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-light\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-light\">Button text</button>"
       },
       {
         "id": "design-theme-dark-type-dark-state-hover",
@@ -150,13 +165,13 @@
       },
       {
         "id": "design-theme-light-type-dark-state-hover",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-dark\">Dark Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-dark\">Dark Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-dark\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-dark\">Button text</button>"
       },
       {
         "id": "design-theme-light-type-dark-state-default",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-dark\">Dark Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-dark\">Dark Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-dark\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-dark\">Button text</button>"
       },
       {
         "id": "design-theme-dark-type-secondary-state-hover",
@@ -170,13 +185,13 @@
       },
       {
         "id": "design-theme-light-type-secondary-state-hover",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-secondary\">Secondary Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-secondary\">Secondary Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-secondary\">Button text</button>"
       },
       {
         "id": "design-theme-light-type-secondary-state-default",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-secondary\">Secondary Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-secondary\">Secondary Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-secondary\">Button text</button>"
       },
       {
         "id": "design-theme-dark-type-primary-state-hover",
@@ -190,13 +205,13 @@
       },
       {
         "id": "design-theme-light-type-primary-state-hover",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-primary\">Primary Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-primary\">Primary Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-primary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-primary\">Button text</button>"
       },
       {
         "id": "design-theme-light-type-primary-state-default",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-primary\">Primary Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-primary\">Primary Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-primary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-primary\">Button text</button>"
       },
       {
         "id": "size-small",
@@ -214,24 +229,14 @@
         "code": "<button class=\"btn btn-primary btn-lg\">Button text</button>"
       },
       {
-        "id": "design-theme-light-type-custom-type-state-disabled",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-custom-type\">Disabled Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-custom-type\">Disabled Button</button>"
+        "id": "design-theme-dark-type-outline-danger-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-outline-danger\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-danger\">Button text</button>"
       },
       {
-        "id": "design-theme-dark-type-custom-type-state-disabled",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-custom-type\">Button text</button>\n</body>\n",
-        "code": "<button class=\"btn btn-custom-type\">Button text</button>"
-      },
-      {
-        "id": "design-theme-dark-type-outline-secondary-state-disabled",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-outline-secondary\">Button text</button>\n</body>\n",
-        "code": "<button class=\"btn btn-outline-secondary\">Button text</button>"
-      },
-      {
-        "id": "design-theme-light-type-outline-secondary-state-disabled",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-outline-secondary\">Disabled Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-outline-secondary\">Disabled Button</button>"
+        "id": "design-theme-light-type-outline-danger-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-outline-danger\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-danger\">Button text</button>"
       },
       {
         "id": "design-theme-dark-type-danger-state-disabled",
@@ -240,8 +245,28 @@
       },
       {
         "id": "design-theme-light-type-danger-state-disabled",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-danger\">Disabled Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-danger\">Disabled Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-danger\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-danger\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-outline-secondary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-outline-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-secondary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-light-type-outline-secondary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-outline-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-secondary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-dark-type-outline-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-dark preview-body\">\n<button class=\"btn btn-outline-primary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-primary\">Button text</button>"
+      },
+      {
+        "id": "design-theme-light-type-outline-primary-state-disabled",
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-outline-primary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-outline-primary\">Button text</button>"
       },
       {
         "id": "design-theme-dark-type-light-state-disabled",
@@ -250,8 +275,8 @@
       },
       {
         "id": "design-theme-light-type-light-state-disabled",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-light\">Disabled Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-light\">Disabled Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-light\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-light\">Button text</button>"
       },
       {
         "id": "design-theme-dark-type-dark-state-disabled",
@@ -260,8 +285,8 @@
       },
       {
         "id": "design-theme-light-type-dark-state-disabled",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-dark\">Disabled Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-dark\">Disabled Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-dark\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-dark\">Button text</button>"
       },
       {
         "id": "design-theme-dark-type-secondary-state-disabled",
@@ -270,8 +295,8 @@
       },
       {
         "id": "design-theme-light-type-secondary-state-disabled",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-secondary\">Disabled Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-secondary\">Disabled Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-secondary\">Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-secondary\">Button text</button>"
       },
       {
         "id": "design-theme-dark-type-primary-state-disabled",
@@ -280,8 +305,8 @@
       },
       {
         "id": "design-theme-light-type-primary-state-disabled",
-        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-primary\" disabled>Disabled Button</button>\n</body>\n",
-        "code": "<button class=\"btn btn-primary\" disabled>Disabled Button</button>"
+        "preview": "<script src=\"/components/bundle.js\"></script>\n\n<body class=\"theme-light preview-body\">\n<button class=\"btn btn-primary\" disabled>Button text</button>\n</body>\n",
+        "code": "<button class=\"btn btn-primary\" disabled>Button text</button>"
       }
     ],
     "modal": [
