@@ -10,8 +10,8 @@ jobs:
     env:
       AWS_DEFAULT_REGION: us-east-1
       AWS_DEFAULT_OUTPUT: json
-      FIGMA_PROJECT_ID: ${{ secrets.FIGMA_PROJECT_ID }}
-      DEV_ACCESS_TOKEN: ${{ secrets.DEV_ACCESS_TOKEN }}
+      HANDOFF_FIGMA_PROJECT_ID: ${{ vars.HANDOFF_FIGMA_PROJECT_ID }}
+      HANDOFF_DEV_ACCESS_TOKEN: ${{ secrets.HANDOFF_DEV_ACCESS_TOKEN }}
       AWS_CLOUDFRONT_DIST_ID: ${{ secrets.AWS_DISTRIBUTION }}
       AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET }}
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -44,4 +44,3 @@ jobs:
         run: |
           aws s3 sync --delete out/ s3://${{env.AWS_S3_BUCKET}}/
           aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRIBUTION }} --paths /\*
-        
