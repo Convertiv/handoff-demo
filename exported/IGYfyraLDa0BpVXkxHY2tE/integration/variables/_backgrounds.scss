@@ -1,0 +1,28 @@
+/* ==================================================================
+   BACKGROUNDS (variables/_backgrounds.scss)
+===================================================================== */
+
+
+$bg-base:                     $white;
+$bg-invert:                   $black;
+$bg-light:                    $light;
+$bg-dark:                     $secondary-900;
+$bg-primary:                  $primary;
+$bg-secondary:                $secondary;
+$bg-tertiary:                 $tertiary;
+
+$bg-colors: (
+	'bg-base': $bg-base,
+	'bg-invert': $bg-invert,
+	'bg-light': $bg-light,
+	'bg-dark': $bg-dark,
+	'bg-primary': $bg-primary,
+	'bg-secondary': $bg-secondary,
+	'bg-tertiary': $bg-tertiary,
+);
+
+$body-bg:                     $bg-base;
+
+// The gradient which is added to components if `$enable-gradients` is `true`
+// This gradient is also added to elements with `.bg-gradient`
+$gradient: linear-gradient( 180deg, rgba( $white, .15 ), rgba( $white, 0 ) );

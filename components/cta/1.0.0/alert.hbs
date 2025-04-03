@@ -1,0 +1,23 @@
+<head>
+  <link rel="stylesheet" href="/api/component/main.css" />
+  {{{style}}}
+  {{{script}}}
+</head>
+
+<body class="theme preview-body">
+  <section class="section py-4 has-background-{{ properties.background }}">
+    <div class="container">
+      <div class="columns is-centered is-vcentered is-2 is-5-desktop">
+        <div class="column is-narrow">
+          <p class="mb-0 is-size-6 has-text-weight-bold {{#if properties.light}}has-text-primary-light{{/if}}">
+            {{#field "message" }}{{properties.message}}{{/field}}
+          </p>
+        </div>
+        <div class="column is-narrow">
+          <a class="button is-{{properties.foreground}}" href="{{properties.button.url}}">
+            {{#field "button"}}{{properties.button.label}}{{/field}}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>

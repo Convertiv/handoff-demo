@@ -1,0 +1,51 @@
+/* ==================================================================
+   TABLES (variables/_tables.scss)
+===================================================================== */
+
+
+$table-cell-padding-y:        rem( 8px );
+$table-cell-padding-x:        rem( 8px );
+$table-cell-padding-y-sm:     rem( 4px );
+$table-cell-padding-x-sm:     rem( 4px );
+
+$table-cell-vertical-align:   top;
+
+$table-color:                 var( --#{$prefix}body-color );
+$table-bg:                    transparent;
+$table-accent-bg:             transparent;
+
+$table-th-font-weight:        null;
+
+$table-striped-color:         $table-color;
+$table-striped-bg-factor:     .05;
+$table-striped-bg:            rgba( $black, $table-striped-bg-factor );
+
+$table-active-color:          $table-color;
+$table-active-bg-factor:      .1;
+$table-active-bg:             rgba( $black, $table-active-bg-factor );
+
+$table-hover-color:           $table-color;
+$table-hover-bg-factor:       .075;
+$table-hover-bg:              rgba( $black, $table-hover-bg-factor );
+
+$table-border-factor:         .1;
+$table-border-width:          $border-width;
+$table-border-color:          var( --#{$prefix}border-color );
+
+$table-striped-order:         odd;
+$table-striped-columns-order: even;
+
+$table-group-separator-color: currentcolor;
+
+$table-caption-color:         $text-muted;
+
+$table-bg-scale:              -80%;
+
+$table-variants: (
+	'primary':    shift-color( $primary, $table-bg-scale ),
+	'secondary':  shift-color( $secondary, $table-bg-scale ),
+	'success':    shift-color( $success, $table-bg-scale ),
+	'info':       shift-color( $info, $table-bg-scale ),
+	'warning':    shift-color( $warning, $table-bg-scale ),
+	'danger':     shift-color( $danger, $table-bg-scale )
+);

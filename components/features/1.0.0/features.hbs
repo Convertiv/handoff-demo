@@ -1,0 +1,38 @@
+<head>
+  <link rel="stylesheet" href="/api/component/main.css" />
+  {{{style}}}
+  {{{script}}}
+</head>
+
+<body class="theme preview-body">
+  <div class="block block-bg-light-gradient" id="features">
+    <div class="container sy-2 sy-lg-4 sy-xxl-6">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="block-header sb-1 sb-lg-2 sb-xxl-3 text-center">
+            <h2 class="display-1">{{#field "title"}}{{properties.title}}{{/field}}</h2>
+            <div class="desc desc-large">
+              <p>{{#field "paragraph"}}{{properties.paragraph}}{{/field}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-3">
+        {{#each properties.items}}
+        <div class="col-sm-6 col-md-4 px-xxl-5">
+          <figure class="mb-lg-4">
+            <img draggable="false" alt="{{this.icon.alt}}" loading="lazy" width="900" height="750" decoding="async"
+              data-nimg="1" class="img-fluid" style="color:transparent" src="{{this.icon.src}}" />
+          </figure>
+          <div class="block-header">
+            <h6 class="h2 text-secondary">{{#field "items.title"}}{{ this.title }}{{/field}}</h6>
+            <div class="desc">
+              {{#field "items.paragraph"}}{{{ this.paragraph }}}{{/field}}
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</body>

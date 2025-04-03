@@ -1,0 +1,46 @@
+/* ==================================================================
+   SPACINGS (variables/_spacings.scss)
+===================================================================== */
+
+
+// Spacers
+// ------------------------------------------------------------------
+
+$spacer:                      rem( 20px );
+
+$spacer-xs:                   $spacer * .25;
+$spacer-sm:                   $spacer * .5;
+$spacer-md:                   $spacer;
+$spacer-lg:                   $spacer * 1.5;
+$spacer-xl:                   $spacer * 3;
+
+$spacers: (
+	spacer: $spacer,
+	0: 0,
+	1: $spacer-xs,
+	2: $spacer-sm,
+	3: $spacer-md,
+	4: $spacer-lg,
+	5: $spacer-xl,
+);
+
+
+// Block separations
+// ------------------------------------------------------------------
+
+$separation-xs:               rem( 40px );
+$separation-sm:               rem( 65px );
+$separation-md:               rem( 90px );
+$separation-lg:               rem( 115px );
+$separation-xl:               rem( 140px );
+$separation-2xl:              rem( 180px );
+
+$separations: (
+	0: 0,
+	1: $separation-xs,
+	2: $separation-sm,
+	3: $separation-md,
+	4: $separation-lg,
+	5: $separation-xl,
+	6: $separation-2xl,
+);

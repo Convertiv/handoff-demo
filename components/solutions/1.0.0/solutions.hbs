@@ -1,0 +1,70 @@
+<head>
+  <link rel="stylesheet" href="/api/component/main.css" />
+  {{{style}}}
+  {{{script}}}
+</head>
+
+<body class="theme preview-body">
+  <div class="block block-bg-ellipse" id="solution-tabs">
+    <div class="container sy-2 sy-lg-4 sy-xxl-6">
+      <div class="row">
+        <div class="col-lg-10">
+          <div class="block-header mb-4 mb-lg-5">
+            <h2 class="display-1">{{#field "title"}}{{ properties.title }}{{/field}}</h2>
+            <div class="desc desc-large">
+              <p>{{#field "paragraph"}}{{ properties.paragraph }}{{/field}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="sb-1 sb-lg-2 tab-content">
+            {{#each properties.items}}
+            <div role="tabpanel" class="fade tab-pane">
+              <div class="row">
+                <div class="col-lg-7">
+                  <video src="{{this.video}}" autoplay="" muted="" playsinline="" class="figure-base"
+                    style="width:100%">
+                  </video>
+                </div>
+                <div class="col-lg-5">
+                  <div class="block-header ms-xxl-3">
+                    <h6 class="h2 text-secondary">{{#field "items.title"}}{{ this.title }}{{/field}}</h6>
+                    <div class="desc">
+                      {{#field "items.paragraph"}}{{{ this.paragraph }}}{{/field}}
+                      {{#each this.buttons}}
+                      <div class="block-actions flex-column align-items-start">
+                        <a role="button" class="btn btn-link btn-lg p-0" href="{{this.url}}" target="_blank"
+                          rel="noreferrer">
+                          {{ this.label }}
+                        </a>
+                      </div>
+                      {{/each}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="solution-tabs row nav" role="tablist">
+            {{#each properties.items}}
+            <div class="col nav-item"><a role="tab" data-rr-ui-event-key="plugin" id="react-aria-:Rk6:-tab-plugin"
+                aria-controls="react-aria-:Rk6:-tabpane-plugin" aria-selected="false" class="nav-link" tabindex="-1"
+                href="#">
+                <div class="solution-tab-label d-none d-lg-block">
+                  {{#field "properties.title"}}{{this.title}}{{/field}}
+                </div>
+              </a></div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

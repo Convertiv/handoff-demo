@@ -1,0 +1,16 @@
+/* ==================================================================
+   BACKGROUNDS (utilities/_backgrounds.scss)
+===================================================================== */
+
+
+$utilities: map-merge(
+	$utilities, (
+		'bg-color': (
+			property: background-color,
+			class: null,
+			values: map-merge(
+				$utilities-bg-colors, $bg-utility-colors
+			)
+		)
+	)
+);

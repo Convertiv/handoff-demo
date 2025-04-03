@@ -1,0 +1,28 @@
+/* =============================================================================
+   WORDPRESS (tools/_wordpress.scss)
+   ========================================================================== */
+
+/* Block Editor
+   ========================================================================== */
+
+/**
+ * This mixin should be used to load overrides for block editor components.
+ */
+
+@mixin wordpress-block-editor {
+	.editor-styles-wrapper {
+		padding: 0;
+	}
+
+	.wp-block[ class*='wp-block-acf-' ] {
+		max-width: none;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.edit-post-visual-editor__post-title-wrapper > .wp-block,
+	.is-root-container > .wp-block:not( [ class*='wp-block-acf-' ] ) {
+		padding-right: .625rem;
+		padding-left: .625rem;
+	}
+}

@@ -1,0 +1,111 @@
+{
+  "id": "quote",
+  "title": "Quote",
+  "description": "A banner alert component to display important information to users. This is a bold, highly visible component that can be used to draw attention to important information. \n\nIt includes a call to action button to direct users elsewhere.  Because of the high visiblity, the CTA is required.",
+  "type": "block",
+  "group": "Sections",
+  "entries": {
+    "js": "./quote.js",
+    "template": "./quote.hbs"
+  },
+  "tags": ["section", "quote", "content", "banner"],
+  "should_do": [
+    "Use this component to draw attention to important information",
+    "Use this component to direct users to take action"
+  ],
+  "should_not_do": [
+    "Do not use this without a call to action",
+    "Avoid long messages. Limit yourself to one or two lines of text"
+  ],
+  "previews": {
+    "generic": {
+      "title": "Generic",
+      "values": {
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+        "author": "John Doe",
+        "role": "Designer, Handoff",
+        "url": "#",
+        "logo": {
+          "alt": "Handoff logo",
+          "src": "https://placehold.co/75x40"
+        }
+      }
+    },
+    "live": {
+      "title": "Live Site",
+      "values": {
+        "quote": "<p>Handoff has had a big impact on our design processes. Its handling of design tokens makes it easier for us to implement changes across the board.</p>",
+        "author": "Scott Lenzi",
+        "role": "Head of digital marketing, SS&C",
+        "url": "#",
+        "logo": {
+          "alt": "SS&C logo",
+          "src": "https://handoff.com/_next/static/media/logo-ssc.8d7598ca.svg"
+        }
+      }
+    }
+  },
+  "properties": {
+    "quote": {
+      "name": "Quote",
+      "description": "This is the quote text of the alert component",
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+      "rules": {
+        "required": true,
+        "content": {
+          "min": 1,
+          "max": 200
+        }
+      }
+    },
+    "author": {
+      "name": "Author",
+      "description": "This is the author of the quote",
+      "type": "text",
+      "default": "John Doe",
+      "rules": {
+        "required": true,
+        "content": {
+          "min": 1,
+          "max": 50
+        }
+      }
+    },
+    "role": {
+      "name": "Role",
+      "description": "This is the role of the author",
+      "type": "text",
+      "default": "Designer, Handoff",
+      "rules": {
+        "required": true,
+        "content": {
+          "min": 1,
+          "max": 50
+        }
+      }
+    },
+    "logo": {
+      "name": "Logo",
+      "description": "This is the logo of the author",
+      "type": "image",
+      "default": {
+        "alt": "Handoff logo",
+        "src": "https://placehold.co/100x40"
+      },
+      "rules": {
+        "required": true,
+        "dimensions": {
+          "min": {
+            "width": 75,
+            "height": 40
+          },
+          "max": {
+            "width": 450,
+            "height": 275
+          }
+        }
+      }
+    }
+  }
+}

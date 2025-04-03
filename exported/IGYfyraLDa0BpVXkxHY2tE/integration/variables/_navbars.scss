@@ -1,0 +1,46 @@
+/* ==================================================================
+   NAVBARS (variables/_navbars.scss)
+===================================================================== */
+
+
+$navbar-height:                     rem( 80px );
+$navbar-height-mobile:              rem( 60px );
+$navbar-height-sticky:              rem( 60px );
+
+$navbar-padding-y:                  $spacer-xs;
+$navbar-padding-x:                  null;
+
+$navbar-nav-link-padding-x:         $spacer;
+
+$navbar-brand-font-size:            $font-size-lg;
+
+// Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
+$nav-link-height:                   $font-size-base * $line-height-base + $nav-link-padding-y * 2;
+$navbar-brand-height:               $navbar-brand-font-size * $line-height-base;
+$navbar-brand-padding-y:            ($nav-link-height - $navbar-brand-height) * .5;
+$navbar-brand-margin-end:           rem( 16px );
+
+$navbar-toggler-padding-y:          rem( 4px );
+$navbar-toggler-padding-x:          rem( 12px );
+$navbar-toggler-font-size:          $font-size-lg;
+$navbar-toggler-border-radius:      $border-radius;
+$navbar-toggler-focus-width:        0;
+$navbar-toggler-transition:         all $transition-speed ease-in-out;
+
+$navbar-light-color:                $text-base;
+$navbar-light-hover-color:          $primary;
+$navbar-light-active-color:         rgba( $black, .9 );
+$navbar-light-disabled-color:       rgba( $black, .3 );
+$navbar-light-toggler-icon-bg:      url( "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>" );
+$navbar-light-toggler-border-color: rgba( $black, .1 );
+$navbar-light-brand-color:          $navbar-light-active-color;
+$navbar-light-brand-hover-color:    $navbar-light-active-color;
+
+$navbar-dark-color:                 $text-base-invert;
+$navbar-dark-hover-color:           $text-hard-invert;
+$navbar-dark-active-color:          $text-hard-invert;
+$navbar-dark-disabled-color:        rgba( $white, .25 );
+$navbar-dark-toggler-icon-bg:       url( "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>" );
+$navbar-dark-toggler-border-color:  rgba( $white, .1 );
+$navbar-dark-brand-color:           $navbar-dark-active-color;
+$navbar-dark-brand-hover-color:     $navbar-dark-active-color;

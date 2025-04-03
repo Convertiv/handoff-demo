@@ -1,0 +1,101 @@
+---
+title: "Mixin: Links"
+description: |
+  This mixin can theme content to match the link style, either as a normal anchor
+  or them other elements as links.
+weight: 0
+image: hero-design
+menuTitle: "Token Guide"
+metaTitle: "Token Guide | Handoff Design System"
+metaDescription: "How to use handoff tokens in your project."
+enabled: true
+menu:
+---
+
+import { Hero } from "handoff-app/src/app/components/Hero";
+
+<Hero title={props.title} image={false}>
+  <p>{props.description}</p>
+</Hero>
+
+## Where to Find
+
+You can find these mixins in `integration/snippets/mixins/links.scss`.
+
+## Common Link Mixin
+
+This sets the base color and family for all the specific link mixins.
+
+```scss title="Common Link"
+@mixin link-common {
+  display: grid;
+  grid-template-columns: max-content auto;
+  width: fit-content;
+  font-family: $font-barlow-sans;
+  font-weight: $font-weight-semi-bold;
+  text-transform: uppercase;
+  &::before {
+    @include after-before;
+    position: static;
+  }
+}
+```
+
+## Normal Blue Link
+
+```scss title="Normal Blue Link"
+@mixin link-blue {
+  @include link-common;
+  font-size: 12px;
+  line-height: 1.2;
+  color: var(--color-primary-ssc-blue);
+  &:hover {
+    color: var(--color-primary-ssc-blue);
+  }
+  &::before {
+    @include arrow-blue;
+    margin-right: 10px;
+    align-self: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 13px;
+    &:hover {
+      color: var(--color-primary-ssc-blue);
+      &::before {
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+```
+
+## Shaded Link
+
+```scss title="Shaded Link"
+@mixin link-shade {
+  @include link-common;
+  font-size: 14px;
+  line-height: 1.2;
+  color: color('shade-65');
+  transition: text-shadow 0.3s ease-in-out;
+  &:hover {
+    color: color('shade-65');
+  }
+  &::before {
+    @include arrow-yellow;
+    margin-right: 10px;
+    align-self: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  @include media-breakpoint-up(lg) {
+    &:hover {
+      color: color('shade-65');
+      text-shadow: 0 0 color('shade-65'); 
+      &::before {
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+```

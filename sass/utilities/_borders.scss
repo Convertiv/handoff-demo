@@ -1,0 +1,16 @@
+/* ==================================================================
+   BORDERS (utilities/_borders.scss)
+===================================================================== */
+
+
+$utilities: map-merge(
+	$utilities, (
+		'borders-color': (
+			property: border-color,
+			class: null,
+			values: map-merge(
+				$utilities-border-colors, $border-utility-colors
+			)
+		)
+	)
+);

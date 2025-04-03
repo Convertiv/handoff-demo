@@ -1,0 +1,253 @@
+{
+  "id": "alert",
+  "title": "Alert",
+  "description": "A banner alert component to display important information to users. This is a bold, highly visible component that can be used to draw attention to important information. \n\nIt includes a call to action button to direct users elsewhere.  Because of the high visiblity, the CTA is required.",
+  "type": "element",
+  "group": "Alert",
+  "entries": {
+    "js": "./alert.js",
+    "template": "./alert.hbs"
+  },
+  "tags": ["banner", "alert", "notification"],
+  "should_do": [
+    "Use this component to draw attention to important information",
+    "Use this component to direct users to take action"
+  ],
+  "should_not_do": [
+    "Do not use this without a call to action",
+    "Avoid long messages. Limit yourself to one or two lines of text"
+  ],
+  "previews": {
+    "generic": {
+      "title": "Generic (Vibrant Green)",
+      "values": {
+        "background": "vibrant-green",
+        "foreground": "deep-green",
+        "light": false,
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+        "button": {
+          "label": "Primary CTA",
+          "url": "#"
+        }
+      }
+    },
+    "deep_green": {
+      "title": "Deep Green",
+      "values": {
+        "background": "deep-green",
+        "foreground": "vibrant-green",
+        "light": true,
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+        "button": {
+          "label": "Primary CTA",
+          "url": "#"
+        }
+      }
+    },
+    "vibrant_orange": {
+      "title": "Vibrant Orange",
+      "values": {
+        "background": "vibrant-orange",
+        "foreground": "deep-orange",
+        "light": false,
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+        "button": {
+          "label": "Primary CTA",
+          "url": "#"
+        }
+      }
+    },
+    "vibrant_purple": {
+      "title": "Vibrant Purple",
+      "values": {
+        "background": "vibrant-purple",
+        "foreground": "deep-purple",
+        "light": false,
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+        "button": {
+          "label": "Primary CTA",
+          "url": "#"
+        }
+      }
+    },
+    "deep_purple": {
+      "title": "Deep Purple",
+      "values": {
+        "background": "deep-purple",
+        "foreground": "vibrant-purple",
+        "light": true,
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+        "button": {
+          "label": "Primary CTA",
+          "url": "#"
+        }
+      }
+    },
+    "vibrant_teal": {
+      "title": "Vibrant Teal",
+      "values": {
+        "background": "vibrant-teal",
+        "foreground": "deep-teal",
+        "light": false,
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+        "button": {
+          "label": "Primary CTA",
+          "url": "#"
+        }
+      }
+    },
+    "deep_teal": {
+      "title": "Deep Teal",
+      "values": {
+        "background": "deep-teal",
+        "foreground": "vibrant-teal",
+        "light": true,
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+        "button": {
+          "label": "Primary CTA",
+          "url": "#"
+        }
+      }
+    }
+  },
+  "properties": {
+    "background": {
+      "name": "Background Color",
+      "description": "The background color of the alert",
+      "type": "select",
+      "options": [
+        {
+          "label": "Vibrant Green",
+          "value": "vibrant-green"
+        },
+        {
+          "label": "Deep Green",
+          "value": "deep-green"
+        },
+        {
+          "label": "Vibrant Orange",
+          "value": "vibrant-orange"
+        },
+        {
+          "label": "Deep Orange",
+          "value": "deep-orange"
+        },
+        {
+          "label": "Vibrant Purple",
+          "value": "vibrant-purple"
+        },
+        {
+          "label": "Deep Purple",
+          "value": "deep-purple"
+        },
+        {
+          "label": "Vibrant Teal",
+          "value": "vibrant-teal"
+        },
+        {
+          "label": "Deep Teal",
+          "value": "deep-teal"
+        }
+      ],
+      "default": "vibrant-green",
+      "rules": {
+        "required": true
+      }
+    },
+    "foreground": {
+      "name": "Foreground Color",
+      "description": "The foreground color of the alert",
+      "type": "select",
+      "options": [
+        {
+          "label": "Vibrant Green",
+          "value": "vibrant-green"
+        },
+        {
+          "label": "Deep Green",
+          "value": "deep-green"
+        },
+        {
+          "label": "Vibrant Orange",
+          "value": "vibrant-orange"
+        },
+        {
+          "label": "Deep Orange",
+          "value": "deep-orange"
+        },
+        {
+          "label": "Vibrant Purple",
+          "value": "vibrant-purple"
+        },
+        {
+          "label": "Deep Purple",
+          "value": "deep-purple"
+        },
+        {
+          "label": "Vibrant Teal",
+          "value": "vibrant-teal"
+        },
+        {
+          "label": "Deep Teal",
+          "value": "deep-teal"
+        }
+      ],
+      "default": "deep-green",
+      "rules": {
+        "required": true
+      }
+    },
+    "light": {
+      "name": "Light Mode",
+      "description": "Whether the alert is in light mode",
+      "type": "boolean",
+      "default": false,
+      "rules": {
+        "required": true
+      }
+    },
+    "message": {
+      "name": "Message",
+      "description": "The message to display in the alert",
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+      "rules": {
+        "required": true,
+        "content": {
+          "min": 25,
+          "max": 100
+        }
+      }
+    },
+    "button": {
+      "name": "Button",
+      "description": "The button to take action",
+      "type": "button",
+      "default": {
+        "label": "Register Now",
+        "url": "#"
+      },
+      "rules": {
+        "required": true
+      }
+    }
+  },
+  "options": {
+    "transformer": {
+      "tokenNameSegments": [
+        "${component}",
+        "${variant.type}",
+        "${variant.layout}",
+        "${part}",
+        "${property}"
+      ],
+      "defaults": {
+        "Theme": "light",
+        "Type": "default",
+        "Activity": "",
+        "Layout": "",
+        "Size": ""
+      }
+    }
+  }
+}

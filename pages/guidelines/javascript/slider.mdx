@@ -1,0 +1,78 @@
+---
+title: "Slider Javascript"
+description: |
+  This javascript is used to support the logo walls. It is a simple slider that 
+  moves the logos from right to left. It duplicates the logos to create a seamless
+    effect.
+
+weight: 0
+image: hero-design
+menuTitle: "Token Guide"
+metaTitle: "Token Guide | Handoff Design System"
+metaDescription: "How to use handoff tokens in your project."
+enabled: true
+menu:
+---
+
+import { Hero } from "handoff-app/src/app/components/Hero";
+
+<Hero title={props.title} image={false}>
+  <p>{props.description}</p>
+</Hero>
+
+This script is used to initialize the slider on the homepage, community, and
+logo pages. It depends on jQuery.
+
+This script is written as an ES6 module, which allows for better organization
+and encapsulation of the code. It uses jQuery for DOM manipulation and event
+handling.
+
+```html title="slider.js"
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+  function initializeSlider() {
+    // Combine selectors for efficiency
+    const $slider = $(".in-crds-hm-sldr, .in-crds-cm-sldr, .in-crds-lgo-sldr");
+    const originalSection = $(
+      ".in-crds-hm-sldr__inner, .in-crds-cm-sldr__inner, .in-crds-lgo-sldr__inner"
+    );
+    originalSection.each(function () {
+      const item = $(this);
+      // Pre-cache parent for faster access
+      const parent = item.parent();
+
+      // Use Array.from for loop with clear end condition
+      for (let i = 0; i < 7; i++) {
+        parent.append(item.clone());
+      }
+    });
+
+    $slider.addClass("active-animation");
+
+    // Use event delegation for better performance on dynamic elements
+    $slider
+      .on("mouseenter", ".in-crds-hm-sldr__inner a", function () {
+        $(this)
+          .closest(".in-crds-hm-sldr")
+          .css("animation-play-state", "paused");
+      })
+      .on("mouseleave", ".in-crds-hm-sldr__inner a", function () {
+        $(this)
+          .closest(".in-crds-hm-sldr")
+          .css("animation-play-state", "running");
+      });
+  }
+</script>
+```
+
+## Example Usage
+
+```html title="index.js"
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="slider.js"></script>
+<script>
+  $(document).ready(function () {
+    initializeSlider();
+  });
+</script>
+```

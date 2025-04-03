@@ -1,0 +1,253 @@
+---
+title: "Mixins: Buttons"
+description: | 
+  This defines a set of mixins that can be used to create buttons in your 
+  project.
+
+weight: 0
+image: hero-design
+menuTitle: 'Token Guide'
+metaTitle: 'Token Guide | Handoff Design System'
+metaDescription: 'How to use handoff tokens in your project.'
+enabled: true
+menu: 
+
+---
+import { Hero } from "handoff-app/src/app/components/Hero";
+
+<Hero title={props.title} image={false}>
+  <p>{props.description}</p>
+</Hero>
+
+## Where to Find
+
+- You can find these mixins in `integration/snippets/mixins/buttons.scss`.
+- To see all of the button style code, see [here](/guidelines/styles/buttons/).
+
+## Common Button Mixin
+This sets the base color and family for all the specific button mixins. This 
+accepts as an argument the padding for the button as a string with two values.
+
+```scss title="Set color and font family"
+@mixin btn-common($padding: 15px 20px) {
+  z-index: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: fit-content;
+  padding: $padding;
+  border: 1px solid transparent;
+  font-family: $font-barlow-sans;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  &::after {
+    @include after-before;
+    z-index: -1;
+    inset: -1px;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+```
+
+## White Background Button
+This button will work well when you want a light colored button to create
+contrast with a dark background or when you want to use it as a secondary
+button.
+
+```scss title="White Background Button"
+@mixin btn-bg-white {
+  @include btn-common;
+  background-color: color('pure-white');
+  border-color: rgba(color('pure-navy'), 0.2);
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: $font-weight-bold;
+  color: color('pure-navy');
+  &:hover {
+    color: color('pure-navy');
+  }
+  @include media-breakpoint-up(lg) {
+    &:hover {
+      background-color: var(--color-primary-tangerine);
+      border-color: var(--color-primary-tangerine);
+      color: color('pure-black');
+    }
+  }
+}
+```
+
+## Blue Background Button
+This button will work well when you want a dark colored button.
+
+```scss title="Blue Background Button"
+@mixin btn-bg-blue {
+  @include btn-common;
+  background-color: color('pure-navy');
+  border-color: color('pure-navy');
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: $font-weight-bold;
+  color: color('pure-white');
+  &:hover {
+    color: color('pure-white');
+  }
+  &::after {
+    background: linear-gradient(0deg, rgba(color('pure-black'), 0.3), rgba(color('pure-black'), 0.3)),
+      linear-gradient(0deg, color('pure-navy'), color('pure-navy'));
+    border-radius: 3px;
+  }
+  @include media-breakpoint-up(lg) {
+    &:hover {
+      color: color('pure-white');
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+}
+```
+
+## Yellow Background Button with arrow
+
+```scss title="Yellow Background Button with Arrow"
+@mixin btn-bg-yellow-with-arrow {
+  @include btn-common(18px 20px);
+  column-gap: 20px;
+  background-color: var(--color-primary-tangerine);
+  border-color: var(--color-primary-tangerine);
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: $font-weight-semi-bold;
+  color: color('pure-black');
+  &:hover {
+    color: color('pure-black');
+  }
+  &::before {
+    @include arrow-black;
+    @include after-before;
+    position: static;
+    flex: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 16px;
+    &::before {
+      @include arrow-black-large;
+    }
+    &:hover {
+      color: color('pure-black');
+      &::before {
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+```
+
+## Yellow Background Button with arrow large
+
+```scss title="Yellow Background Button with Arrow Large"
+@mixin btn-bg-yellow-with-arrow-large {
+  @include btn-common(12px 20px);
+  column-gap: 20px;
+  background-color: var(--color-primary-tangerine);
+  border-color: var(--color-primary-tangerine);
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: $font-weight-semi-bold;
+  color: color('pure-black');
+  &:hover {
+    color: color('pure-black');
+  }
+  &::before {
+    @include arrow-black;
+    @include after-before;
+    position: static;
+    flex: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  @include media-breakpoint-up(lg) {
+    column-gap: 30px;
+    padding: 19px 30px;
+    font-size: 18px;
+    &::before {
+      @include arrow-black-large;
+    }
+    &:hover {
+      color: color('pure-black');
+      &::before {
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+```
+
+## Transparent Background Button
+
+```scss title="Transparent Background Button"
+@mixin btn-bg-transparent {
+  @include btn-common(18px 20px);
+  background-color: transparent;
+  border-color: rgba(color('pure-white'), 0.2);
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: $font-weight-semi-bold;
+  color: var(--color-primary-tangerine);
+  &:hover {
+    color: var(--color-primary-tangerine);
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 23.5px 30px;
+    font-size: 18px;
+    &:hover {
+      background-color: var(--color-primary-tangerine);
+      border-color: var(--color-primary-tangerine);
+      color: color('midnight');
+    }
+  }
+}
+```
+
+## Transparent Background Button Large
+
+```scss title="Transparent Background Button Large"
+@mixin btn-large-bg-transparent{
+  @include btn-bg-white;
+  color: color('pure-black');
+  background-color: transparent;
+  column-gap: 20px;
+  font-weight:$font-weight-semi-bold;
+  &::before {
+    @include arrow-black;
+    @include after-before;
+    position: static;
+    flex: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 16px;
+    &::before {
+      @include arrow-black-large;
+    }
+    &:hover {
+      background-color: transparent;
+      border-color: rgba(color('pure-navy'), 0.2);
+      &::before {
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+```

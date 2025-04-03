@@ -1,0 +1,16 @@
+/* ==================================================================
+   TEXT (utilities/_text.scss)
+===================================================================== */
+
+
+$utilities: map-merge(
+	$utilities, (
+		'text-color': (
+			property: color,
+			class: null,
+			values: map-merge(
+				$utilities-text-colors, $text-utility-colors
+			)
+		)
+	)
+);

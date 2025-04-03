@@ -1,0 +1,77 @@
+/* ==================================================================
+   BORDERS (variables/_borders.scss)
+===================================================================== */
+
+
+// Sizes
+
+$border-width:                rem( 1px );
+
+$border-widths: (
+	1: rem( 1px ),
+	2: rem( 2px ),
+	3: rem( 3px ),
+	4: rem( 4px ),
+	5: rem( 5px )
+);
+
+// Colors
+
+$border-base:                 rgba( 100, 100, 100, .15 );
+$border-dark:                 rgba( 100, 100, 100, .3 );
+$border-darker:               rgba( 0, 0, 0, .3 );
+$border-darkest:              rgba( 0, 0, 0, .6 );
+
+$border-invert:               rgba( 200, 200, 200, .2 );
+$border-light:                rgba( 200, 200, 200, .4 );
+$border-lighter:              rgba( 255, 255, 255, .4 );
+$border-lightest:             rgba( 255, 255, 255, .75 );
+
+$border-colors: (
+	'border-base':            $border-base,
+	'border-dark':            $border-dark,
+	'border-darker':          $border-darker,
+	'border-darkest':         $border-darkest,
+	'border-invert':          $border-invert,
+	'border-light':           $border-light,
+	'border-lighter':         $border-lighter,
+	'border-lightest':        $border-lightest,
+);
+
+$border-color:                $border-base;
+$border-color-translucent:    $border-base;
+
+[data-theme="dark"] {
+	--#{$prefix}border-base:    #{$border-invert};
+	--#{$prefix}border-dark:    #{$border-light};
+	--#{$prefix}border-darker:  #{$border-lighter};
+	--#{$prefix}border-darkest: #{$border-lightest};
+}
+
+[data-theme="light"] {
+	--#{$prefix}border-base:    #{$border-base};
+	--#{$prefix}border-dark:    #{$border-dark};
+	--#{$prefix}border-darker:  #{$border-darker};
+	--#{$prefix}border-darkest: #{$border-darkest};
+}
+
+// Styles
+
+$border-style:                solid;
+
+$border-radius-xs:            rem( 2px );
+$border-radius-sm:            rem( 4px );
+$border-radius-md:            rem( 8px );
+$border-radius-lg:            rem( 12px );
+$border-radius-xl:            rem( 16px );
+$border-radius-2xl:           rem( 20px );
+$border-radius-pill:          rem( 800px );
+
+$border-radius:               $border-radius-md;
+
+
+// HR
+// ------------------------------------------------------------------
+
+$hr-opacity:                  1;
+$hr-margin-y:                 $spacer;

@@ -1,0 +1,22 @@
+<head>
+  <link rel="stylesheet" href="/api/component/main.css" />
+  {{{style}}}
+  {{{script}}}
+</head>
+
+<body class="theme preview-body">
+  <div class="block block-bg-video hero" id="hero" data-theme="{{properties.theme}}">
+    <div class="container-xl st-2 sy-lg-1">
+      <div class="block-header col-xl-11 align-self-center text-center">
+        <h1 class="display-1">{{#field "title"}}{{properties.title}}{{/field}}</h1>
+        <div class="desc desc-large">
+          <p>{{#field "paragraph"}}{{properties.paragraph}}{{/field}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="block-gradients"><span class="block-gradients__start"></span><span class="block-gradients__end"></span>
+    </div>
+    <div class="block-video-overlay"><video src="{{properties.video}}" autoplay="" playsinline="" muted=""
+        class="figure-base mb-0 d-block" style="width:100%"></video></div>
+  </div>
+</body>

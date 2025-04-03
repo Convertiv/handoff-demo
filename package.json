@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build:code": "tsc",
-    "start": "node dist/watch.js",
-    "build": "node dist/index.js",
+    "start": "handoff-app start",
+    "build": "handoff-app build:app",
     "fetch": "handoff-app fetch"
   },
   "repository": {
@@ -32,6 +32,9 @@
   },
   "homepage": "https://www.handoff.com/",
   "dependencies": {
-    "handoff-app": "^0.6.0"
+    "@tailwindcss/container-queries": "^0.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "handoff-app": "https://github.com/Convertiv/handoff-app/tarball/feautre/doc-site-integration-configuration"
   }
 }

@@ -1,0 +1,84 @@
+/* ==================================================================
+   FIGURE (components/_figure.scss)
+===================================================================== */
+
+
+.figure-collage {
+	display: flex;
+	justify-content: space-around;
+
+	.figure {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.figure-caption {
+		max-width: rem( 280px );
+	}
+}
+
+.figure-caption {
+	display: flex;
+	margin-bottom: $spacer - $spacer-xs;
+	font-size: $figure-caption-font-size;
+	color: $figure-caption-color;
+
+	img {
+		flex-shrink: 0;
+		align-self: flex-start;
+		width: rem( 16px );
+		height: auto;
+		margin-right: $spacer-sm;
+	}
+
+	p {
+		margin-bottom: $spacer-xs;
+		line-height: $line-height-sm;
+	}
+}
+
+.figure-feature {
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+	.figure-image-mobile {
+		position: relative;
+		top: rem( 5px );
+		transform: scale( 1.1 );
+	}
+
+	.figure-image-front {
+		position: absolute;
+		right: -5.75rem;
+		top: 1rem;
+		z-index: 1;
+		width: calc( 100% + #{$spacer-xl} ) !important;
+		max-width: none;
+		height: auto;
+	}
+
+	.figure-image-back {
+		position: absolute;
+		right: - $spacer-xl;
+		bottom: 0;
+		z-index: 1;
+		width: 100% !important;
+		max-width: none;
+		height: auto;
+	}
+}
+
+.figure-base {
+	margin-bottom: $spacer;
+	border-radius: $border-radius;
+	box-shadow: $box-shadow;
+
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: $border-radius;
+	}
+}

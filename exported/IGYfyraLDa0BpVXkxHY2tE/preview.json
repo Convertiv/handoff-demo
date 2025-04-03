@@ -1,0 +1,14 @@
+{
+  "components": {
+    "button": [],
+    "select": [],
+    "input": [],
+    "radio": [],
+    "checkbox": [],
+    "badge": [],
+    "modal": [],
+    "tooltip": [],
+    "switch": [],
+    "alert": []
+  }
+}

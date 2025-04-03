@@ -1,0 +1,116 @@
+---
+title: "Styles: Variables"
+description: |
+  This file defines the Handoff specific values for the key Bootstrap variables
+weight: 0
+image: hero-design
+menuTitle: "Token Guide"
+metaTitle: "Token Guide | Handoff Design System"
+metaDescription: "How to use handoff tokens in your project."
+enabled: true
+menu:
+---
+
+import { Hero } from "handoff-app/src/app/components/Hero";
+
+<Hero title={props.title} image={false}>
+  <p>{props.description}</p>
+</Hero>
+
+These variables are defined in `shared/common/_variables.scss`
+
+## Bootstrap Variables
+
+This definition is used in the ticker component to create a number roll effect.
+
+```sass title="Create a ticker animation"
+// Fonts
+$font-barlow-sans: 'Barlow', sans-serif;
+$font-inter-sans: 'Inter', sans-serif;
+
+//Font Sizes
+// TODO: Pull these from figma variables
+$font-size-base: 1.125rem;
+$h1-font-size: 76px;
+$h2-font-size: 60px;
+$h3-font-size: 50px;
+$h4-font-size: 42px;
+$h5-font-size: 36px;
+$h6-font-size: 30px;
+
+$font-size-base-mobile: 0.875rem;
+
+$h1-font-size-mobile: 46px;
+$h2-font-size-mobile: 34px;
+$h3-font-size-mobile: 34px;
+$h4-font-size-mobile: 26px;
+$h5-font-size-mobile: 22px;
+$h6-font-size-mobile: 20px;
+
+// font weight
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+// Definitional Colors
+$body-color: #262626;
+$body-bg: #fff;
+$link-color: #0077C8;
+$link-hover-color: #0B4D99;
+
+//Transition duration
+$default-transition-duration: 0.3s;
+$default-animation-duration: 1s;
+$md-animation-duration: 1.5s;
+
+//Z-indexs
+$notify-index: 99;
+
+$tab-slider-box-shadow: 0px 12px 25px 0px #0000001A;
+$box-shadow-contact: 0px 20px 60px 0px #0000001A;
+$box-shadow-contact-mobile: 0px 6px 23px 0px #0000001A;
+$shadow-1: 0px 5px 20px 0px #646F7933;
+$card-shadow:0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+$cards-border:1px solid rgba(191, 191, 191, 0.5);
+$parallax-card-hover-icon-shadow: 0 -12px 47.5px 0 #00000045;
+
+//Images
+$image-base-path: 'intralinks/images/';
+$icon-sprite: '#{$image-base-path}icon-sprite.svg';
+$icon-cross: '#{$image-base-path}cross.svg';
+$footer-background: '#{$image-base-path}Ribbon-Global-Footer-Final.webp';
+$menu-icon: '#{$image-base-path}menu-icon.svg';
+$slider-icon: '#{$image-base-path}slider-icon.svg';
+$bracket-icon: '#{$image-base-path}bracket.svg';
+$bracket-lg: '#{$image-base-path}bracket-lg.svg';
+$background-mask: '#{$image-base-path}background-mask.svg';
+$play-icon: '#{$image-base-path}play-icon.png';
+$quote-icon: '#{$image-base-path}quote-icon.png';
+$gray-down-arrow: '#{$image-base-path}gray-down-arrow.svg';
+$pager-arrow: '#{$image-base-path}pager-arrow.svg';
+$search: '#{$image-base-path}search.svg';
+$star: '#{$image-base-path}star.svg';
+$search-grey: '#{$image-base-path}search-grey.svg';
+$the-choice: '#{$image-base-path}the-choice-bg.svg';
+$checked-status:  '#{$image-base-path}blue-tick--system-status.png';
+$inr-bnr-blr: '#{$image-base-path}inr-bnr-blr.png';
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px
+);
+
+// Grid containers
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1200px,
+);
+```

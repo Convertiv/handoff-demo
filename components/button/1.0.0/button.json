@@ -1,0 +1,100 @@
+{
+  "id": "button",
+  "title": "Button",
+  "description": "These are all of the buttons that are used throughout the site.",
+  "figma": "https://www.figma.com/design/IGYfyraLDa0BpVXkxHY2tE/Starter-%5BV2%5D?node-id=36-291&m=dev",
+  "type": "element",
+  "group": "Forms",
+  "categories": ["functionality"],
+  "tags": [],
+  "should_do": [
+    "Be direct and consistent with CTA labels.",
+    "Keep to 2 words if possible."
+  ],
+  "should_not_do": [
+    "Avoid having competing CTA buttons.",
+    "Avoid lengthy text with button labels."
+  ],
+  "preview_options": {
+    "group_by": "Type"
+  },
+  "properties": {
+    "type": {
+      "name": "Type",
+      "description": "This should be the type of button",
+      "type": "text",
+      "default": "primary",
+      "enum": ["primary", "secondary", "tertiary"],
+      "rules": {
+        "required": true,
+        "content": {
+          "min": 5,
+          "max": 15
+        }
+      }
+    },
+    "label": {
+      "name": "Label",
+      "description": "This should be the text that appears on the button",
+      "type": "text",
+      "default": "Primary CTA",
+      "rules": {
+        "required": true,
+        "content": {
+          "min": 5,
+          "max": 60
+        }
+      }
+    },
+    "url": {
+      "name": "URL",
+      "description": "This should be the URL that the button links to",
+      "type": "text",
+      "default": "https://ssctech.com",
+      "rules": {
+        "required": true,
+        "content": {
+          "min": 1,
+          "max": 1000
+        }
+      }
+    }
+  },
+  "entries": {
+    "scss": "./button.scss",
+    "js": "./button.js",
+    "template": "./button.hbs"
+  },
+  "options": {
+    "transformer": {
+      "cssRootClass": "btn",
+      "tokenNameSegments": [
+        "${component}",
+        "${variant.type}",
+        "${variant.size}",
+        "${part}",
+        "${variant.theme}",
+        "${variant.state}",
+        "${property}"
+      ],
+      "defaults": {
+        "Theme": "light",
+        "State": "default",
+        "Type": "default",
+        "Activity": "",
+        "Layout": "",
+        "Size": ""
+      },
+      "replace": {
+        "State": {
+          "default": ""
+        },
+        "Size": {
+          "small": "sm",
+          "medium": "md",
+          "large": "lg"
+        }
+      }
+    }
+  }
+}

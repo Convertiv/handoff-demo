@@ -1,0 +1,248 @@
+/* ==================================================================
+   TYPOGRAPHY (variables/_typography.scss)
+===================================================================== */
+
+// Families
+
+$font-family-sans-serif:      system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+$font-family-base:            Inter, var( --#{$prefix}font-sans-serif );
+$font-family-code:            Monaco, var( --#{$prefix}font-monospace );
+
+// Colors
+
+$text-hard:                   rgba( $black, 1 );
+$text-base:                   rgba( $black, .8 );
+$text-soft:                   rgba( $gray-700, 1 );
+$text-muted:                  rgba( $gray-700, .8 );
+
+$text-hard-invert:            rgba( $white, 1 );
+$text-base-invert:            rgba( $white, .85 );
+$text-soft-invert:            rgba( $white, .65 );
+$text-muted-invert:           rgba( $white, .45 );
+
+$text-colors: (
+	'text-hard':              $text-hard,
+	'text-base':              $text-base,
+	'text-soft':              $text-soft,
+	'text-muted':             $text-muted,
+	'text-hard-invert':       $text-hard-invert,
+	'text-base-invert':       $text-base-invert,
+	'text-soft-invert':       $text-soft-invert,
+	'text-muted-invert':      $text-muted-invert,
+);
+
+$body-color:                  $text-base;
+
+[data-theme='dark'] {
+	--#{$prefix}text-hard: #{$text-hard-invert};
+	--#{$prefix}text-base: #{$text-base-invert};
+	--#{$prefix}text-soft: #{$text-soft-invert};
+	--#{$prefix}text-muted: #{$text-muted-invert};
+	--#{$prefix}body-color: #{$text-base-invert};
+}
+
+[data-theme='light'] {
+	--#{$prefix}text-hard: #{$text-hard};
+	--#{$prefix}text-base: #{$text-base};
+	--#{$prefix}text-soft: #{$text-soft};
+	--#{$prefix}text-muted: #{$text-muted};
+	--#{$prefix}body-color: #{$text-base};
+}
+
+
+// Sizes
+
+$font-size-root:              null;
+
+$font-size-xxs:               rem( 10px );
+$font-size-xs:                rem( 12px );
+$font-size-sm:                rem( 14px );
+$font-size-md:                rem( 16px );
+$font-size-lg:                rem( 18px );
+$font-size-xl:                rem( 20px );
+$font-size-xxl:               rem( 22px );
+$font-size-3xl:               rem( 24px );
+
+$font-sizes: (
+	1: $font-size-xxs,
+	2: $font-size-xs,
+	3: $font-size-sm,
+	4: $font-size-md,
+	5: $font-size-lg,
+	6: $font-size-xl,
+	7: $font-size-xxl,
+	8: $font-size-3xl
+);
+
+$font-size-base:              $font-size-md;
+$small-font-size:             .875em;
+$initialism-font-size:        $small-font-size;
+$sub-sup-font-size:           .75em;
+
+
+// Weight
+
+$font-weight-lighter:         200;
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-medium:          500;
+$font-weight-semibold:        600;
+$font-weight-bold:            700;
+$font-weight-bolder:          800;
+
+$font-weight-base:            $font-weight-light;
+
+
+// Line Height
+
+$line-height-xs:              1.1;
+$line-height-sm:              1.2;
+$line-height-md:              1.75;
+$line-height-lg:              2;
+
+$line-height-base:            $line-height-md;
+
+
+// Layout
+
+$body-text-align:             null;
+$paragraph-margin-bottom:     $spacer;
+
+
+// Links
+// ------------------------------------------------------------------
+
+$link-decoration:               none;
+$link-shade-percentage:         20%;
+$link-hover-decoration:         null;
+$stretched-link-pseudo-element: after;
+$stretched-link-z-index:        1;
+
+$link-color:                    $primary;
+$link-hover-color:              $primary-600;
+$link-color-dark:               $primary-400;
+$link-hover-color-dark:         $primary;
+$link-color-primary:            $text-hard-invert;
+$link-hover-color-primary:      $tertiary-200;
+
+[data-theme="dark"] {
+	--#{$prefix}link-color: #{$link-color-dark};
+	--#{$prefix}link-hover-color: #{$link-hover-color-dark};
+	--#{$prefix}link-color-rgb: #{to-rgb( $link-color-dark )};
+	--#{$prefix}link-hover-color-rgb: #{to-rgb( $link-hover-color-dark )};
+}
+
+[data-theme="light"] {
+	--#{$prefix}link-color: #{$link-color};
+	--#{$prefix}link-hover-color: #{$link-hover-color};
+	--#{$prefix}link-color-rgb: #{to-rgb( $link-color )};
+	--#{$prefix}link-hover-color-rgb: #{to-rgb( $link-hover-color )};
+}
+
+
+
+// Headings
+// ------------------------------------------------------------------
+
+$headings-font-family:        null;
+$headings-font-weight:        $font-weight-bold;
+$headings-font-style:         null;
+$headings-line-height:        $line-height-sm;
+$headings-color:              var( --#{$prefix}text-hard );
+
+$h1-font-size:                rem( 42px );
+$h2-font-size:                rem( 36px );
+$h3-font-size:                rem( 28px );
+$h4-font-size:                rem( 24px );
+$h5-font-size:                rem( 18px );
+$h6-font-size:                rem( 16px );
+
+$headings-margin-bottom:      $paragraph-margin-bottom;
+
+
+
+
+// Displays
+// ------------------------------------------------------------------
+
+$display-font-family:         null;
+$display-font-weight:         $font-weight-bold;
+$display-font-style:          null;
+$display-line-height:         $headings-line-height;
+
+$display1-font-size:          rem( 56px );
+$display2-font-size:          rem( 42px );
+$display3-font-size:          rem( 36px );
+$display4-font-size:          rem( 28px );
+$display5-font-size:          rem( 24px );
+$display6-font-size:          rem( 20px );
+
+$display-font-sizes: (
+	1: $display1-font-size,
+	2: $display2-font-size,
+	3: $display3-font-size,
+	4: $display4-font-size,
+	5: $display5-font-size,
+	6: $display6-font-size
+);
+
+
+// Leads
+// ------------------------------------------------------------------
+
+$lead-font-weight:            $font-weight-medium;
+$lead-font-size:              $font-size-lg;
+
+
+// Blockquotes
+// ------------------------------------------------------------------
+
+$blockquote-margin-y:                $spacer;
+$blockquote-color:                   var( --#{$prefix}text-hard );
+$blockquote-font-size:               $font-size-xxl;
+$blockquote-font-weight:             $font-weight-bold;
+$blockquote-line-height:             $line-height-sm;
+$blockquote-footer-color:            var( --#{$prefix}text-muted );
+$blockquote-footer-font-size:        $font-size-sm;
+$blockquote-footer-name-color:       var( --#{$prefix}text-base );
+$blockquote-footer-name-font-size:   $font-size-md;
+$blockquote-footer-name-font-weight: $font-weight-bold;
+$blockquote-icon-bg:                 url( "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 170.15 120'><path d='M170.15,120V49.03h-32.88L148.2,0l-49.03,49.03v70.97h70.97Z' /><path d='M70.97,120V49.03h-32.89L49.03,0,0,49.03v70.97h70.97Z' /></svg>" );
+
+
+// Legend
+// ------------------------------------------------------------------
+
+$legend-font-weight:          null;
+$legend-font-size:            1.5rem;
+$legend-margin-bottom:        .5rem;
+
+
+// Marks
+// ------------------------------------------------------------------
+
+$mark-bg:                     $gray-100;
+$mark-padding:                .1875em;
+
+
+// Lists
+// ------------------------------------------------------------------
+
+$list-inline-padding:         .5rem;
+
+
+// Code
+// ------------------------------------------------------------------
+
+$code-font-size:              $small-font-size;
+$code-color:                  $secondary;
+
+$kbd-padding-y:               rem( 3px );
+$kbd-padding-x:               rem( 6px );
+$kbd-font-size:               $code-font-size;
+$kbd-color:                   var( --#{$prefix}body-bg );
+$kbd-bg:                      var( --#{$prefix}body-color );
+$nested-kbd-font-weight:      null; // Deprecated in v5.2.0, removing in v6
+
+$pre-color:                   null;

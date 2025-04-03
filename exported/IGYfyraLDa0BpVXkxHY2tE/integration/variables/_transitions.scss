@@ -1,0 +1,14 @@
+/* ==================================================================
+   TRANSITIONS (variables/_transitions.scss)
+===================================================================== */
+
+
+$transition-speed-faster:     .15s;
+$transition-speed:            .25s;
+$transition-speed-slower:     .35s;
+
+$transition-base:             all $transition-speed ease-in-out;
+$transition-fade:             opacity $transition-speed-faster linear;
+
+$transition-collapse:         height $transition-speed-slower ease;
+$transition-collapse-width:   width $transition-speed-slower ease;

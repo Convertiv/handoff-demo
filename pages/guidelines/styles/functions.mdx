@@ -1,0 +1,62 @@
+---
+title: "Styles: Functions"
+description: |
+  Functions used in the Handoff CSS to manage complexity and provide a consistent
+  experience.
+
+weight: 0
+image: hero-design
+menuTitle: "Token Guide"
+metaTitle: "Token Guide | Handoff Design System"
+metaDescription: "How to use handoff tokens in your project."
+enabled: true
+menu:
+---
+
+import { Hero } from "handoff-app/src/app/components/Hero";
+
+<Hero title={props.title} image={false}>
+  <p>{props.description}</p>
+</Hero>
+
+There are currently two custom functions in the Handoff CSS to help manage colors
+and manipulate the names. These functions must be included early in your SASS
+for many of the mixins and styles to work correctly.
+
+## Function: color($key)
+
+This function overrides and extends the base Bootstrap color system. It allows
+for the use of custom color names in the CSS, and provides a fallback to the
+primary color if the color is not found.
+
+```sass title="Fetch a color from the palette"
+@function color($key) {
+  $key: str-replace($key, "--");
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+  @else {
+    @return theme-color("primary");
+  }
+}
+```
+
+## Function: str-replace($string, $search, $replace: "")
+
+This function is a simple string replacement function for use in your SASS. It
+used in the above color function to remove the `--` from the color name.
+
+```sass title="Replace a string with a given search"
+@function str-replace($string, $search, $replace: "") {
+  $index: str-index($string, $search);
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace +
+      str-replace(
+        str-slice($string, $index + str-length($search)),
+        $search,
+        $replace
+      );
+  }
+  @return $string;
+}
+```

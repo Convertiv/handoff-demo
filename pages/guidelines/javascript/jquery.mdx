@@ -1,0 +1,67 @@
+---
+title: "jQuery Usage"
+description: |
+  jQuery is a fast, small, Javascript library, designed for document traversal.
+  We use it in the Handoff Design System for DOM manipulation and event handling.
+
+weight: 0
+image: hero-design
+menuTitle: "jQuery Usage"
+metaTitle: "jQuery Usage | Handoff Design System"
+metaDescription: "How to use handoff tokens in your project."
+enabled: true
+menu:
+---
+
+import { Hero } from "handoff-app/src/app/components/Hero";
+
+<Hero title={props.title} image={false}>
+  <p>{props.description}</p>
+</Hero>
+
+## Version
+
+The Handoff Design System uses jQuery 3.7.1.
+
+## Usage
+
+There are a number of ways to include jQuery in your project. You can use a CDN,
+download the library, or use a package manager like npm.
+
+## CDN
+
+To include jQuery using a CDN, add the following script tag to your HTML file:
+
+```html
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+```
+
+Then you can use jQuery in your Javascript file:
+
+```javascript
+$(document).ready(function () {
+  $("button").click(function () {
+    $("p").hide();
+  });
+});
+```
+
+## Download
+
+You can download jQuery from the [jQuery website](https://jquery.com/).
+
+## npm
+
+To install jQuery using npm, run the following command:
+
+```bash
+npm install jquery
+```
+
+## Import
+
+To use jQuery in your project, import it at the top of your Javascript file:
+
+```javascript
+import $ from "jquery";
+```

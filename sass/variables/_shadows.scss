@@ -1,0 +1,18 @@
+/* ==================================================================
+   SHADOWS (variables/_shadows.scss)
+===================================================================== */
+
+
+$shadow-base-100:             0 rem( 2px ) rem( 4px ) 0 rgba( $black, .08 );
+$shadow-base-300:             0 rem( 3px ) rem( 6px ) 0 rgba( $black, .08 );
+$shadow-base-500:             0 rem( 11px ) rem( 11px ) 0 rgba( 84, 132, 176, .07 ), 0 rem( 2px ) rem( 4px ) 0 rgba( 84, 132, 176, .1 );
+$shadow-base-700:             0 rem( 12px ) rem( 24px ) 0 rgba( $black, .08 );
+$shadow-base-900:             0 rem( 24px ) rem( 42px ) 0 rgba( $black, .08 );
+
+$box-shadow-xs:               $shadow-base-100;
+$box-shadow-sm:               $shadow-base-300;
+$box-shadow:                  $shadow-base-500;
+$box-shadow-lg:               $shadow-base-700;
+$box-shadow-xl:               $shadow-base-900;
+
+$box-shadow-inset:            inset 0 rem( 1px ) 2px rgba( $black, .075 );

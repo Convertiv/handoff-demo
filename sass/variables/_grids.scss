@@ -1,0 +1,43 @@
+/* ==================================================================
+   GRIDS (variables/_grids.scss)
+===================================================================== */
+
+
+// Columns
+// ------------------------------------------------------------------
+
+$grid-columns:                12;
+$grid-gutter-width:           rem( 40px );
+$grid-row-columns:            6;
+
+
+// Breakpoints
+// ------------------------------------------------------------------
+
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+    xxl: 1400px
+);
+
+@include _assert-ascending( $grid-breakpoints, '$grid-breakpoints' );
+@include _assert-starts-at-zero( $grid-breakpoints, '$grid-breakpoints' );
+
+
+// Containers
+// ------------------------------------------------------------------
+
+$container-max-widths: (
+	sm: rem( 540px ),
+	md: rem( 720px ),
+	lg: rem( 960px ),
+	xl: rem( 1140px ),
+	xxl: rem( 1320px )
+);
+
+@include _assert-ascending( $container-max-widths, '$container-max-widths' );
+
+$container-padding-x: $grid-gutter-width;

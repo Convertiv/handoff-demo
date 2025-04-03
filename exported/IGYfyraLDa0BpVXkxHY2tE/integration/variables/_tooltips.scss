@@ -1,0 +1,26 @@
+/* ==================================================================
+   TOOLTIPS (variables/_tooltips.scss)
+===================================================================== */
+
+
+$tooltip-font-size:           $font-size-sm;
+$tooltip-max-width:           rem( 200px );
+$tooltip-color:               $white;
+$tooltip-bg:                  $black;
+$tooltip-border-radius:       $border-radius;
+$tooltip-opacity:             .9;
+$tooltip-padding-y:           $spacer * .25;
+$tooltip-padding-x:           $spacer * .5;
+$tooltip-margin:              null; // TODO: remove this in v6
+
+$tooltip-arrow-width:         rem( 12px );
+$tooltip-arrow-height:        rem( 6px );
+$tooltip-arrow-color:         null; // Deprecated in Bootstrap 5.2.0 for CSS variables
+
+// Form tooltips must come after regular tooltips
+$form-feedback-tooltip-padding-y:     $tooltip-padding-y;
+$form-feedback-tooltip-padding-x:     $tooltip-padding-x;
+$form-feedback-tooltip-font-size:     $tooltip-font-size;
+$form-feedback-tooltip-line-height:   null;
+$form-feedback-tooltip-opacity:       $tooltip-opacity;
+$form-feedback-tooltip-border-radius: $tooltip-border-radius;

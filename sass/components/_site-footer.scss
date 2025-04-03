@@ -1,0 +1,71 @@
+/* ==================================================================
+   SITE FOOTER (components/_site-footer.scss)
+===================================================================== */
+
+
+.site-footer {
+	.footer-logo {
+		margin-right: $navbar-nav-link-padding-x;
+		margin-bottom: $nav-link-padding-y;
+	}
+
+	.footer-navbar {
+		flex-wrap: wrap;
+		align-items: flex-end;
+		margin-bottom: $spacer - $nav-link-padding-y - $navbar-padding-y;
+
+		.nav-link {
+			font-size: $font-size-xs;
+		}
+
+		.nav-item {
+			&:first-child {
+				.nav-link {
+					@include media-breakpoint-down(sm) {
+						padding-left: 0;
+					}
+				}
+			}
+		}
+
+		.navbar-nav {
+			flex-direction: row;
+			flex-wrap: wrap;
+			@include media-breakpoint-down(sm) {
+				width: 100%;
+			}
+		}
+	}
+
+	.footer-copy {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-end;
+
+		p {
+			font-size: $font-size-xs;
+			font-weight: $font-weight-light;
+			color: $text-soft;
+
+			span {
+				font-weight: $font-weight-medium;
+				color: $text-hard;
+			}
+		}
+	}
+
+	.footer-copy-logo {
+		margin-bottom: $spacer-xs;
+		padding: 0 $spacer-xs;
+
+		img {
+			margin-bottom: $spacer;
+		}
+	}
+
+	.footer-subtitle {
+		font-size: $font-size-xxs;
+		font-weight: $font-weight-light;
+		color: $text-muted;
+	}
+}

@@ -1,0 +1,64 @@
+---
+title: "Styles: Keyframes"
+description: |
+  The Handoff CSS includes a number of keyframes for use in animations and 
+  transitions.
+weight: 0
+image: hero-design
+menuTitle: "Token Guide"
+metaTitle: "Token Guide | Handoff Design System"
+metaDescription: "How to use handoff tokens in your project."
+enabled: true
+menu:
+---
+
+import { Hero } from "handoff-app/src/app/components/Hero";
+
+<Hero title={props.title} image={false}>
+  <p>{props.description}</p>
+</Hero>
+
+These keyframes are defined in `shared/common/_keyframes.scss`
+
+## Ticker Keyframes
+
+This definition is used in the ticker component to create a number roll effect.
+
+```sass title="Create a ticker animation"
+// For use in the ticker
+@keyframes ticker {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+// For use in upward ticker
+@keyframes tickerUp {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+```
+
+## Blink Keyframes
+
+This definition is used in the blink animation to create a blinking effect.
+
+```sass title="Create a blinking animation"
+// For use in blink animation
+@keyframes blink {
+  0%,
+  100% {
+    border-color: var(--color-primary-ssc-blue);
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+```

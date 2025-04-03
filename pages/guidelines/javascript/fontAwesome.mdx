@@ -1,0 +1,41 @@
+---
+title: "Font Awesome"
+description: |
+  How to include Font Awesome in your project.
+weight: 0
+image: hero-design
+menuTitle: "Token Guide"
+metaTitle: "Token Guide | Handoff Design System"
+metaDescription: "How to use handoff tokens in your project."
+enabled: true
+menu:
+---
+
+import { Hero } from "handoff-app/src/app/components/Hero";
+
+<Hero title={props.title} image={false}>
+  <p>{props.description}</p>
+</Hero>
+
+## Overview
+
+In addition to the icons provided in this design system, Handoff also uses Font
+Awesome icons. To include Font Awesome in your project, add the following
+script to your project's HTML:
+
+```html title="Include Font Awesome"
+<script
+  src="https://kit.fontawesome.com/088b21ce4f.js"
+  crossorigin="anonymous"
+></script>
+<div class="fontawesome-icons">
+  <div class="fontawesome-icon">
+    <i
+      class="fat fa-people-group"
+      data-fa-transform=""
+      data-fa-mask=""
+      style=" --fa-primary-color: #0077c8; --fa-secondary-color: #000000;"
+    ></i>
+  </div>
+</div>
+```

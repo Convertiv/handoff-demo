@@ -1,0 +1,142 @@
+---
+title: "Mobile Expanding Slider"
+description: |
+  This code creates a mobile expanding slider that shows more content when you 
+  click on the card.
+weight: 0
+image: hero-design
+menuTitle: "Token Guide"
+metaTitle: "Token Guide | Handoff Design System"
+metaDescription: "How to use handoff tokens in your project."
+enabled: true
+menu:
+---
+
+import { Hero } from "handoff-app/src/app/components/Hero";
+
+<Hero title={props.title} image={false}>
+  <p>{props.description}</p>
+</Hero>
+
+## Overview
+
+This script is used to initialize the slider on the "On Scroll" slider block.
+
+```js title="stackSlider.js"
+import $ from "jquery";
+function checkIsMobile() {
+  return window.innerWidth < 992;
+}
+
+/**
+ * Chunk the array of objects into specified sized chunks
+ */
+function sliceSlidesIntoChunks(slidesArray, chunkSize = 8) {
+  if (slidesArray.length <= chunkSize) {
+    return [slidesArray];
+  }
+
+  const result = [];
+  for (let i = 0; i < slidesArray.length; i += chunkSize) {
+    const chunk = slidesArray.slice(i, i + chunkSize);
+    result.push(chunk);
+  }
+  return result;
+}
+
+function createSlide($, slide, sIndex) {
+  // const index = slide.index;
+  // const slideTitle = slide.title;
+  const slideWrapper = $(
+    '<div class="sld-wpr" data-index="' + sIndex + '"></div>'
+  );
+  const card = $('<div class="crd"></div>');
+
+  // Left side of the card
+  const cardLeft = $('<div class="crd-lft"></div>');
+  const picture = $("<picture></picture>");
+  const img = $('<img src="' + slide.person_avatar + '" />');
+  picture.append(img);
+  const nameParagraph = $("<p></p>").text(slide.person_name);
+  const roleSpan = $("<span></span>").text(slide.person_designation);
+  cardLeft.append(picture, nameParagraph, roleSpan);
+
+  // Right side of the card
+  const cardRight = $('<div class="crd-rgt"></div>');
+  const socialList = $("<ul></ul>");
+
+  if (slide.x_profile_link) {
+    const listItem = $("<li></li>");
+    const anchor = $("<a></a>").attr("href", x_profile_link);
+    anchor.attr("class", "scl-link x-prfl");
+    listItem.append(anchor);
+    socialList.append(listItem);
+  }
+  if (slide.linked_in_profile_link) {
+    const listItem = $("<li></li>");
+    const anchor = $("<a></a>").attr("href", linked_in_profile_link);
+    anchor.attr("class", "scl-link lnkdin-prfl");
+    listItem.append(anchor);
+    socialList.append(listItem);
+  }
+
+  const descriptionDiv = $("<div></div>");
+  const descriptionParagraph = $("<p></p>").text(slide.description);
+  descriptionDiv.append(descriptionParagraph);
+  cardRight.append(socialList, descriptionDiv);
+
+  // Combine left and right sides into the card
+  card.append(cardLeft, cardRight);
+
+  // Add the card to the slide wrapper
+  slideWrapper.append(card);
+
+  return slideWrapper;
+}
+
+function createSlideSet($, slideRow, parent) {
+  let slideRowContainer = parent;
+  if (!checkIsMobile()) {
+    slideRowContainer = $('<div class="slds-wpr"></div>');
+    $.each(slideRow, function (index, slide) {
+      const slideEl = createSlide($, slide, index);
+      slideRowContainer.append(slideEl);
+    });
+  } else {
+    $.each(slideRow, function (index, slide) {
+      const slideEl = createSlide($, slide);
+      slideRowContainer.append(slideEl);
+    });
+  }
+  return slideRowContainer;
+}
+
+// Function to create the slider with all slides.
+function createSlider($, slideRows, parent) {
+  const slideSets = [];
+  $.each(slideRows, function (index, slideRow) {
+    slideSets.push(createSlideSet($, slideRow, parent));
+  });
+  return slideSets;
+}
+
+const mobileExpandingSlider = () => {
+  // fetch slides
+  const slideRows = checkIsMobile()
+    ? [settings.paragraphSettings.slides]
+    : sliceSlidesIntoChunks(settings.paragraphSettings.slides);
+  let parent = $(`#${settings.paragraphSettings?.paragraphId}`, context);
+  const sliderHTML = createSlider($, slideRows, parent);
+  parent.append(sliderHTML);
+};
+export default mobileExpandingSlider;
+```
+
+## Example Usage
+
+```javascript title="Use the mobileExpandingSlider function"
+import $ from "jquery";
+import mobileExpandingSlider from "./shared/mobileExpandingSlider";
+// Bind the slider when the document is ready
+$(mobileExpandingSlider());
+```

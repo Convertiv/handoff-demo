@@ -1,0 +1,73 @@
+/* ==================================================================
+   CARD (components/_card.scss)
+===================================================================== */
+
+
+.card {
+	margin-bottom: $spacer;
+}
+
+.card-body {
+	padding: $spacer-lg $spacer-lg ( $spacer-lg - $spacer );
+}
+
+
+.card-content {
+	margin-bottom: $spacer;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-bottom: $spacer-sm;
+	}
+
+	.desc {
+		margin-bottom: $spacer-sm;
+		font-weight: $font-weight-light;
+		color: var( --#{$prefix}text-soft );
+
+		p {
+			margin-bottom: $spacer-sm;
+		}
+
+		&.desc-small {
+			font-size: $font-size-sm;
+		}
+
+		&.desc-large {
+			@include media-breakpoint-up(lg) {
+				font-size: $font-size-lg;
+			}
+			@include media-breakpoint-up(xl) {
+				font-size: $font-size-xl;
+			}
+		}
+	}
+
+	.btn {
+		margin-bottom: $spacer-sm;
+	}
+}
+
+
+.card-feature {
+	background: linear-gradient( 180deg, rgba( $primary-100, 1 ) 0%, rgba( $primary-100, .3 ) 100% );
+	border: rem( 2px ) solid rgba( $primary, .1 );
+	border-radius: $border-radius;
+	box-shadow: $box-shadow;
+}
+
+
+.card-grid {
+	> [class*="col"] {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.card {
+		flex-grow: 1;
+	}
+}

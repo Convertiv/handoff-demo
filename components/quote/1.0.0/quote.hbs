@@ -1,0 +1,38 @@
+<head>
+  <link rel="stylesheet" href="/api/component/main.css" />
+  {{{style}}}
+  {{{script}}}
+</head>
+
+<body class="theme preview-body">
+  <div class="block block-bg-dark-ellipse" data-theme="dark" id="testimonial">
+    <div class="container st-3 sb-2 st-lg-4 sb-lg-3 st-xxl-6 sb-xxl-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-9 col-xxl-8">
+          <div class="testimonial">
+            <blockquote>
+              {{#field "quote"}}{{{ properties.quote }}}{{/field}}
+            </blockquote>
+            <footer class="blockquote-footer">
+              <div class="row justify-content-between align-items-center gy-2">
+                <div class="col-auto">
+                  <figcaption class="">
+                    <span>{{#field "author"}}{{ properties.author }}{{/field}}</span>
+                    {{#field "role"}}{{ properties.role }}{{/field}}
+                  </figcaption>
+                </div>
+                <div class="col-auto">
+                  <a href="{{properties.url}}" target="_blank" rel="noreferrer">
+                    <img draggable="false" alt="{{properties.logo.alt}}" loading="lazy" width="74" height="40"
+                      decoding="async" data-nimg="1" class="img-fluid" style="color:transparent"
+                      src="{{properties.logo.src}}" />
+                  </a>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,44 @@
+/* ==================================================================
+   MODALS (variables/_modals.scss)
+===================================================================== */
+
+
+$modal-sm:                          rem( 300px );
+$modal-md:                          rem( 500px );
+$modal-lg:                          rem( 800px );
+$modal-xl:                          rem( 1140px );
+
+$modal-inner-padding:               $spacer;
+
+$modal-header-border-color:         var( --#{$prefix}border-color );
+$modal-header-border-width:         $border-width;
+$modal-header-padding-y:            $modal-inner-padding;
+$modal-header-padding-x:            $modal-inner-padding;
+$modal-header-padding:              $modal-header-padding-y $modal-header-padding-x; // Keep this for backwards compatibility
+
+$modal-title-line-height:           $line-height-base;
+
+$modal-content-color:               null;
+$modal-content-bg:                  $white;
+$modal-content-border-color:        var( --#{$prefix}border-color-translucent );
+$modal-content-border-width:        $modal-header-border-width;
+$modal-content-border-radius:       $border-radius-lg;
+$modal-content-inner-border-radius: subtract( $modal-content-border-radius, $modal-content-border-width );
+$modal-content-box-shadow-xs:       $box-shadow-sm;
+$modal-content-box-shadow-sm-up:    $box-shadow;
+
+$modal-dialog-margin:               rem( 8px );
+$modal-dialog-margin-y-sm-up:       rem( 28px );
+
+$modal-backdrop-bg:                 $black;
+$modal-backdrop-opacity:            .5;
+
+$modal-footer-margin-between:       rem( 8px );
+$modal-footer-bg:                   null;
+$modal-footer-border-color:         $modal-header-border-color;
+$modal-footer-border-width:         $modal-header-border-width;
+
+$modal-fade-transform:              translate( 0, -50px );
+$modal-show-transform:              none;
+$modal-transition:                  transform .3s ease-out;
+$modal-scale-transform:             scale( 1.02 );

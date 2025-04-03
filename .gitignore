@@ -47,3 +47,4 @@ Thumbs.db
 exported/icons/*
 exported/logos/*
 *.tsbuildinfo
+public/api

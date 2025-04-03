@@ -1,0 +1,94 @@
+/* ==================================================================
+   ROOT (generic/_root.scss)
+===================================================================== */
+
+
+body,
+[data-theme="dark"] {
+	color: var(--#{$prefix}body-color);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+	color: $headings-color;
+}
+
+h1, .h1 {
+	letter-spacing: -0.03em;
+}
+
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+	letter-spacing: -.02em;
+}
+
+a {
+	transition: all $transition-speed;
+}
+
+blockquote {
+	margin-bottom: $blockquote-margin-y;
+	font-weight: $blockquote-font-weight;
+	line-height: $blockquote-line-height;
+	@include font-size($blockquote-font-size);
+	color: $blockquote-color;
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+}
+
+.overline {
+	color: var( --#{$prefix}text-hard );
+	font-size: rem( 20px );
+	font-weight: $font-weight-normal;
+}
+
+.subheading {
+	@extend .overline;
+}
+
+.subtitle {
+	color: var( --#{$prefix}text-soft );
+}
+
+.lead {
+}
+
+.action-link {
+	display: flex;
+	align-items: center;
+	font-family: $font-family-code;
+	font-size: $font-size-xs;
+	color: var( --#{$prefix}text-muted );
+	cursor: pointer;
+
+	img {
+		width: rem( 18px );
+		margin-right: $spacer-sm;
+	}
+
+	&:hover {
+		color: var( --#{$prefix}link-color );
+	}
+}
+
+.bg-primary {
+	--#{$prefix}link-color: #{$link-color-primary};
+	--#{$prefix}link-hover-color: #{$link-hover-color-primary};
+	--#{$prefix}link-color-rgb: #{to-rgb( $link-color-primary )};
+	--#{$prefix}link-hover-color-rgb: #{to-rgb( $link-hover-color-primary )};
+}

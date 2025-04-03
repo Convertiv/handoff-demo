@@ -1,0 +1,30 @@
+<head>
+  <link rel="stylesheet" href="/api/component/main.css" />
+  {{{style}}}
+  {{{script}}}
+</head>
+
+<body class="theme preview-body">
+  <div class="block sb-sm-3 sb-lg-4 sb-xxl-5" id="promo">
+    <div class="container sy-1 px-sm-4 px-md-5 block-container bg-light">
+      <div class="row align-items-center">
+        <div class="col-12 col-md">
+          <div class="block-header">
+            <h2 class="h2">{{#field "title"}}{{properties.title}}{{/field}}</h2>
+          </div>
+        </div>
+        <div class="col-auto">
+          <div class="block-actions mb-3">
+            {{#each properties.buttons}}
+            <a role="button"
+              class="btn {{#if this.button }}btn-primary btn-lg min-w-3{{else}}btn btn-link btn-lg p-0{{/if}}"
+              href="{{this.url}}" target="_blank" rel="noreferrer">
+              {{#field "buttons.label"}}{{this.label}}{{/field}}
+            </a>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
