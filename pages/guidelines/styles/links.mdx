@@ -48,9 +48,9 @@ This sets the base color and family for all the specific link mixins.
   @include link-common;
   font-size: 12px;
   line-height: 1.2;
-  color: var(--color-primary-ssc-blue);
+  color: var(--color-primary-blue);
   &:hover {
-    color: var(--color-primary-ssc-blue);
+    color: var(--color-primary-blue);
   }
   &::before {
     @include arrow-blue;
@@ -61,7 +61,7 @@ This sets the base color and family for all the specific link mixins.
   @include media-breakpoint-up(lg) {
     font-size: 13px;
     &:hover {
-      color: var(--color-primary-ssc-blue);
+      color: var(--color-primary-blue);
       &::before {
         transform: rotate(45deg);
       }
@@ -77,10 +77,10 @@ This sets the base color and family for all the specific link mixins.
   @include link-common;
   font-size: 14px;
   line-height: 1.2;
-  color: color('shade-65');
+  color: color("shade-65");
   transition: text-shadow 0.3s ease-in-out;
   &:hover {
-    color: color('shade-65');
+    color: color("shade-65");
   }
   &::before {
     @include arrow-yellow;
@@ -90,8 +90,8 @@ This sets the base color and family for all the specific link mixins.
   }
   @include media-breakpoint-up(lg) {
     &:hover {
-      color: color('shade-65');
-      text-shadow: 0 0 color('shade-65'); 
+      color: color("shade-65");
+      text-shadow: 0 0 color("shade-65");
       &::before {
         transform: rotate(45deg);
       }

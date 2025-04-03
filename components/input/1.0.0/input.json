@@ -50,7 +50,7 @@
       "name": "URL",
       "description": "This should be the URL that the button links to",
       "type": "text",
-      "default": "https://ssctech.com",
+      "default": "#",
       "rules": {
         "required": true,
         "content": {
