@@ -6,7 +6,8 @@
   "group": "Alert",
   "entries": {
     "js": "./alert.js",
-    "template": "./alert.hbs"
+    "template": "./alert.hbs",
+    "scss": "./alert.scss"
   },
   "tags": ["banner", "alert", "notification"],
   "should_do": [
@@ -19,89 +20,8 @@
   ],
   "previews": {
     "generic": {
-      "title": "Generic (Vibrant Green)",
+      "title": "Generic",
       "values": {
-        "background": "vibrant-green",
-        "foreground": "deep-green",
-        "light": false,
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
-        "button": {
-          "label": "Primary CTA",
-          "url": "#"
-        }
-      }
-    },
-    "deep_green": {
-      "title": "Deep Green",
-      "values": {
-        "background": "deep-green",
-        "foreground": "vibrant-green",
-        "light": true,
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
-        "button": {
-          "label": "Primary CTA",
-          "url": "#"
-        }
-      }
-    },
-    "vibrant_orange": {
-      "title": "Vibrant Orange",
-      "values": {
-        "background": "vibrant-orange",
-        "foreground": "deep-orange",
-        "light": false,
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
-        "button": {
-          "label": "Primary CTA",
-          "url": "#"
-        }
-      }
-    },
-    "vibrant_purple": {
-      "title": "Vibrant Purple",
-      "values": {
-        "background": "vibrant-purple",
-        "foreground": "deep-purple",
-        "light": false,
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
-        "button": {
-          "label": "Primary CTA",
-          "url": "#"
-        }
-      }
-    },
-    "deep_purple": {
-      "title": "Deep Purple",
-      "values": {
-        "background": "deep-purple",
-        "foreground": "vibrant-purple",
-        "light": true,
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
-        "button": {
-          "label": "Primary CTA",
-          "url": "#"
-        }
-      }
-    },
-    "vibrant_teal": {
-      "title": "Vibrant Teal",
-      "values": {
-        "background": "vibrant-teal",
-        "foreground": "deep-teal",
-        "light": false,
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
-        "button": {
-          "label": "Primary CTA",
-          "url": "#"
-        }
-      }
-    },
-    "deep_teal": {
-      "title": "Deep Teal",
-      "values": {
-        "background": "deep-teal",
-        "foreground": "vibrant-teal",
-        "light": true,
         "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
         "button": {
           "label": "Primary CTA",
@@ -111,101 +31,6 @@
     }
   },
   "properties": {
-    "background": {
-      "name": "Background Color",
-      "description": "The background color of the alert",
-      "type": "select",
-      "options": [
-        {
-          "label": "Vibrant Green",
-          "value": "vibrant-green"
-        },
-        {
-          "label": "Deep Green",
-          "value": "deep-green"
-        },
-        {
-          "label": "Vibrant Orange",
-          "value": "vibrant-orange"
-        },
-        {
-          "label": "Deep Orange",
-          "value": "deep-orange"
-        },
-        {
-          "label": "Vibrant Purple",
-          "value": "vibrant-purple"
-        },
-        {
-          "label": "Deep Purple",
-          "value": "deep-purple"
-        },
-        {
-          "label": "Vibrant Teal",
-          "value": "vibrant-teal"
-        },
-        {
-          "label": "Deep Teal",
-          "value": "deep-teal"
-        }
-      ],
-      "default": "vibrant-green",
-      "rules": {
-        "required": true
-      }
-    },
-    "foreground": {
-      "name": "Foreground Color",
-      "description": "The foreground color of the alert",
-      "type": "select",
-      "options": [
-        {
-          "label": "Vibrant Green",
-          "value": "vibrant-green"
-        },
-        {
-          "label": "Deep Green",
-          "value": "deep-green"
-        },
-        {
-          "label": "Vibrant Orange",
-          "value": "vibrant-orange"
-        },
-        {
-          "label": "Deep Orange",
-          "value": "deep-orange"
-        },
-        {
-          "label": "Vibrant Purple",
-          "value": "vibrant-purple"
-        },
-        {
-          "label": "Deep Purple",
-          "value": "deep-purple"
-        },
-        {
-          "label": "Vibrant Teal",
-          "value": "vibrant-teal"
-        },
-        {
-          "label": "Deep Teal",
-          "value": "deep-teal"
-        }
-      ],
-      "default": "deep-green",
-      "rules": {
-        "required": true
-      }
-    },
-    "light": {
-      "name": "Light Mode",
-      "description": "Whether the alert is in light mode",
-      "type": "boolean",
-      "default": false,
-      "rules": {
-        "required": true
-      }
-    },
     "message": {
       "name": "Message",
       "description": "The message to display in the alert",
@@ -232,18 +57,21 @@
       }
     }
   },
+  "preview_options": {
+    "group_by": "Type"
+  },
   "options": {
     "transformer": {
       "tokenNameSegments": [
         "${component}",
-        "${variant.type}",
+        "${variant.Type}",
         "${variant.layout}",
         "${part}",
         "${property}"
       ],
       "defaults": {
         "Theme": "light",
-        "Type": "default",
+        "Type": "primary",
         "Activity": "",
         "Layout": "",
         "Size": ""

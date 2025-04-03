@@ -14,15 +14,34 @@
 @use "sass:math";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-// Plugins
+
+@import 'node_modules/bootstrap/scss/functions';
+
+@import 'variables-default';
+
+@import 'tokens/types/typography';
+@import 'tokens/types/effects';
+@import 'tokens/types/colors';
+//<#HANDOFF.TOKENS.TYPES#>
+
+@import 'tokens/sass/typography';
+@import 'tokens/sass/effects';
+@import 'tokens/sass/colors';
+//<#HANDOFF.TOKENS.SASS#>
+
+@import 'tokens/css/typography';
+@import 'tokens/css/effects';
+@import 'tokens/css/colors';
+//<#HANDOFF.TOKENS.CSS#>
+
+// 3. Project Variables
 // ------------------------------------------------------------------
 
-//@import 'node_modules/magnific-popup/src/css/main';
 
-// Initialize Bootstrap
-// ------------------------------------------------------------------
+$prefix: '';
+@import 'variables';
+//<#HANDOFF.MAPS#>
 
-@import "node_modules/bootstrap/scss/functions";
 
 // Tools
 // ------------------------------------------------------------------
@@ -74,11 +93,7 @@ $prefix: "";
 @import "variables/close";
 @import "variables/offcanvas";
 
-// Bootstrap Variables
-// ------------------------------------------------------------------
 
-@import "node_modules/bootstrap/scss/variables";
-@import "node_modules/bootstrap/scss/maps";
 
 // Root styles
 // ------------------------------------------------------------------
@@ -87,7 +102,8 @@ $prefix: "";
 
 // Bootstrap Base
 // ------------------------------------------------------------------
-
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/maps';
 @import "node_modules/bootstrap/scss/mixins";
 @import "node_modules/bootstrap/scss/root";
 @import "node_modules/bootstrap/scss/utilities";
@@ -141,6 +157,10 @@ $prefix: "";
 
 @import "node_modules/aos/dist/aos";
 
+
+
+
+
 // Custom Styles
 // ------------------------------------------------------------------
 
@@ -165,3 +185,9 @@ $prefix: "";
 @import "components/testimonial";
 @import "components/video";
 @import "components/forms";
+
+// 6. Project Components
+//    Extend default Bootstrap components by mapping all the tokens
+// ------------------------------------------------------------------
+
+//<#HANDOFF.EXTENSIONS#>

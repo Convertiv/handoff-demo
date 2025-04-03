@@ -6,7 +6,8 @@
   "group": "Sections",
   "entries": {
     "js": "./solutions.js",
-    "template": "./solutions.hbs"
+    "template": "./solutions.hbs",
+    "scss": "./solutions.scss"
   },
   "tags": ["tabs", "solutions", "video", "media"],
   "should_do": [

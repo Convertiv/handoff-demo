@@ -1,0 +1,1230 @@
+{
+  "name": "",
+  "options": {
+    "hero": {
+      "defaults": {},
+      "replace": {},
+      "cssRootClass": null,
+      "tokenNameSegments": null
+    },
+    "solutions": {
+      "defaults": {},
+      "replace": {},
+      "cssRootClass": null,
+      "tokenNameSegments": null
+    },
+    "features": {
+      "defaults": {},
+      "replace": {},
+      "cssRootClass": null,
+      "tokenNameSegments": null
+    },
+    "promo": {
+      "defaults": {},
+      "replace": {},
+      "cssRootClass": null,
+      "tokenNameSegments": null
+    },
+    "quote": {
+      "defaults": {},
+      "replace": {},
+      "cssRootClass": null,
+      "tokenNameSegments": null
+    },
+    "alert": {
+      "tokenNameSegments": [
+        "${component}",
+        "${variant.Type}",
+        "${variant.layout}",
+        "${part}",
+        "${property}"
+      ],
+      "defaults": {
+        "theme": "light",
+        "type": "primary",
+        "activity": "",
+        "layout": "",
+        "size": ""
+      },
+      "cssRootClass": null,
+      "replace": {}
+    },
+    "button": {
+      "cssRootClass": "btn",
+      "tokenNameSegments": [
+        "${component}",
+        "${variant.type}",
+        "${variant.size}",
+        "${part}",
+        "${variant.theme}",
+        "${variant.state}",
+        "${property}"
+      ],
+      "defaults": {
+        "theme": "light",
+        "state": "default",
+        "type": "default",
+        "activity": "",
+        "layout": "",
+        "size": ""
+      },
+      "replace": {
+        "state": {
+          "default": ""
+        },
+        "size": {
+          "small": "sm",
+          "medium": "md",
+          "large": "lg"
+        }
+      }
+    },
+    "checkbox": {
+      "cssRootClass": "btn",
+      "tokenNameSegments": [
+        "${component}",
+        "${variant.type}",
+        "${variant.size}",
+        "${part}",
+        "${variant.theme}",
+        "${variant.state}",
+        "${property}"
+      ],
+      "defaults": {
+        "theme": "light",
+        "state": "default",
+        "type": "default",
+        "activity": "",
+        "layout": "",
+        "size": ""
+      },
+      "replace": {
+        "state": {
+          "default": ""
+        },
+        "size": {
+          "small": "sm",
+          "medium": "md",
+          "large": "lg"
+        }
+      }
+    }
+  },
+  "entries": {
+    "integration": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/sass/main.scss",
+    "bundle": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/js/main.js",
+    "components": {
+      "hero": {
+        "1.0.0": {
+          "id": "hero",
+          "title": "Hero",
+          "description": "A banner alert component to display important information to users. This is a bold, highly visible component that can be used to draw attention to important information. \n\nIt includes a call to action button to direct users elsewhere.  Because of the high visiblity, the CTA is required.",
+          "type": "block",
+          "group": "Hero",
+          "entries": {
+            "js": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/hero/1.0.0/hero.js",
+            "template": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/hero/1.0.0/hero.hbs",
+            "scss": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/hero/1.0.0/hero.scss"
+          },
+          "tags": [
+            "banner",
+            "alert",
+            "notification"
+          ],
+          "should_do": [
+            "Use this component to draw attention to important information",
+            "Use this component to direct users to take action"
+          ],
+          "should_not_do": [
+            "Do not use this without a call to action",
+            "Avoid long messages. Limit yourself to one or two lines of text"
+          ],
+          "previews": {
+            "generic": {
+              "title": "Generic",
+              "values": {
+                "theme": "dark",
+                "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "paragraph": "Nullam auctor, nunc nec ultricies.",
+                "video": "https://handoff.com/videos/cli.mp4"
+              }
+            },
+            "live": {
+              "title": "Live Site",
+              "values": {
+                "theme": "dark",
+                "title": "Integrate Figma design tokens into your development workflow",
+                "paragraph": "From Figma to Code to Docs",
+                "video": "https://handoff.com/videos/cli.mp4"
+              }
+            }
+          },
+          "properties": {
+            "theme": {
+              "name": "Theme",
+              "description": "This is the theme of the hero component, in light or dark mode.",
+              "type": "text",
+              "default": "dark",
+              "enum": [
+                "dark",
+                "light"
+              ],
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 10
+                }
+              }
+            },
+            "title": {
+              "name": "Title",
+              "description": "This is the title of the hero component",
+              "type": "text",
+              "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 100
+                }
+              }
+            },
+            "paragraph": {
+              "name": "Paragraph",
+              "description": "This is the paragraph of the hero component",
+              "type": "text",
+              "default": "Nullam auctor, nunc nec ultricies.",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 1000
+                }
+              }
+            },
+            "video": {
+              "name": "Video",
+              "description": "This should be the video URL of the hero component",
+              "type": "text",
+              "default": "https://handoff.com/videos/cli.mp4",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 1000
+                }
+              }
+            }
+          },
+          "options": {
+            "transformer": {
+              "defaults": {},
+              "replace": {},
+              "cssRootClass": null,
+              "tokenNameSegments": null
+            }
+          }
+        }
+      },
+      "solutions": {
+        "1.0.0": {
+          "id": "solutions",
+          "title": "Solutions",
+          "description": "A banner alert component to display important information to users. This is a bold, highly visible component that can be used to draw attention to important information. \n\nIt includes a call to action button to direct users elsewhere.  Because of the high visiblity, the CTA is required.",
+          "type": "block",
+          "group": "Sections",
+          "entries": {
+            "js": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/solutions/1.0.0/solutions.js",
+            "template": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/solutions/1.0.0/solutions.hbs",
+            "scss": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/solutions/1.0.0/solutions.scss"
+          },
+          "tags": [
+            "tabs",
+            "solutions",
+            "video",
+            "media"
+          ],
+          "should_do": [
+            "Use this component to draw attention to important information",
+            "Use this component to direct users to take action"
+          ],
+          "should_not_do": [
+            "Do not use this without a call to action",
+            "Avoid long messages. Limit yourself to one or two lines of text"
+          ],
+          "previews": {
+            "generic": {
+              "title": "Generic",
+              "values": {
+                "title": "Handoff is a set of tools for design system engineers",
+                "description": "Use them together to fully integrate Figma design tokens into your development workflow, or use them separately as point solutions to specific workflow problems.",
+                "items": [
+                  {
+                    "title": "Figma Plugin",
+                    "video": "https://handoff.com/videos/plugin.mp4",
+                    "paragraph": "<p>Use the Handoff Figma plugin to annotate and mark Figma components that are ready to be integrated into your project.</p>",
+                    "buttons": [
+                      {
+                        "label": "Install the Figma plugin →",
+                        "url": "https://handoff.com/docs/overview/quickstart"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Command Line Interface (CLI)",
+                    "video": "https://handoff.com/videos/cli.mp4",
+                    "paragraph": "<p>Get started by installing Handoff via npm:</p> <pre><code>npm install handoff-app -g</code></pre><p>Once the CLI is installed, use it to <code>fetch</code>, <code>build</code>, and <code>serve</code> your design system. </p>",
+                    "buttons": [
+                      {
+                        "label": "Handoff CLI  documentation →",
+                        "url": "https://handoff.com/docs"
+                      },
+                      {
+                        "label": "Handoff on Github →",
+                        "url": "https://github.com/Convertiv/handoff-app"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Design system docs",
+                    "video": "https://handoff.com/videos/docs.mp4",
+                    "paragraph": " <p>Handoff generates a documentation site from your design system tokens with every<code>fetch</code> , which means your team’s source-of-truth never gets stale.</p><pre><code>handoff-app start<br># localhost:3000</code></pre>",
+                    "buttons": [
+                      {
+                        "label": "Live example →",
+                        "url": "https://demo.handoff.com/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "properties": {
+            "background": {
+              "name": "Background Color",
+              "description": "The background color of the alert",
+              "type": "select",
+              "options": [
+                {
+                  "label": "Vibrant Green",
+                  "value": "vibrant-green"
+                },
+                {
+                  "label": "Deep Green",
+                  "value": "deep-green"
+                },
+                {
+                  "label": "Vibrant Orange",
+                  "value": "vibrant-orange"
+                },
+                {
+                  "label": "Deep Orange",
+                  "value": "deep-orange"
+                },
+                {
+                  "label": "Vibrant Purple",
+                  "value": "vibrant-purple"
+                },
+                {
+                  "label": "Deep Purple",
+                  "value": "deep-purple"
+                },
+                {
+                  "label": "Vibrant Teal",
+                  "value": "vibrant-teal"
+                },
+                {
+                  "label": "Deep Teal",
+                  "value": "deep-teal"
+                }
+              ],
+              "default": "vibrant-green",
+              "rules": {
+                "required": true
+              }
+            },
+            "foreground": {
+              "name": "Foreground Color",
+              "description": "The foreground color of the alert",
+              "type": "select",
+              "options": [
+                {
+                  "label": "Vibrant Green",
+                  "value": "vibrant-green"
+                },
+                {
+                  "label": "Deep Green",
+                  "value": "deep-green"
+                },
+                {
+                  "label": "Vibrant Orange",
+                  "value": "vibrant-orange"
+                },
+                {
+                  "label": "Deep Orange",
+                  "value": "deep-orange"
+                },
+                {
+                  "label": "Vibrant Purple",
+                  "value": "vibrant-purple"
+                },
+                {
+                  "label": "Deep Purple",
+                  "value": "deep-purple"
+                },
+                {
+                  "label": "Vibrant Teal",
+                  "value": "vibrant-teal"
+                },
+                {
+                  "label": "Deep Teal",
+                  "value": "deep-teal"
+                }
+              ],
+              "default": "deep-green",
+              "rules": {
+                "required": true
+              }
+            },
+            "light": {
+              "name": "Light Mode",
+              "description": "Whether the alert is in light mode",
+              "type": "boolean",
+              "default": false,
+              "rules": {
+                "required": true
+              }
+            },
+            "message": {
+              "name": "Message",
+              "description": "The message to display in the alert",
+              "type": "text",
+              "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 25,
+                  "max": 100
+                }
+              }
+            },
+            "button": {
+              "name": "Button",
+              "description": "The button to take action",
+              "type": "button",
+              "default": {
+                "label": "Register Now",
+                "url": "#"
+              },
+              "rules": {
+                "required": true
+              }
+            }
+          },
+          "options": {
+            "transformer": {
+              "defaults": {},
+              "replace": {},
+              "cssRootClass": null,
+              "tokenNameSegments": null
+            }
+          }
+        }
+      },
+      "features": {
+        "1.0.0": {
+          "id": "features",
+          "title": "Features",
+          "description": "A banner alert component to display important information to users. This is a bold, highly visible component that can be used to draw attention to important information. \n\nIt includes a call to action button to direct users elsewhere.  Because of the high visiblity, the CTA is required.",
+          "type": "block",
+          "group": "Sections",
+          "entries": {
+            "js": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/features/1.0.0/features.js",
+            "template": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/features/1.0.0/features.hbs",
+            "scss": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/features/1.0.0/features.scss"
+          },
+          "tags": [
+            "banner",
+            "alert",
+            "notification"
+          ],
+          "should_do": [
+            "Use this component to draw attention to important information",
+            "Use this component to direct users to take action"
+          ],
+          "should_not_do": [
+            "Do not use this without a call to action",
+            "Avoid long messages. Limit yourself to one or two lines of text"
+          ],
+          "previews": {
+            "generic": {
+              "title": "Generic",
+              "values": {
+                "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "paragraph": "Nullam auctor, nunc nec ultricies.",
+                "items": [
+                  {
+                    "title": "Get set up quickly and easily",
+                    "paragraph": "<p>With just a few simple steps in Figma, you can prepare your components to work with Handoff.</p>",
+                    "icon": {
+                      "alt": "A diagram illustrating the easy of setup",
+                      "src": "https://handoff.com/_next/static/media/flow.cebfcbb1.svg"
+                    }
+                  },
+                  {
+                    "title": "Use your favorite tools",
+                    "paragraph": "<p>Use CLI commands like <code>handoff-app fetch</code> to integrate design tokens from Figma components into your project. Go further with GitHub actions and turn Handoff into a CI/CD pipeline.</p>",
+                    "icon": {
+                      "alt": "A diagram showing the flow of data from Figma to Handoff to GitHub.",
+                      "src": "https://handoff.com/_next/static/media/fast.6cbd517c.svg"
+                    }
+                  },
+                  {
+                    "title": "Showcase your design system",
+                    "paragraph": "<p>Every time you <code>fetch</code> from Figma, Handoff updates a static web app that renders live, working previews of your design system—components, tokens, and styles.</p>",
+                    "icon": {
+                      "alt": "A diagram showing the ways users can interact with the design system.",
+                      "src": "https://handoff.com/_next/static/media/designops.1aff5352.svg"
+                    }
+                  }
+                ]
+              }
+            },
+            "live": {
+              "title": "Live site",
+              "values": {
+                "title": "No more chasing design changes in Figma",
+                "paragraph": "Handoff connects your team‘s development workflow to Figma through Figma‘s REST API. Once the connection is made, design tokens from your Figma components integrate with your project code.",
+                "items": [
+                  {
+                    "title": "Get set up quickly and easily",
+                    "paragraph": "<p>With just a few simple steps in Figma, you can prepare your components to work with Handoff.</p>",
+                    "icon": {
+                      "alt": "A diagram illustrating the easy of setup",
+                      "src": "https://handoff.com/_next/static/media/flow.cebfcbb1.svg"
+                    }
+                  },
+                  {
+                    "title": "Use your favorite tools",
+                    "paragraph": "<p>Use CLI commands like <code>handoff-app fetch</code> to integrate design tokens from Figma components into your project. Go further with GitHub actions and turn Handoff into a CI/CD pipeline.</p>",
+                    "icon": {
+                      "alt": "A diagram showing the flow of data from Figma to Handoff to GitHub.",
+                      "src": "https://handoff.com/_next/static/media/fast.6cbd517c.svg"
+                    }
+                  },
+                  {
+                    "title": "Showcase your design system",
+                    "paragraph": "<p>Every time you <code>fetch</code> from Figma, Handoff updates a static web app that renders live, working previews of your design system—components, tokens, and styles.</p>",
+                    "icon": {
+                      "alt": "A diagram showing the ways users can interact with the design system.",
+                      "src": "https://handoff.com/_next/static/media/designops.1aff5352.svg"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "properties": {
+            "title": {
+              "name": "Title",
+              "description": "This is the the main title of the feature",
+              "type": "text",
+              "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 100
+                }
+              }
+            },
+            "paragraph": {
+              "name": "Paragraph",
+              "description": "This is the paragraph of the feature",
+              "type": "text",
+              "default": "Nullam auctor, nunc nec ultricies.",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 1000
+                }
+              }
+            },
+            "items": {
+              "name": "Items",
+              "description": "This is the list of items in the feature",
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "name": "Title",
+                    "description": "This is the title of the item",
+                    "type": "text",
+                    "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "rules": {
+                      "required": true,
+                      "content": {
+                        "min": 1,
+                        "max": 100
+                      }
+                    }
+                  },
+                  "paragraph": {
+                    "name": "Paragraph",
+                    "description": "This is the paragraph of the item",
+                    "type": "richtext",
+                    "default": "Nullam auctor, nunc nec ultricies.",
+                    "rules": {
+                      "required": true,
+                      "content": {
+                        "min": 1,
+                        "max": 1000
+                      }
+                    }
+                  },
+                  "icon": {
+                    "name": "Icon",
+                    "description": "This is the icon of the item",
+                    "type": "image",
+                    "default": {
+                      "alt": "A diagram illustrating the easy of setup",
+                      "src": "https://handoff.com/_next/static/media/flow.cebfcbb1.svg"
+                    },
+                    "rules": {
+                      "required": true,
+                      "dimensions": {
+                        "min": {
+                          "width": 0,
+                          "height": 0
+                        },
+                        "max": {
+                          "width": 100,
+                          "height": 100
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "default": [],
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 100
+                }
+              }
+            }
+          },
+          "options": {
+            "transformer": {
+              "defaults": {},
+              "replace": {},
+              "cssRootClass": null,
+              "tokenNameSegments": null
+            }
+          }
+        }
+      },
+      "promo": {
+        "1.0.0": {
+          "id": "promo",
+          "title": "Promo CTA",
+          "description": "A banner alert component to display important information to users. This is a bold, highly visible component that can be used to draw attention to important information. \n\nIt includes a call to action button to direct users elsewhere.  Because of the high visiblity, the CTA is required.",
+          "type": "block",
+          "group": "CTAs",
+          "entries": {
+            "js": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/promo/1.0.0/promo.js",
+            "template": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/promo/1.0.0/promo.hbs",
+            "scss": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/promo/1.0.0/promo.scss"
+          },
+          "tags": [
+            "cta",
+            "promo",
+            "banner"
+          ],
+          "should_do": [
+            "Use this component to draw attention to important information",
+            "Use this component to direct users to take action"
+          ],
+          "should_not_do": [
+            "Do not use this without a call to action",
+            "Avoid long messages. Limit yourself to one or two lines of text"
+          ],
+          "previews": {
+            "generic": {
+              "title": "Generic",
+              "values": {
+                "title": "Lorem ipsum dolor sit amet.",
+                "buttons": [
+                  {
+                    "button": true,
+                    "label": "Primary CTA",
+                    "url": "#"
+                  },
+                  {
+                    "label": "Secondary CTA",
+                    "url": "#"
+                  }
+                ]
+              }
+            },
+            "live": {
+              "title": "Live Site",
+              "values": {
+                "title": "Ready to get started?",
+                "buttons": [
+                  {
+                    "button": true,
+                    "label": "Install Handoff",
+                    "url": "#"
+                  },
+                  {
+                    "label": "Handoff documentation →",
+                    "url": "#"
+                  }
+                ]
+              }
+            }
+          },
+          "properties": {
+            "title": {
+              "name": "Title",
+              "description": "This is the the main title of the feature",
+              "type": "text",
+              "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 100
+                }
+              }
+            },
+            "paragraph": {
+              "name": "Paragraph",
+              "description": "This is the paragraph of the feature",
+              "type": "text",
+              "default": "Nullam auctor, nunc nec ultricies.",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 1000
+                }
+              }
+            },
+            "items": {
+              "name": "Items",
+              "description": "This is the list of items in the feature",
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "name": "Title",
+                    "description": "This is the title of the item",
+                    "type": "text",
+                    "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "rules": {
+                      "required": true,
+                      "content": {
+                        "min": 1,
+                        "max": 100
+                      }
+                    }
+                  },
+                  "paragraph": {
+                    "name": "Paragraph",
+                    "description": "This is the paragraph of the item",
+                    "type": "richtext",
+                    "default": "Nullam auctor, nunc nec ultricies.",
+                    "rules": {
+                      "required": true,
+                      "content": {
+                        "min": 1,
+                        "max": 1000
+                      }
+                    }
+                  },
+                  "icon": {
+                    "name": "Icon",
+                    "description": "This is the icon of the item",
+                    "type": "image",
+                    "default": {
+                      "alt": "A diagram illustrating the easy of setup",
+                      "src": "https://handoff.com/_next/static/media/flow.cebfcbb1.svg"
+                    },
+                    "rules": {
+                      "required": true,
+                      "dimensions": {
+                        "min": {
+                          "width": 0,
+                          "height": 0
+                        },
+                        "max": {
+                          "width": 100,
+                          "height": 100
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "default": [],
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 100
+                }
+              }
+            }
+          },
+          "options": {
+            "transformer": {
+              "defaults": {},
+              "replace": {},
+              "cssRootClass": null,
+              "tokenNameSegments": null
+            }
+          }
+        }
+      },
+      "quote": {
+        "1.0.0": {
+          "id": "quote",
+          "title": "Quote",
+          "description": "A banner alert component to display important information to users. This is a bold, highly visible component that can be used to draw attention to important information. \n\nIt includes a call to action button to direct users elsewhere.  Because of the high visiblity, the CTA is required.",
+          "type": "block",
+          "group": "Sections",
+          "entries": {
+            "js": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/quote/1.0.0/quote.js",
+            "template": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/quote/1.0.0/quote.hbs",
+            "scss": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/quote/1.0.0/quote.scss"
+          },
+          "tags": [
+            "section",
+            "quote",
+            "content",
+            "banner"
+          ],
+          "should_do": [
+            "Use this component to draw attention to important information",
+            "Use this component to direct users to take action"
+          ],
+          "should_not_do": [
+            "Do not use this without a call to action",
+            "Avoid long messages. Limit yourself to one or two lines of text"
+          ],
+          "previews": {
+            "generic": {
+              "title": "Generic",
+              "values": {
+                "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+                "author": "John Doe",
+                "role": "Designer, Handoff",
+                "url": "#",
+                "logo": {
+                  "alt": "Handoff logo",
+                  "src": "https://placehold.co/75x40"
+                }
+              }
+            },
+            "live": {
+              "title": "Live Site",
+              "values": {
+                "quote": "<p>Handoff has had a big impact on our design processes. Its handling of design tokens makes it easier for us to implement changes across the board.</p>",
+                "author": "Scott Lenzi",
+                "role": "Head of digital marketing, SS&C",
+                "url": "#",
+                "logo": {
+                  "alt": "SS&C logo",
+                  "src": "https://handoff.com/_next/static/media/logo-ssc.8d7598ca.svg"
+                }
+              }
+            }
+          },
+          "properties": {
+            "quote": {
+              "name": "Quote",
+              "description": "This is the quote text of the alert component",
+              "type": "text",
+              "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 200
+                }
+              }
+            },
+            "author": {
+              "name": "Author",
+              "description": "This is the author of the quote",
+              "type": "text",
+              "default": "John Doe",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 50
+                }
+              }
+            },
+            "role": {
+              "name": "Role",
+              "description": "This is the role of the author",
+              "type": "text",
+              "default": "Designer, Handoff",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 50
+                }
+              }
+            },
+            "logo": {
+              "name": "Logo",
+              "description": "This is the logo of the author",
+              "type": "image",
+              "default": {
+                "alt": "Handoff logo",
+                "src": "https://placehold.co/100x40"
+              },
+              "rules": {
+                "required": true,
+                "dimensions": {
+                  "min": {
+                    "width": 75,
+                    "height": 40
+                  },
+                  "max": {
+                    "width": 450,
+                    "height": 275
+                  }
+                }
+              }
+            }
+          },
+          "options": {
+            "transformer": {
+              "defaults": {},
+              "replace": {},
+              "cssRootClass": null,
+              "tokenNameSegments": null
+            }
+          }
+        }
+      },
+      "alert": {
+        "1.0.0": {
+          "id": "alert",
+          "title": "Alert",
+          "description": "A banner alert component to display important information to users. This is a bold, highly visible component that can be used to draw attention to important information. \n\nIt includes a call to action button to direct users elsewhere.  Because of the high visiblity, the CTA is required.",
+          "type": "element",
+          "group": "Alert",
+          "entries": {
+            "js": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/alert/1.0.0/alert.js",
+            "template": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/alert/1.0.0/alert.hbs",
+            "scss": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/alert/1.0.0/alert.scss"
+          },
+          "tags": [
+            "banner",
+            "alert",
+            "notification"
+          ],
+          "should_do": [
+            "Use this component to draw attention to important information",
+            "Use this component to direct users to take action"
+          ],
+          "should_not_do": [
+            "Do not use this without a call to action",
+            "Avoid long messages. Limit yourself to one or two lines of text"
+          ],
+          "previews": {
+            "generic": {
+              "title": "Generic",
+              "values": {
+                "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+                "button": {
+                  "label": "Primary CTA",
+                  "url": "#"
+                }
+              }
+            }
+          },
+          "properties": {
+            "message": {
+              "name": "Message",
+              "description": "The message to display in the alert",
+              "type": "text",
+              "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies.",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 25,
+                  "max": 100
+                }
+              }
+            },
+            "button": {
+              "name": "Button",
+              "description": "The button to take action",
+              "type": "button",
+              "default": {
+                "label": "Register Now",
+                "url": "#"
+              },
+              "rules": {
+                "required": true
+              }
+            }
+          },
+          "preview_options": {
+            "group_by": "Type"
+          },
+          "options": {
+            "transformer": {
+              "tokenNameSegments": [
+                "${component}",
+                "${variant.Type}",
+                "${variant.layout}",
+                "${part}",
+                "${property}"
+              ],
+              "defaults": {
+                "theme": "light",
+                "type": "primary",
+                "activity": "",
+                "layout": "",
+                "size": ""
+              },
+              "cssRootClass": null,
+              "replace": {}
+            }
+          }
+        }
+      },
+      "button": {
+        "1.0.0": {
+          "id": "button",
+          "title": "Button",
+          "description": "These are all of the buttons that are used throughout the site.",
+          "figma": "https://www.figma.com/design/IGYfyraLDa0BpVXkxHY2tE/Starter-%5BV2%5D?node-id=36-291&m=dev",
+          "type": "element",
+          "group": "Forms",
+          "categories": [
+            "functionality"
+          ],
+          "tags": [],
+          "should_do": [
+            "Be direct and consistent with CTA labels.",
+            "Keep to 2 words if possible."
+          ],
+          "should_not_do": [
+            "Avoid having competing CTA buttons.",
+            "Avoid lengthy text with button labels."
+          ],
+          "preview_options": {
+            "group_by": "Type"
+          },
+          "properties": {
+            "type": {
+              "name": "Type",
+              "description": "This should be the type of button",
+              "type": "text",
+              "default": "primary",
+              "enum": [
+                "primary",
+                "secondary",
+                "tertiary"
+              ],
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 5,
+                  "max": 15
+                }
+              }
+            },
+            "label": {
+              "name": "Label",
+              "description": "This should be the text that appears on the button",
+              "type": "text",
+              "default": "Primary CTA",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 5,
+                  "max": 60
+                }
+              }
+            },
+            "url": {
+              "name": "URL",
+              "description": "This should be the URL that the button links to",
+              "type": "text",
+              "default": "#",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 1000
+                }
+              }
+            }
+          },
+          "entries": {
+            "js": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/button/1.0.0/button.js",
+            "template": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/button/1.0.0/button.hbs",
+            "scss": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/button/1.0.0/button.scss"
+          },
+          "options": {
+            "transformer": {
+              "cssRootClass": "btn",
+              "tokenNameSegments": [
+                "${component}",
+                "${variant.type}",
+                "${variant.size}",
+                "${part}",
+                "${variant.theme}",
+                "${variant.state}",
+                "${property}"
+              ],
+              "defaults": {
+                "theme": "light",
+                "state": "default",
+                "type": "default",
+                "activity": "",
+                "layout": "",
+                "size": ""
+              },
+              "replace": {
+                "state": {
+                  "default": ""
+                },
+                "size": {
+                  "small": "sm",
+                  "medium": "md",
+                  "large": "lg"
+                }
+              }
+            }
+          }
+        }
+      },
+      "checkbox": {
+        "1.0.0": {
+          "id": "checkbox",
+          "title": "Checkboxes",
+          "figma": "https://www.figma.com/design/IGYfyraLDa0BpVXkxHY2tE/Starter-%5BV2%5D?node-id=104-673&m=dev",
+          "description": "Checkboxes create an on/off boolean switch that can be built into array.",
+          "type": "element",
+          "group": "Forms",
+          "entries": {
+            "template": "/Users/bradleymering/Documents/Clients/Handoff/handoff-demo/components/checkbox/1.0.0/checkbox.hbs"
+          },
+          "categories": [
+            "functionality"
+          ],
+          "tags": [],
+          "should_do": [
+            "Be direct and consistent with CTA labels.",
+            "Keep to 2 words if possible."
+          ],
+          "should_not_do": [
+            "Avoid having competing CTA buttons.",
+            "Avoid lengthy text with button labels."
+          ],
+          "preview_options": {
+            "group_by": "Type"
+          },
+          "properties": {
+            "type": {
+              "name": "Type",
+              "description": "This should be the type of button",
+              "type": "text",
+              "default": "primary",
+              "enum": [
+                "primary",
+                "secondary",
+                "tertiary"
+              ],
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 5,
+                  "max": 15
+                }
+              }
+            },
+            "label": {
+              "name": "Label",
+              "description": "This should be the text that appears on the button",
+              "type": "text",
+              "default": "Primary CTA",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 5,
+                  "max": 60
+                }
+              }
+            },
+            "url": {
+              "name": "URL",
+              "description": "This should be the URL that the button links to",
+              "type": "text",
+              "default": "#",
+              "rules": {
+                "required": true,
+                "content": {
+                  "min": 1,
+                  "max": 1000
+                }
+              }
+            }
+          },
+          "options": {
+            "transformer": {
+              "cssRootClass": "btn",
+              "tokenNameSegments": [
+                "${component}",
+                "${variant.type}",
+                "${variant.size}",
+                "${part}",
+                "${variant.theme}",
+                "${variant.state}",
+                "${property}"
+              ],
+              "defaults": {
+                "theme": "light",
+                "state": "default",
+                "type": "default",
+                "activity": "",
+                "layout": "",
+                "size": ""
+              },
+              "replace": {
+                "state": {
+                  "default": ""
+                },
+                "size": {
+                  "small": "sm",
+                  "medium": "md",
+                  "large": "lg"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -6,7 +6,8 @@
   "group": "CTAs",
   "entries": {
     "js": "./media_cta.js",
-    "template": "./media_cta.hbs"
+    "template": "./media_cta.hbs",
+    "scss": "./media_cta.scss"
   },
   "tags": ["cta", "promo", "banner"],
   "should_do": [

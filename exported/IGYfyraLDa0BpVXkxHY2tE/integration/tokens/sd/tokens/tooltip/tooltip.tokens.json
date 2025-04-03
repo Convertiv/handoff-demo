@@ -1,0 +1,508 @@
+{
+  "tooltip": {
+    "right": {
+      "top": {
+        "background": {
+          "value": "#0073e6"
+        },
+        "border": {
+          "width": {
+            "value": "1px"
+          },
+          "radius": {
+            "value": "2px"
+          },
+          "color": {
+            "value": "transparent"
+          },
+          "style": {
+            "value": "solid"
+          }
+        },
+        "padding": {
+          "y": {
+            "value": "8px"
+          },
+          "x": {
+            "value": "16px"
+          },
+          "top": {
+            "value": "8px"
+          },
+          "right": {
+            "value": "16px"
+          },
+          "bottom": {
+            "value": "8px"
+          },
+          "left": {
+            "value": "16px"
+          },
+          "start": {
+            "value": "16px"
+          },
+          "end": {
+            "value": "16px"
+          }
+        },
+        "spacing": {
+          "value": "8px"
+        },
+        "font": {
+          "family": {
+            "value": "'Inter'"
+          },
+          "size": {
+            "value": "14px"
+          },
+          "weight": {
+            "value": "400"
+          }
+        },
+        "line": {
+          "height": {
+            "value": "1.6"
+          }
+        },
+        "letter": {
+          "spacing": {
+            "value": "-.28px"
+          }
+        },
+        "text": {
+          "align": {
+            "value": "right"
+          },
+          "decoration": {
+            "value": "none"
+          },
+          "transform": {
+            "value": "none"
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        }
+      },
+      "bottom": {
+        "background": {
+          "value": "#0073e6"
+        },
+        "border": {
+          "width": {
+            "value": "1px"
+          },
+          "radius": {
+            "value": "2px"
+          },
+          "color": {
+            "value": "transparent"
+          },
+          "style": {
+            "value": "solid"
+          }
+        },
+        "padding": {
+          "y": {
+            "value": "8px"
+          },
+          "x": {
+            "value": "16px"
+          },
+          "top": {
+            "value": "8px"
+          },
+          "right": {
+            "value": "16px"
+          },
+          "bottom": {
+            "value": "8px"
+          },
+          "left": {
+            "value": "16px"
+          },
+          "start": {
+            "value": "16px"
+          },
+          "end": {
+            "value": "16px"
+          }
+        },
+        "spacing": {
+          "value": "8px"
+        },
+        "font": {
+          "family": {
+            "value": "'Inter'"
+          },
+          "size": {
+            "value": "14px"
+          },
+          "weight": {
+            "value": "400"
+          }
+        },
+        "line": {
+          "height": {
+            "value": "1.6"
+          }
+        },
+        "letter": {
+          "spacing": {
+            "value": "-.28px"
+          }
+        },
+        "text": {
+          "align": {
+            "value": "right"
+          },
+          "decoration": {
+            "value": "none"
+          },
+          "transform": {
+            "value": "none"
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        }
+      }
+    },
+    "center": {
+      "top": {
+        "background": {
+          "value": "#0073e6"
+        },
+        "border": {
+          "width": {
+            "value": "1px"
+          },
+          "radius": {
+            "value": "2px"
+          },
+          "color": {
+            "value": "transparent"
+          },
+          "style": {
+            "value": "solid"
+          }
+        },
+        "padding": {
+          "y": {
+            "value": "8px"
+          },
+          "x": {
+            "value": "16px"
+          },
+          "top": {
+            "value": "8px"
+          },
+          "right": {
+            "value": "16px"
+          },
+          "bottom": {
+            "value": "8px"
+          },
+          "left": {
+            "value": "16px"
+          },
+          "start": {
+            "value": "16px"
+          },
+          "end": {
+            "value": "16px"
+          }
+        },
+        "spacing": {
+          "value": "8px"
+        },
+        "font": {
+          "family": {
+            "value": "'Inter'"
+          },
+          "size": {
+            "value": "14px"
+          },
+          "weight": {
+            "value": "400"
+          }
+        },
+        "line": {
+          "height": {
+            "value": "1.6"
+          }
+        },
+        "letter": {
+          "spacing": {
+            "value": "-.28px"
+          }
+        },
+        "text": {
+          "align": {
+            "value": "center"
+          },
+          "decoration": {
+            "value": "none"
+          },
+          "transform": {
+            "value": "none"
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        }
+      },
+      "bottom": {
+        "background": {
+          "value": "#0073e6"
+        },
+        "border": {
+          "width": {
+            "value": "1px"
+          },
+          "radius": {
+            "value": "2px"
+          },
+          "color": {
+            "value": "transparent"
+          },
+          "style": {
+            "value": "solid"
+          }
+        },
+        "padding": {
+          "y": {
+            "value": "8px"
+          },
+          "x": {
+            "value": "16px"
+          },
+          "top": {
+            "value": "8px"
+          },
+          "right": {
+            "value": "16px"
+          },
+          "bottom": {
+            "value": "8px"
+          },
+          "left": {
+            "value": "16px"
+          },
+          "start": {
+            "value": "16px"
+          },
+          "end": {
+            "value": "16px"
+          }
+        },
+        "spacing": {
+          "value": "8px"
+        },
+        "font": {
+          "family": {
+            "value": "'Inter'"
+          },
+          "size": {
+            "value": "14px"
+          },
+          "weight": {
+            "value": "400"
+          }
+        },
+        "line": {
+          "height": {
+            "value": "1.6"
+          }
+        },
+        "letter": {
+          "spacing": {
+            "value": "-.28px"
+          }
+        },
+        "text": {
+          "align": {
+            "value": "center"
+          },
+          "decoration": {
+            "value": "none"
+          },
+          "transform": {
+            "value": "none"
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        }
+      }
+    },
+    "left": {
+      "top": {
+        "background": {
+          "value": "#0073e6"
+        },
+        "border": {
+          "width": {
+            "value": "1px"
+          },
+          "radius": {
+            "value": "2px"
+          },
+          "color": {
+            "value": "transparent"
+          },
+          "style": {
+            "value": "solid"
+          }
+        },
+        "padding": {
+          "y": {
+            "value": "8px"
+          },
+          "x": {
+            "value": "16px"
+          },
+          "top": {
+            "value": "8px"
+          },
+          "right": {
+            "value": "16px"
+          },
+          "bottom": {
+            "value": "8px"
+          },
+          "left": {
+            "value": "16px"
+          },
+          "start": {
+            "value": "16px"
+          },
+          "end": {
+            "value": "16px"
+          }
+        },
+        "spacing": {
+          "value": "8px"
+        },
+        "font": {
+          "family": {
+            "value": "'Inter'"
+          },
+          "size": {
+            "value": "14px"
+          },
+          "weight": {
+            "value": "400"
+          }
+        },
+        "line": {
+          "height": {
+            "value": "1.6"
+          }
+        },
+        "letter": {
+          "spacing": {
+            "value": "-.28px"
+          }
+        },
+        "text": {
+          "align": {
+            "value": "left"
+          },
+          "decoration": {
+            "value": "none"
+          },
+          "transform": {
+            "value": "none"
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        }
+      },
+      "bottom": {
+        "background": {
+          "value": "#0073e6"
+        },
+        "border": {
+          "width": {
+            "value": "1px"
+          },
+          "radius": {
+            "value": "2px"
+          },
+          "color": {
+            "value": "transparent"
+          },
+          "style": {
+            "value": "solid"
+          }
+        },
+        "padding": {
+          "y": {
+            "value": "8px"
+          },
+          "x": {
+            "value": "16px"
+          },
+          "top": {
+            "value": "8px"
+          },
+          "right": {
+            "value": "16px"
+          },
+          "bottom": {
+            "value": "8px"
+          },
+          "left": {
+            "value": "16px"
+          },
+          "start": {
+            "value": "16px"
+          },
+          "end": {
+            "value": "16px"
+          }
+        },
+        "spacing": {
+          "value": "8px"
+        },
+        "font": {
+          "family": {
+            "value": "'Inter'"
+          },
+          "size": {
+            "value": "14px"
+          },
+          "weight": {
+            "value": "400"
+          }
+        },
+        "line": {
+          "height": {
+            "value": "1.6"
+          }
+        },
+        "letter": {
+          "spacing": {
+            "value": "-.28px"
+          }
+        },
+        "text": {
+          "align": {
+            "value": "left"
+          },
+          "decoration": {
+            "value": "none"
+          },
+          "transform": {
+            "value": "none"
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        }
+      }
+    }
+  }
+}

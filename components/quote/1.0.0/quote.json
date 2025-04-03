@@ -6,7 +6,8 @@
   "group": "Sections",
   "entries": {
     "js": "./quote.js",
-    "template": "./quote.hbs"
+    "template": "./quote.hbs",
+    "scss": "./quote.scss"
   },
   "tags": ["section", "quote", "content", "banner"],
   "should_do": [

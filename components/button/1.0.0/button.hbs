@@ -6,11 +6,27 @@
   <button class="btn btn-{{properties.Type}}" href="{{properties.url}}" {{#if (eq properties.State "disabled" )}}
     disabled{{/if}}>
     <span class='link-icon link-icon-arrow'>
-      <svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none'>
-        <path fill='#0D1116'
-          d='M.285 12.877a.4.4 0 0 1-.001-.567L10.593 1.994h-8.49a.4.4 0 0 1-.4-.4V.4c0-.22.18-.4.4-.4H14v11.899a.4.4 0 0 1-.396.4l-1.193.012a.4.4 0 0 1-.404-.4V3.4L1.697 13.717a.4.4 0 0 1-.565 0l-.847-.841Z' />
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <mask id="mask0_5083_5086" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="12" height="12">
+        <path d="M8 3.33331V12.6666" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M3.33301 8H12.6663" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </mask>
+        <g mask="url(#mask0_5083_5086)">
+        <rect width="16" height="16" fill="white"/>
+        </g>
       </svg>
+
     </span>
     Button
+    <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_5083_5092" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="12" height="12">
+<path d="M3.33301 8H12.6663" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 3.33331L12.6667 7.99998L8 12.6666" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</mask>
+<g mask="url(#mask0_5083_5092)">
+<rect width="16" height="16" fill="white"/>
+</g>
+</svg>
+</span>
   </button>
 </body>

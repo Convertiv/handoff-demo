@@ -6,7 +6,8 @@
   "group": "Sections",
   "entries": {
     "js": "./features.js",
-    "template": "./features.hbs"
+    "template": "./features.hbs",
+    "scss": "./features.scss"
   },
   "tags": ["banner", "alert", "notification"],
   "should_do": [

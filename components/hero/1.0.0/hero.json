@@ -6,7 +6,8 @@
   "group": "Hero",
   "entries": {
     "js": "./hero.js",
-    "template": "./hero.hbs"
+    "template": "./hero.hbs",
+    "scss": "./hero.scss"
   },
   "tags": ["banner", "alert", "notification"],
   "should_do": [
