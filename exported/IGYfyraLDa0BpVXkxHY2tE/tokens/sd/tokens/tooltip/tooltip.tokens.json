@@ -3,7 +3,7 @@
     "right": {
       "top": {
         "background": {
-          "value": "{color.primary.blue}"
+          "value": "#0073e6"
         },
         "border": {
           "width": {
@@ -50,23 +50,23 @@
         },
         "font": {
           "family": {
-            "value": "{typography.sm-base.font.family}"
+            "value": "'Inter'"
           },
           "size": {
-            "value": "{typography.sm-base.font.size}"
+            "value": "14px"
           },
           "weight": {
-            "value": "{typography.sm-base.font.weight}"
+            "value": "400"
           }
         },
         "line": {
           "height": {
-            "value": "{typography.sm-base.line.height}"
+            "value": "1.6"
           }
         },
         "letter": {
           "spacing": {
-            "value": "{typography.sm-base.letter.spacing}"
+            "value": "-.28px"
           }
         },
         "text": {
@@ -81,12 +81,12 @@
           }
         },
         "color": {
-          "value": "{color.text.hard-invert-}"
+          "value": "#ffffff"
         }
       },
       "bottom": {
         "background": {
-          "value": "{color.primary.blue}"
+          "value": "#0073e6"
         },
         "border": {
           "width": {
@@ -133,23 +133,23 @@
         },
         "font": {
           "family": {
-            "value": "{typography.sm-base.font.family}"
+            "value": "'Inter'"
           },
           "size": {
-            "value": "{typography.sm-base.font.size}"
+            "value": "14px"
           },
           "weight": {
-            "value": "{typography.sm-base.font.weight}"
+            "value": "400"
           }
         },
         "line": {
           "height": {
-            "value": "{typography.sm-base.line.height}"
+            "value": "1.6"
           }
         },
         "letter": {
           "spacing": {
-            "value": "{typography.sm-base.letter.spacing}"
+            "value": "-.28px"
           }
         },
         "text": {
@@ -164,14 +164,14 @@
           }
         },
         "color": {
-          "value": "{color.text.hard-invert-}"
+          "value": "#ffffff"
         }
       }
     },
     "center": {
       "top": {
         "background": {
-          "value": "{color.primary.blue}"
+          "value": "#0073e6"
         },
         "border": {
           "width": {
@@ -218,23 +218,23 @@
         },
         "font": {
           "family": {
-            "value": "{typography.sm-base.font.family}"
+            "value": "'Inter'"
           },
           "size": {
-            "value": "{typography.sm-base.font.size}"
+            "value": "14px"
           },
           "weight": {
-            "value": "{typography.sm-base.font.weight}"
+            "value": "400"
           }
         },
         "line": {
           "height": {
-            "value": "{typography.sm-base.line.height}"
+            "value": "1.6"
           }
         },
         "letter": {
           "spacing": {
-            "value": "{typography.sm-base.letter.spacing}"
+            "value": "-.28px"
           }
         },
         "text": {
@@ -249,12 +249,12 @@
           }
         },
         "color": {
-          "value": "{color.text.hard-invert-}"
+          "value": "#ffffff"
         }
       },
       "bottom": {
         "background": {
-          "value": "{color.primary.blue}"
+          "value": "#0073e6"
         },
         "border": {
           "width": {
@@ -301,23 +301,23 @@
         },
         "font": {
           "family": {
-            "value": "{typography.sm-base.font.family}"
+            "value": "'Inter'"
           },
           "size": {
-            "value": "{typography.sm-base.font.size}"
+            "value": "14px"
           },
           "weight": {
-            "value": "{typography.sm-base.font.weight}"
+            "value": "400"
           }
         },
         "line": {
           "height": {
-            "value": "{typography.sm-base.line.height}"
+            "value": "1.6"
           }
         },
         "letter": {
           "spacing": {
-            "value": "{typography.sm-base.letter.spacing}"
+            "value": "-.28px"
           }
         },
         "text": {
@@ -332,14 +332,14 @@
           }
         },
         "color": {
-          "value": "{color.text.hard-invert-}"
+          "value": "#ffffff"
         }
       }
     },
     "left": {
       "top": {
         "background": {
-          "value": "{color.primary.blue}"
+          "value": "#0073e6"
         },
         "border": {
           "width": {
@@ -386,23 +386,23 @@
         },
         "font": {
           "family": {
-            "value": "{typography.sm-base.font.family}"
+            "value": "'Inter'"
           },
           "size": {
-            "value": "{typography.sm-base.font.size}"
+            "value": "14px"
           },
           "weight": {
-            "value": "{typography.sm-base.font.weight}"
+            "value": "400"
           }
         },
         "line": {
           "height": {
-            "value": "{typography.sm-base.line.height}"
+            "value": "1.6"
           }
         },
         "letter": {
           "spacing": {
-            "value": "{typography.sm-base.letter.spacing}"
+            "value": "-.28px"
           }
         },
         "text": {
@@ -417,12 +417,12 @@
           }
         },
         "color": {
-          "value": "{color.text.hard-invert-}"
+          "value": "#ffffff"
         }
       },
       "bottom": {
         "background": {
-          "value": "{color.primary.blue}"
+          "value": "#0073e6"
         },
         "border": {
           "width": {
@@ -469,23 +469,23 @@
         },
         "font": {
           "family": {
-            "value": "{typography.sm-base.font.family}"
+            "value": "'Inter'"
           },
           "size": {
-            "value": "{typography.sm-base.font.size}"
+            "value": "14px"
           },
           "weight": {
-            "value": "{typography.sm-base.font.weight}"
+            "value": "400"
           }
         },
         "line": {
           "height": {
-            "value": "{typography.sm-base.line.height}"
+            "value": "1.6"
           }
         },
         "letter": {
           "spacing": {
-            "value": "{typography.sm-base.letter.spacing}"
+            "value": "-.28px"
           }
         },
         "text": {
@@ -500,7 +500,7 @@
           }
         },
         "color": {
-          "value": "{color.text.hard-invert-}"
+          "value": "#ffffff"
         }
       }
     }

@@ -1,7 +1,7 @@
 .tooltip {
 
 	/* Tooltip, horizontal: right, vertical: top */
-	--tooltip-right-top-background: var(--color-primary-blue);
+	--tooltip-right-top-background: #0073e6;
 	--tooltip-right-top-border-width: 1px;
 	--tooltip-right-top-border-radius: 2px;
 	--tooltip-right-top-border-color: transparent;
@@ -15,18 +15,18 @@
 	--tooltip-right-top-padding-start: 16px;
 	--tooltip-right-top-padding-end: 16px;
 	--tooltip-right-top-spacing: 8px;
-	--tooltip-right-top-font-family: var(--typography-sm-base-font-family);
-	--tooltip-right-top-font-size: var(--typography-sm-base-font-size);
-	--tooltip-right-top-font-weight: var(--typography-sm-base-font-weight);
-	--tooltip-right-top-line-height: var(--typography-sm-base-line-height);
-	--tooltip-right-top-letter-spacing: var(--typography-sm-base-letter-spacing);
+	--tooltip-right-top-font-family: 'Inter';
+	--tooltip-right-top-font-size: 14px;
+	--tooltip-right-top-font-weight: 400;
+	--tooltip-right-top-line-height: 1.6;
+	--tooltip-right-top-letter-spacing: -.28px;
 	--tooltip-right-top-text-align: right;
 	--tooltip-right-top-text-decoration: none;
 	--tooltip-right-top-text-transform: none;
-	--tooltip-right-top-color: var(--color-text-hard-invert);
+	--tooltip-right-top-color: #ffffff;
 
 	/* Tooltip, horizontal: center, vertical: top */
-	--tooltip-center-top-background: var(--color-primary-blue);
+	--tooltip-center-top-background: #0073e6;
 	--tooltip-center-top-border-width: 1px;
 	--tooltip-center-top-border-radius: 2px;
 	--tooltip-center-top-border-color: transparent;
@@ -40,18 +40,18 @@
 	--tooltip-center-top-padding-start: 16px;
 	--tooltip-center-top-padding-end: 16px;
 	--tooltip-center-top-spacing: 8px;
-	--tooltip-center-top-font-family: var(--typography-sm-base-font-family);
-	--tooltip-center-top-font-size: var(--typography-sm-base-font-size);
-	--tooltip-center-top-font-weight: var(--typography-sm-base-font-weight);
-	--tooltip-center-top-line-height: var(--typography-sm-base-line-height);
-	--tooltip-center-top-letter-spacing: var(--typography-sm-base-letter-spacing);
+	--tooltip-center-top-font-family: 'Inter';
+	--tooltip-center-top-font-size: 14px;
+	--tooltip-center-top-font-weight: 400;
+	--tooltip-center-top-line-height: 1.6;
+	--tooltip-center-top-letter-spacing: -.28px;
 	--tooltip-center-top-text-align: center;
 	--tooltip-center-top-text-decoration: none;
 	--tooltip-center-top-text-transform: none;
-	--tooltip-center-top-color: var(--color-text-hard-invert);
+	--tooltip-center-top-color: #ffffff;
 
 	/* Tooltip, horizontal: left, vertical: top */
-	--tooltip-left-top-background: var(--color-primary-blue);
+	--tooltip-left-top-background: #0073e6;
 	--tooltip-left-top-border-width: 1px;
 	--tooltip-left-top-border-radius: 2px;
 	--tooltip-left-top-border-color: transparent;
@@ -65,18 +65,18 @@
 	--tooltip-left-top-padding-start: 16px;
 	--tooltip-left-top-padding-end: 16px;
 	--tooltip-left-top-spacing: 8px;
-	--tooltip-left-top-font-family: var(--typography-sm-base-font-family);
-	--tooltip-left-top-font-size: var(--typography-sm-base-font-size);
-	--tooltip-left-top-font-weight: var(--typography-sm-base-font-weight);
-	--tooltip-left-top-line-height: var(--typography-sm-base-line-height);
-	--tooltip-left-top-letter-spacing: var(--typography-sm-base-letter-spacing);
+	--tooltip-left-top-font-family: 'Inter';
+	--tooltip-left-top-font-size: 14px;
+	--tooltip-left-top-font-weight: 400;
+	--tooltip-left-top-line-height: 1.6;
+	--tooltip-left-top-letter-spacing: -.28px;
 	--tooltip-left-top-text-align: left;
 	--tooltip-left-top-text-decoration: none;
 	--tooltip-left-top-text-transform: none;
-	--tooltip-left-top-color: var(--color-text-hard-invert);
+	--tooltip-left-top-color: #ffffff;
 
 	/* Tooltip, horizontal: right, vertical: bottom */
-	--tooltip-right-bottom-background: var(--color-primary-blue);
+	--tooltip-right-bottom-background: #0073e6;
 	--tooltip-right-bottom-border-width: 1px;
 	--tooltip-right-bottom-border-radius: 2px;
 	--tooltip-right-bottom-border-color: transparent;
@@ -90,18 +90,18 @@
 	--tooltip-right-bottom-padding-start: 16px;
 	--tooltip-right-bottom-padding-end: 16px;
 	--tooltip-right-bottom-spacing: 8px;
-	--tooltip-right-bottom-font-family: var(--typography-sm-base-font-family);
-	--tooltip-right-bottom-font-size: var(--typography-sm-base-font-size);
-	--tooltip-right-bottom-font-weight: var(--typography-sm-base-font-weight);
-	--tooltip-right-bottom-line-height: var(--typography-sm-base-line-height);
-	--tooltip-right-bottom-letter-spacing: var(--typography-sm-base-letter-spacing);
+	--tooltip-right-bottom-font-family: 'Inter';
+	--tooltip-right-bottom-font-size: 14px;
+	--tooltip-right-bottom-font-weight: 400;
+	--tooltip-right-bottom-line-height: 1.6;
+	--tooltip-right-bottom-letter-spacing: -.28px;
 	--tooltip-right-bottom-text-align: right;
 	--tooltip-right-bottom-text-decoration: none;
 	--tooltip-right-bottom-text-transform: none;
-	--tooltip-right-bottom-color: var(--color-text-hard-invert);
+	--tooltip-right-bottom-color: #ffffff;
 
 	/* Tooltip, horizontal: center, vertical: bottom */
-	--tooltip-center-bottom-background: var(--color-primary-blue);
+	--tooltip-center-bottom-background: #0073e6;
 	--tooltip-center-bottom-border-width: 1px;
 	--tooltip-center-bottom-border-radius: 2px;
 	--tooltip-center-bottom-border-color: transparent;
@@ -115,18 +115,18 @@
 	--tooltip-center-bottom-padding-start: 16px;
 	--tooltip-center-bottom-padding-end: 16px;
 	--tooltip-center-bottom-spacing: 8px;
-	--tooltip-center-bottom-font-family: var(--typography-sm-base-font-family);
-	--tooltip-center-bottom-font-size: var(--typography-sm-base-font-size);
-	--tooltip-center-bottom-font-weight: var(--typography-sm-base-font-weight);
-	--tooltip-center-bottom-line-height: var(--typography-sm-base-line-height);
-	--tooltip-center-bottom-letter-spacing: var(--typography-sm-base-letter-spacing);
+	--tooltip-center-bottom-font-family: 'Inter';
+	--tooltip-center-bottom-font-size: 14px;
+	--tooltip-center-bottom-font-weight: 400;
+	--tooltip-center-bottom-line-height: 1.6;
+	--tooltip-center-bottom-letter-spacing: -.28px;
 	--tooltip-center-bottom-text-align: center;
 	--tooltip-center-bottom-text-decoration: none;
 	--tooltip-center-bottom-text-transform: none;
-	--tooltip-center-bottom-color: var(--color-text-hard-invert);
+	--tooltip-center-bottom-color: #ffffff;
 
 	/* Tooltip, horizontal: left, vertical: bottom */
-	--tooltip-left-bottom-background: var(--color-primary-blue);
+	--tooltip-left-bottom-background: #0073e6;
 	--tooltip-left-bottom-border-width: 1px;
 	--tooltip-left-bottom-border-radius: 2px;
 	--tooltip-left-bottom-border-color: transparent;
@@ -140,13 +140,13 @@
 	--tooltip-left-bottom-padding-start: 16px;
 	--tooltip-left-bottom-padding-end: 16px;
 	--tooltip-left-bottom-spacing: 8px;
-	--tooltip-left-bottom-font-family: var(--typography-sm-base-font-family);
-	--tooltip-left-bottom-font-size: var(--typography-sm-base-font-size);
-	--tooltip-left-bottom-font-weight: var(--typography-sm-base-font-weight);
-	--tooltip-left-bottom-line-height: var(--typography-sm-base-line-height);
-	--tooltip-left-bottom-letter-spacing: var(--typography-sm-base-letter-spacing);
+	--tooltip-left-bottom-font-family: 'Inter';
+	--tooltip-left-bottom-font-size: 14px;
+	--tooltip-left-bottom-font-weight: 400;
+	--tooltip-left-bottom-line-height: 1.6;
+	--tooltip-left-bottom-letter-spacing: -.28px;
 	--tooltip-left-bottom-text-align: left;
 	--tooltip-left-bottom-text-decoration: none;
 	--tooltip-left-bottom-text-transform: none;
-	--tooltip-left-bottom-color: var(--color-text-hard-invert);
+	--tooltip-left-bottom-color: #ffffff;
 }

@@ -107,16 +107,16 @@
         "disabled": {
           "border": {
             "width": {
-              "value": "{color..transparent}"
+              "value": "1px"
             },
             "radius": {
-              "value": "{color..transparent}"
+              "value": "3px"
             },
             "color": {
-              "value": "{color..transparent}"
+              "value": "rgba(0, 0, 0, 0)"
             },
             "style": {
-              "value": "{color..transparent}"
+              "value": "solid"
             }
           },
           "box": {
@@ -137,22 +137,22 @@
             }
           },
           "color": {
-            "value": "{color.neutral.white}"
+            "value": "#ffffff"
           }
         },
         "hover": {
           "border": {
             "width": {
-              "value": "{color.border.lightest}"
+              "value": "1px"
             },
             "radius": {
-              "value": "{color.border.lightest}"
+              "value": "3px"
             },
             "color": {
-              "value": "{color.border.lightest}"
+              "value": "rgba(255, 255, 255, .75)"
             },
             "style": {
-              "value": "{color.border.lightest}"
+              "value": "solid"
             }
           },
           "box": {
@@ -173,21 +173,21 @@
             }
           },
           "color": {
-            "value": "{color.neutral.white}"
+            "value": "#ffffff"
           }
         },
         "border": {
           "width": {
-            "value": "{color.border.lighter}"
+            "value": "1px"
           },
           "radius": {
-            "value": "{color.border.lighter}"
+            "value": "3px"
           },
           "color": {
-            "value": "{color.border.lighter}"
+            "value": "rgba(255, 255, 255, .4)"
           },
           "style": {
-            "value": "{color.border.lighter}"
+            "value": "solid"
           }
         },
         "box": {
@@ -208,22 +208,22 @@
           }
         },
         "color": {
-          "value": "{color.neutral.white}"
+          "value": "#ffffff"
         }
       },
       "disabled": {
         "border": {
           "width": {
-            "value": "{color..transparent}"
+            "value": "1px"
           },
           "radius": {
-            "value": "{color..transparent}"
+            "value": "3px"
           },
           "color": {
-            "value": "{color..transparent}"
+            "value": "rgba(0, 0, 0, 0)"
           },
           "style": {
-            "value": "{color..transparent}"
+            "value": "solid"
           }
         },
         "box": {
@@ -244,22 +244,22 @@
           }
         },
         "color": {
-          "value": "{color.neutral.white}"
+          "value": "#ffffff"
         }
       },
       "hover": {
         "border": {
           "width": {
-            "value": "{color.border.darkest}"
+            "value": "1px"
           },
           "radius": {
-            "value": "{color.border.darkest}"
+            "value": "3px"
           },
           "color": {
-            "value": "{color.border.darkest}"
+            "value": "rgba(0, 0, 0, .6)"
           },
           "style": {
-            "value": "{color.border.darkest}"
+            "value": "solid"
           }
         },
         "box": {
@@ -280,21 +280,21 @@
           }
         },
         "color": {
-          "value": "{color.neutral.white}"
+          "value": "#ffffff"
         }
       },
       "border": {
         "width": {
-          "value": "{color.border.darker}"
+          "value": "1px"
         },
         "radius": {
-          "value": "{color.border.darker}"
+          "value": "3px"
         },
         "color": {
-          "value": "{color.border.darker}"
+          "value": "rgba(0, 0, 0, .3)"
         },
         "style": {
-          "value": "{color.border.darker}"
+          "value": "solid"
         }
       },
       "box": {
@@ -315,7 +315,7 @@
         }
       },
       "color": {
-        "value": "{color.neutral.white}"
+        "value": "#ffffff"
       }
     },
     "label": {
@@ -323,23 +323,23 @@
         "disabled": {
           "font": {
             "family": {
-              "value": "{typography.form-placeholder-medium.font.family}"
+              "value": "'Inter'"
             },
             "size": {
-              "value": "{typography.form-placeholder-medium.font.size}"
+              "value": "14px"
             },
             "weight": {
-              "value": "{typography.form-placeholder-medium.font.weight}"
+              "value": "400"
             }
           },
           "line": {
             "height": {
-              "value": "{typography.form-placeholder-medium.line.height}"
+              "value": "1.429"
             }
           },
           "letter": {
             "spacing": {
-              "value": "{typography.form-placeholder-medium.letter.spacing}"
+              "value": "-.28px"
             }
           },
           "text": {
@@ -354,7 +354,7 @@
             }
           },
           "color": {
-            "value": "{color.text.soft-invert-}"
+            "value": "rgba(255, 255, 255, .65)"
           },
           "opacity": {
             "value": "1"
@@ -363,23 +363,23 @@
         "hover": {
           "font": {
             "family": {
-              "value": "{typography.form-placeholder-medium.font.family}"
+              "value": "'Inter'"
             },
             "size": {
-              "value": "{typography.form-placeholder-medium.font.size}"
+              "value": "14px"
             },
             "weight": {
-              "value": "{typography.form-placeholder-medium.font.weight}"
+              "value": "400"
             }
           },
           "line": {
             "height": {
-              "value": "{typography.form-placeholder-medium.line.height}"
+              "value": "1.429"
             }
           },
           "letter": {
             "spacing": {
-              "value": "{typography.form-placeholder-medium.letter.spacing}"
+              "value": "-.28px"
             }
           },
           "text": {
@@ -394,7 +394,7 @@
             }
           },
           "color": {
-            "value": "{color.text.hard-invert-}"
+            "value": "#ffffff"
           },
           "opacity": {
             "value": "1"
@@ -402,23 +402,23 @@
         },
         "font": {
           "family": {
-            "value": "{typography.form-placeholder-medium.font.family}"
+            "value": "'Inter'"
           },
           "size": {
-            "value": "{typography.form-placeholder-medium.font.size}"
+            "value": "14px"
           },
           "weight": {
-            "value": "{typography.form-placeholder-medium.font.weight}"
+            "value": "400"
           }
         },
         "line": {
           "height": {
-            "value": "{typography.form-placeholder-medium.line.height}"
+            "value": "1.429"
           }
         },
         "letter": {
           "spacing": {
-            "value": "{typography.form-placeholder-medium.letter.spacing}"
+            "value": "-.28px"
           }
         },
         "text": {
@@ -433,7 +433,7 @@
           }
         },
         "color": {
-          "value": "{color.text.base-invert-}"
+          "value": "rgba(255, 255, 255, .85)"
         },
         "opacity": {
           "value": "1"
@@ -442,23 +442,23 @@
       "disabled": {
         "font": {
           "family": {
-            "value": "{typography.form-placeholder-medium.font.family}"
+            "value": "'Inter'"
           },
           "size": {
-            "value": "{typography.form-placeholder-medium.font.size}"
+            "value": "14px"
           },
           "weight": {
-            "value": "{typography.form-placeholder-medium.font.weight}"
+            "value": "400"
           }
         },
         "line": {
           "height": {
-            "value": "{typography.form-placeholder-medium.line.height}"
+            "value": "1.429"
           }
         },
         "letter": {
           "spacing": {
-            "value": "{typography.form-placeholder-medium.letter.spacing}"
+            "value": "-.28px"
           }
         },
         "text": {
@@ -473,7 +473,7 @@
           }
         },
         "color": {
-          "value": "{color.text.soft}"
+          "value": "#555555"
         },
         "opacity": {
           "value": "1"
@@ -482,23 +482,23 @@
       "hover": {
         "font": {
           "family": {
-            "value": "{typography.form-placeholder-medium.font.family}"
+            "value": "'Inter'"
           },
           "size": {
-            "value": "{typography.form-placeholder-medium.font.size}"
+            "value": "14px"
           },
           "weight": {
-            "value": "{typography.form-placeholder-medium.font.weight}"
+            "value": "400"
           }
         },
         "line": {
           "height": {
-            "value": "{typography.form-placeholder-medium.line.height}"
+            "value": "1.429"
           }
         },
         "letter": {
           "spacing": {
-            "value": "{typography.form-placeholder-medium.letter.spacing}"
+            "value": "-.28px"
           }
         },
         "text": {
@@ -513,7 +513,7 @@
           }
         },
         "color": {
-          "value": "{color.text.hard}"
+          "value": "#000000"
         },
         "opacity": {
           "value": "1"
@@ -521,23 +521,23 @@
       },
       "font": {
         "family": {
-          "value": "{typography.form-placeholder-medium.font.family}"
+          "value": "'Inter'"
         },
         "size": {
-          "value": "{typography.form-placeholder-medium.font.size}"
+          "value": "14px"
         },
         "weight": {
-          "value": "{typography.form-placeholder-medium.font.weight}"
+          "value": "400"
         }
       },
       "line": {
         "height": {
-          "value": "{typography.form-placeholder-medium.line.height}"
+          "value": "1.429"
         }
       },
       "letter": {
         "spacing": {
-          "value": "{typography.form-placeholder-medium.letter.spacing}"
+          "value": "-.28px"
         }
       },
       "text": {
@@ -552,7 +552,7 @@
         }
       },
       "color": {
-        "value": "{color.text.base}"
+        "value": "rgba(0, 0, 0, .8)"
       },
       "opacity": {
         "value": "1"
@@ -594,20 +594,20 @@
         },
         "border": {
           "width": {
-            "value": "{color..transparent}"
+            "value": "1px"
           },
           "radius": {
-            "value": "{color..transparent}"
+            "value": "3px"
           },
           "color": {
-            "value": "{color..transparent}"
+            "value": "rgba(0, 0, 0, 0)"
           },
           "style": {
-            "value": "{color..transparent}"
+            "value": "solid"
           }
         },
         "color": {
-          "value": "{color.neutral.gray-600}"
+          "value": "#6e6e6e"
         },
         "width": {
           "value": "18px",
@@ -657,20 +657,20 @@
         },
         "border": {
           "width": {
-            "value": "{color.border.lightest}"
+            "value": "1px"
           },
           "radius": {
-            "value": "{color.border.lightest}"
+            "value": "3px"
           },
           "color": {
-            "value": "{color.border.lightest}"
+            "value": "rgba(255, 255, 255, .75)"
           },
           "style": {
-            "value": "{color.border.lightest}"
+            "value": "solid"
           }
         },
         "color": {
-          "value": "{color..transparent}"
+          "value": "rgba(0, 0, 0, 0)"
         },
         "width": {
           "value": "18px",
@@ -719,20 +719,20 @@
       },
       "border": {
         "width": {
-          "value": "{color.border.lighter}"
+          "value": "1px"
         },
         "radius": {
-          "value": "{color.border.lighter}"
+          "value": "3px"
         },
         "color": {
-          "value": "{color.border.lighter}"
+          "value": "rgba(255, 255, 255, .4)"
         },
         "style": {
-          "value": "{color.border.lighter}"
+          "value": "solid"
         }
       },
       "color": {
-        "value": "{color..transparent}"
+        "value": "rgba(0, 0, 0, 0)"
       },
       "width": {
         "value": "18px",
@@ -782,20 +782,20 @@
       },
       "border": {
         "width": {
-          "value": "{color..transparent}"
+          "value": "1px"
         },
         "radius": {
-          "value": "{color..transparent}"
+          "value": "3px"
         },
         "color": {
-          "value": "{color..transparent}"
+          "value": "rgba(0, 0, 0, 0)"
         },
         "style": {
-          "value": "{color..transparent}"
+          "value": "solid"
         }
       },
       "color": {
-        "value": "{color.neutral.gray-300}"
+        "value": "#cccccc"
       },
       "width": {
         "value": "18px",
@@ -845,20 +845,20 @@
       },
       "border": {
         "width": {
-          "value": "{color.border.darkest}"
+          "value": "1px"
         },
         "radius": {
-          "value": "{color.border.darkest}"
+          "value": "3px"
         },
         "color": {
-          "value": "{color.border.darkest}"
+          "value": "rgba(0, 0, 0, .6)"
         },
         "style": {
-          "value": "{color.border.darkest}"
+          "value": "solid"
         }
       },
       "color": {
-        "value": "{color..transparent}"
+        "value": "rgba(0, 0, 0, 0)"
       },
       "width": {
         "value": "18px",
@@ -907,20 +907,20 @@
     },
     "border": {
       "width": {
-        "value": "{color.border.darker}"
+        "value": "1px"
       },
       "radius": {
-        "value": "{color.border.darker}"
+        "value": "3px"
       },
       "color": {
-        "value": "{color.border.darker}"
+        "value": "rgba(0, 0, 0, .3)"
       },
       "style": {
-        "value": "{color.border.darker}"
+        "value": "solid"
       }
     },
     "color": {
-      "value": "{color..transparent}"
+      "value": "rgba(0, 0, 0, 0)"
     },
     "width": {
       "value": "18px",
