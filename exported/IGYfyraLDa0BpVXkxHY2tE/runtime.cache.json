@@ -147,7 +147,8 @@
                 "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                 "paragraph": "Nullam auctor, nunc nec ultricies.",
                 "video": "https://handoff.com/videos/cli.mp4"
-              }
+              },
+              "url": "hero-generic.html"
             },
             "live": {
               "title": "Live Site",
@@ -156,7 +157,8 @@
                 "title": "Integrate Figma design tokens into your development workflow",
                 "paragraph": "From Figma to Code to Docs",
                 "video": "https://handoff.com/videos/cli.mp4"
-              }
+              },
+              "url": "hero-live.html"
             }
           },
           "properties": {
@@ -175,7 +177,8 @@
                   "min": 1,
                   "max": 10
                 }
-              }
+              },
+              "id": "theme"
             },
             "title": {
               "name": "Title",
@@ -188,7 +191,8 @@
                   "min": 1,
                   "max": 100
                 }
-              }
+              },
+              "id": "title"
             },
             "paragraph": {
               "name": "Paragraph",
@@ -201,7 +205,8 @@
                   "min": 1,
                   "max": 1000
                 }
-              }
+              },
+              "id": "paragraph"
             },
             "video": {
               "name": "Video",
@@ -214,7 +219,8 @@
                   "min": 1,
                   "max": 1000
                 }
-              }
+              },
+              "id": "video"
             }
           },
           "options": {
@@ -298,7 +304,8 @@
                     ]
                   }
                 ]
-              }
+              },
+              "url": "solutions-generic.html"
             }
           },
           "properties": {
@@ -343,7 +350,8 @@
               "default": "vibrant-green",
               "rules": {
                 "required": true
-              }
+              },
+              "id": "background"
             },
             "foreground": {
               "name": "Foreground Color",
@@ -386,7 +394,8 @@
               "default": "deep-green",
               "rules": {
                 "required": true
-              }
+              },
+              "id": "foreground"
             },
             "light": {
               "name": "Light Mode",
@@ -395,7 +404,8 @@
               "default": false,
               "rules": {
                 "required": true
-              }
+              },
+              "id": "light"
             },
             "message": {
               "name": "Message",
@@ -408,7 +418,8 @@
                   "min": 25,
                   "max": 100
                 }
-              }
+              },
+              "id": "message"
             },
             "button": {
               "name": "Button",
@@ -420,7 +431,8 @@
               },
               "rules": {
                 "required": true
-              }
+              },
+              "id": "button"
             }
           },
           "options": {
@@ -490,7 +502,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "url": "features-generic.html"
             },
             "live": {
               "title": "Live site",
@@ -523,7 +536,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "url": "features-live.html"
             }
           },
           "properties": {
@@ -538,7 +552,8 @@
                   "min": 1,
                   "max": 100
                 }
-              }
+              },
+              "id": "title"
             },
             "paragraph": {
               "name": "Paragraph",
@@ -551,7 +566,8 @@
                   "min": 1,
                   "max": 1000
                 }
-              }
+              },
+              "id": "paragraph"
             },
             "items": {
               "name": "Items",
@@ -571,7 +587,8 @@
                         "min": 1,
                         "max": 100
                       }
-                    }
+                    },
+                    "id": "title"
                   },
                   "paragraph": {
                     "name": "Paragraph",
@@ -584,7 +601,8 @@
                         "min": 1,
                         "max": 1000
                       }
-                    }
+                    },
+                    "id": "paragraph"
                   },
                   "icon": {
                     "name": "Icon",
@@ -606,7 +624,8 @@
                           "height": 100
                         }
                       }
-                    }
+                    },
+                    "id": "icon"
                   }
                 }
               },
@@ -617,7 +636,8 @@
                   "min": 1,
                   "max": 100
                 }
-              }
+              },
+              "id": "items"
             }
           },
           "options": {
@@ -671,7 +691,8 @@
                     "url": "#"
                   }
                 ]
-              }
+              },
+              "url": "promo-generic.html"
             },
             "live": {
               "title": "Live Site",
@@ -688,7 +709,8 @@
                     "url": "#"
                   }
                 ]
-              }
+              },
+              "url": "promo-live.html"
             }
           },
           "properties": {
@@ -703,7 +725,8 @@
                   "min": 1,
                   "max": 100
                 }
-              }
+              },
+              "id": "title"
             },
             "paragraph": {
               "name": "Paragraph",
@@ -716,7 +739,8 @@
                   "min": 1,
                   "max": 1000
                 }
-              }
+              },
+              "id": "paragraph"
             },
             "items": {
               "name": "Items",
@@ -736,7 +760,8 @@
                         "min": 1,
                         "max": 100
                       }
-                    }
+                    },
+                    "id": "title"
                   },
                   "paragraph": {
                     "name": "Paragraph",
@@ -749,7 +774,8 @@
                         "min": 1,
                         "max": 1000
                       }
-                    }
+                    },
+                    "id": "paragraph"
                   },
                   "icon": {
                     "name": "Icon",
@@ -771,7 +797,8 @@
                           "height": 100
                         }
                       }
-                    }
+                    },
+                    "id": "icon"
                   }
                 }
               },
@@ -782,7 +809,8 @@
                   "min": 1,
                   "max": 100
                 }
-              }
+              },
+              "id": "items"
             }
           },
           "options": {
@@ -833,7 +861,8 @@
                   "alt": "Handoff logo",
                   "src": "https://placehold.co/75x40"
                 }
-              }
+              },
+              "url": "quote-generic.html"
             },
             "live": {
               "title": "Live Site",
@@ -846,7 +875,8 @@
                   "alt": "SS&C logo",
                   "src": "https://handoff.com/_next/static/media/logo-ssc.8d7598ca.svg"
                 }
-              }
+              },
+              "url": "quote-live.html"
             }
           },
           "properties": {
@@ -861,7 +891,8 @@
                   "min": 1,
                   "max": 200
                 }
-              }
+              },
+              "id": "quote"
             },
             "author": {
               "name": "Author",
@@ -874,7 +905,8 @@
                   "min": 1,
                   "max": 50
                 }
-              }
+              },
+              "id": "author"
             },
             "role": {
               "name": "Role",
@@ -887,7 +919,8 @@
                   "min": 1,
                   "max": 50
                 }
-              }
+              },
+              "id": "role"
             },
             "logo": {
               "name": "Logo",
@@ -909,7 +942,8 @@
                     "height": 275
                   }
                 }
-              }
+              },
+              "id": "logo"
             }
           },
           "options": {
@@ -956,6 +990,63 @@
                   "label": "Primary CTA",
                   "url": "#"
                 }
+              },
+              "url": "alert-generic.html"
+            },
+            "Type-primary": {
+              "title": "Type-primary",
+              "url": "alert-Type-primary.html",
+              "values": {
+                "Type": "primary"
+              }
+            },
+            "Type-secondary": {
+              "title": "Type-secondary",
+              "url": "alert-Type-secondary.html",
+              "values": {
+                "Type": "secondary"
+              }
+            },
+            "Type-dark": {
+              "title": "Type-dark",
+              "url": "alert-Type-dark.html",
+              "values": {
+                "Type": "dark"
+              }
+            },
+            "Type-light": {
+              "title": "Type-light",
+              "url": "alert-Type-light.html",
+              "values": {
+                "Type": "light"
+              }
+            },
+            "Type-info": {
+              "title": "Type-info",
+              "url": "alert-Type-info.html",
+              "values": {
+                "Type": "info"
+              }
+            },
+            "Type-success": {
+              "title": "Type-success",
+              "url": "alert-Type-success.html",
+              "values": {
+                "Type": "success"
+              }
+            },
+            "Type-warning": {
+              "title": "Type-warning",
+              "url": "alert-Type-warning.html",
+              "values": {
+                "Type": "warning"
+              }
+            },
+            "Type-danger": {
+              "title": "Type-danger",
+              "url": "alert-Type-danger.html",
+              "values": {
+                "Type": "danger"
               }
             }
           },
@@ -971,7 +1062,8 @@
                   "min": 25,
                   "max": 100
                 }
-              }
+              },
+              "id": "message"
             },
             "button": {
               "name": "Button",
@@ -983,7 +1075,8 @@
               },
               "rules": {
                 "required": true
-              }
+              },
+              "id": "button"
             }
           },
           "preview_options": {
@@ -1051,7 +1144,8 @@
                   "min": 5,
                   "max": 15
                 }
-              }
+              },
+              "id": "type"
             },
             "label": {
               "name": "Label",
@@ -1064,7 +1158,8 @@
                   "min": 5,
                   "max": 60
                 }
-              }
+              },
+              "id": "label"
             },
             "url": {
               "name": "URL",
@@ -1077,7 +1172,8 @@
                   "min": 1,
                   "max": 1000
                 }
-              }
+              },
+              "id": "url"
             }
           },
           "entries": {
@@ -1162,7 +1258,8 @@
                   "min": 5,
                   "max": 15
                 }
-              }
+              },
+              "id": "type"
             },
             "label": {
               "name": "Label",
@@ -1175,7 +1272,8 @@
                   "min": 5,
                   "max": 60
                 }
-              }
+              },
+              "id": "label"
             },
             "url": {
               "name": "URL",
@@ -1188,7 +1286,8 @@
                   "min": 1,
                   "max": 1000
                 }
-              }
+              },
+              "id": "url"
             }
           },
           "options": {

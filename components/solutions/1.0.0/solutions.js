@@ -2,5 +2,5 @@ import * as bootstrap from "bootstrap";
 import $ from "jquery";
 
 $(() => {
-    $("tabpanel").first().addClass("active show");
+    $(".tab-pane").first().addClass("active show");
 });
