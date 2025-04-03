@@ -61,7 +61,6 @@
     }
   },
   "entries": {
-    "scss": "./button.scss",
     "js": "./button.js",
     "template": "./button.hbs"
   },
