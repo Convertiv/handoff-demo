@@ -5,24 +5,37 @@
 </head>
 
 <body class="theme preview-body">
-  <div class="block sb-sm-3 sb-lg-4 sb-xxl-5" id="promo">
-    <div class="container sy-1 px-sm-4 px-md-5 block-container bg-light">
-      <div class="row align-items-center">
-        <div class="col-12 col-md">
-          <div class="block-header">
+  <div class="block sb-2 sb-lg-4 sb-xxl-5" id="documents">
+    <div class="container st-2 px-sm-4 px-md-5 block-container bg-primary"
+      data-theme="dark"
+    >
+      <div class="row">
+        <div class="col-lg-6 col-xl-5 col-xxl-6">
+          <div class="block-header mt-lg-3 mb-4 mb-lg-5">
+            <p class="overline">{{#field "super"}}{{properties.super}}{{/field}}</p>
             <h2 class="h2">{{#field "title"}}{{properties.title}}{{/field}}</h2>
+            <div class="block-actions">
+              {{#each properties.buttons}}
+              <a role="button" class="btn {{#if this.button }}btn-light btn-lg min-w-3{{else}}btn-link btn-lg p-0{{/if}}" href="{{this.url}}" target="_blank" rel="noreferrer" >
+                {{#field "buttons.label"}}{{this.label}}{{/field}}
+              </a>
+              {{/each}}
+            </div>
           </div>
         </div>
-        <div class="col-auto">
-          <div class="block-actions mb-3">
-            {{#each properties.buttons}}
-            <a role="button"
-              class="btn {{#if this.button }}btn-primary btn-lg min-w-3{{else}}btn btn-link btn-lg p-0{{/if}}"
-              href="{{this.url}}" target="_blank" rel="noreferrer">
-              {{#field "buttons.label"}}{{this.label}}{{/field}}
-            </a>
-            {{/each}}
-          </div>
+        <div class="col">
+          <figure class="figure-feature h-100 mb-0">
+            <img draggable="false" alt="{{properties.image.alt}}" loading="lazy" 
+                width="1200" height="721" decoding="async" data-nimg="1" 
+                class="img-fluid figure-image-front d-none d-lg-flex"
+                style="color:transparent" src="{{properties.image.src}}"
+              />
+            <img draggable="false" alt="{{properties.mobile_image.alt}}" loading="lazy"
+                width="1200"  height="721" decoding="async" data-nimg="1"
+                class="img-fluid figure-image-mobile d-lg-none" style="color:transparent"
+                src="{{properties.mobile_image.src}}"
+              />
+          </figure>
         </div>
       </div>
     </div>

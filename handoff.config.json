@@ -46,6 +46,7 @@
       "./components/features",
       "./components/promo",
       "./components/quote",
+      "./components/media_cta",
 
       "./components/alert",
       "./components/button",

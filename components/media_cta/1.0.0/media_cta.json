@@ -26,7 +26,11 @@
         "title": "Lorem ipsum dolor sit amet ultricies dersdi ultima planer, borial.",
         "image": {
           "alt": "A diagram illustrating the easy of setup",
-          "src": "https://handoff.com/_next/static/media/flow.cebfcbb1.svg"
+          "src": "https://handoff.com/_next/static/media/preview.f448372c.png"
+        },
+        "mobile_image": {
+          "alt": "A diagram illustrating the easy of setup",
+          "src": "https://handoff.com/_next/static/media/preview.f448372c.png"
         },
         "buttons": [
           {
@@ -46,6 +50,14 @@
       "values": {
         "super": "Ready to get started?",
         "title": "Handoff is an open-source solution that‘s free for all design and development teams to start working better, together.",
+        "image": {
+          "alt": "A diagram illustrating the easy of setup",
+          "src": "https://handoff.com/_next/static/media/preview.f448372c.png"
+        },
+        "mobile_image": {
+          "alt": "A diagram illustrating the easy of setup",
+          "src": "https://handoff.com/_next/static/media/preview.f448372c.png"
+        },
         "buttons": [
           {
             "button": true,
