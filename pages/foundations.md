@@ -21,7 +21,7 @@ menu:
         menu:
           - path: foundations/logo
             title: Overview
-          - path: foundations/logo/resources
+          - path: foundations/logo-resources
             title: Resources
       - path: foundations/colors
         title: Colors
@@ -29,7 +29,7 @@ menu:
         menu:
           - path: foundations/colors
             title: Our Colors
-          - path: foundations/colors/guidelines
+          - path: foundations/colors-guidelines
             title: Guidelines
       - path: foundations/typography
         title: Typography
@@ -37,9 +37,9 @@ menu:
         menu:
           - path: foundations/typography
             title: Overview
-          - path: foundations/typography/guidelines
+          - path: foundations/typo-guidelines
             title: Guidelines
-          - path: foundations/typography/resources
+          - path: foundations/typo-resources
             title: Resources
       - path: foundations/grid
         title: Grid
@@ -50,9 +50,9 @@ menu:
         menu:
           - path: foundations/effects
             title: Our Effects
-          - path: foundations/effects/guidelines
+          - path: foundations/effects-guidelines
             title: Guidelines
-          - path: foundations/effects/resources
+          - path: foundations/effects-resources
             title: Resources
       - path: foundations/icons
         title: Icons
@@ -60,7 +60,7 @@ menu:
         menu:
           - path: foundations/icons
             title: Library
-          - path: foundations/icons/guidelines
+          - path: foundations/icons-guidelines
             title: Guidelines
   - title: Assets
     menu:
@@ -70,7 +70,7 @@ menu:
         menu:
           - path: foundations/images
             title: Library
-          - path: foundations/images/guidelines
+          - path: foundations/image-guidelines
             title: Guidelines
 ---
 

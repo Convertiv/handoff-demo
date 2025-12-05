@@ -40,6 +40,12 @@ jobs:
       - name: Build static site
         run: |
           npm run build
+      - name: Validate
+        run: |
+          npm run validate
+      - name: Copy validations
+        run: |
+          cp -r src/handoff/public/api/component/ src/handoff/out/3GcQn3eA8Kg9kprYXBXksv/api/component/
       - name: Deploy to S3 Bucket
         run: |
           aws s3 sync --delete out/IGYfyraLDa0BpVXkxHY2tE s3://${{env.AWS_S3_BUCKET}}/

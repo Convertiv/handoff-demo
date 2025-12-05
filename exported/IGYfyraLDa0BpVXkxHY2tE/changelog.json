@@ -1,5 +1,1968 @@
 [
   {
+    "timestamp": "2025-12-05T18:55:07.690Z",
+    "design": {
+      "colors": [
+        {
+          "type": "add",
+          "object": {
+            "id": "1203:5097",
+            "name": "Transparent",
+            "group": "",
+            "subgroup": null,
+            "groups": [
+              "Transparent"
+            ],
+            "value": "rgba(0, 0, 0, 0)",
+            "blend": "normal",
+            "sass": "$color--transparent",
+            "reference": "color--transparent",
+            "machineName": "transparent"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3478",
+            "name": " Hard",
+            "group": "text-",
+            "subgroup": null,
+            "groups": [
+              "Text ",
+              " Hard"
+            ],
+            "value": "#000000",
+            "blend": "normal",
+            "sass": "$color-text---hard",
+            "reference": "color-text---hard",
+            "machineName": "-hard"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3512",
+            "name": " Base",
+            "group": "text-",
+            "subgroup": null,
+            "groups": [
+              "Text ",
+              " Base"
+            ],
+            "value": "rgba(0, 0, 0, .8)",
+            "blend": "normal",
+            "sass": "$color-text---base",
+            "reference": "color-text---base",
+            "machineName": "-base"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3514",
+            "name": " Soft",
+            "group": "text-",
+            "subgroup": null,
+            "groups": [
+              "Text ",
+              " Soft"
+            ],
+            "value": "#555555",
+            "blend": "normal",
+            "sass": "$color-text---soft",
+            "reference": "color-text---soft",
+            "machineName": "-soft"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3513",
+            "name": " Muted",
+            "group": "text-",
+            "subgroup": null,
+            "groups": [
+              "Text ",
+              " Muted"
+            ],
+            "value": "rgba(85, 85, 85, .8)",
+            "blend": "normal",
+            "sass": "$color-text---muted",
+            "reference": "color-text---muted",
+            "machineName": "-muted"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3515",
+            "name": " Hard [invert]",
+            "group": "text-",
+            "subgroup": null,
+            "groups": [
+              "Text ",
+              " Hard [invert]"
+            ],
+            "value": "#ffffff",
+            "blend": "normal",
+            "sass": "$color-text---hard-invert",
+            "reference": "color-text---hard-invert",
+            "machineName": "-hard-invert"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3516",
+            "name": " Base [invert]",
+            "group": "text-",
+            "subgroup": null,
+            "groups": [
+              "Text ",
+              " Base [invert]"
+            ],
+            "value": "rgba(255, 255, 255, .85)",
+            "blend": "normal",
+            "sass": "$color-text---base-invert",
+            "reference": "color-text---base-invert",
+            "machineName": "-base-invert"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3517",
+            "name": " Soft [invert]",
+            "group": "text-",
+            "subgroup": null,
+            "groups": [
+              "Text ",
+              " Soft [invert]"
+            ],
+            "value": "rgba(255, 255, 255, .65)",
+            "blend": "normal",
+            "sass": "$color-text---soft-invert",
+            "reference": "color-text---soft-invert",
+            "machineName": "-soft-invert"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3518",
+            "name": " Muted [invert]",
+            "group": "text-",
+            "subgroup": null,
+            "groups": [
+              "Text ",
+              " Muted [invert]"
+            ],
+            "value": "rgba(255, 255, 255, .45)",
+            "blend": "normal",
+            "sass": "$color-text---muted-invert",
+            "reference": "color-text---muted-invert",
+            "machineName": "-muted-invert"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "30:111",
+            "name": " Blue",
+            "group": "primary-",
+            "subgroup": null,
+            "groups": [
+              "Primary ",
+              " Blue"
+            ],
+            "value": "#0073e6",
+            "blend": "normal",
+            "sass": "$color-primary---blue",
+            "reference": "color-primary---blue",
+            "machineName": "-blue"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "30:112",
+            "name": " Purple",
+            "group": "secondary-",
+            "subgroup": null,
+            "groups": [
+              "Secondary ",
+              " Purple"
+            ],
+            "value": "#4c34b6",
+            "blend": "normal",
+            "sass": "$color-secondary---purple",
+            "reference": "color-secondary---purple",
+            "machineName": "-purple"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1101:6411",
+            "name": " Info",
+            "group": "extra-",
+            "subgroup": null,
+            "groups": [
+              "Extra ",
+              " Info"
+            ],
+            "value": "#307abf",
+            "blend": "normal",
+            "sass": "$color-extra---info",
+            "reference": "color-extra---info",
+            "machineName": "-info"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1201:2079",
+            "name": " Info - darker",
+            "group": "extra-",
+            "subgroup": null,
+            "groups": [
+              "Extra ",
+              " Info - darker"
+            ],
+            "value": "#286aa7",
+            "blend": "normal",
+            "sass": "$color-extra---info-darker",
+            "reference": "color-extra---info-darker",
+            "machineName": "-info-darker"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1201:2080",
+            "name": " Info - lighter",
+            "group": "extra-",
+            "subgroup": null,
+            "groups": [
+              "Extra ",
+              " Info - lighter"
+            ],
+            "value": "#4a98e0",
+            "blend": "normal",
+            "sass": "$color-extra---info-lighter",
+            "reference": "color-extra---info-lighter",
+            "machineName": "-info-lighter"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "100:1233",
+            "name": " Success",
+            "group": "extra-",
+            "subgroup": null,
+            "groups": [
+              "Extra ",
+              " Success"
+            ],
+            "value": "#198754",
+            "blend": "normal",
+            "sass": "$color-extra---success",
+            "reference": "color-extra---success",
+            "machineName": "-success"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1201:2077",
+            "name": " Success - darker",
+            "group": "extra-",
+            "subgroup": null,
+            "groups": [
+              "Extra ",
+              " Success - darker"
+            ],
+            "value": "#167b4c",
+            "blend": "normal",
+            "sass": "$color-extra---success-darker",
+            "reference": "color-extra---success-darker",
+            "machineName": "-success-darker"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1201:2078",
+            "name": " Success - lighter",
+            "group": "extra-",
+            "subgroup": null,
+            "groups": [
+              "Extra ",
+              " Success - lighter"
+            ],
+            "value": "#2fa870",
+            "blend": "normal",
+            "sass": "$color-extra---success-lighter",
+            "reference": "color-extra---success-lighter",
+            "machineName": "-success-lighter"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "100:1232",
+            "name": " Warning",
+            "group": "extra-",
+            "subgroup": null,
+            "groups": [
+              "Extra ",
+              " Warning"
+            ],
+            "value": "#ffc107",
+            "blend": "normal",
+            "sass": "$color-extra---warning",
+            "reference": "color-extra---warning",
+            "machineName": "-warning"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1201:2075",
+            "name": " Warning - darker",
+            "group": "extra-",
+            "subgroup": null,
+            "groups": [
+              "Extra ",
+              " Warning - darker"
+            ],
+            "value": "#e0aa09",
+            "blend": "normal",
+            "sass": "$color-extra---warning-darker",
+            "reference": "color-extra---warning-darker",
+            "machineName": "-warning-darker"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1201:2076",
+            "name": " Warning - lighter",
+            "group": "extra-",
+            "subgroup": null,
+            "groups": [
+              "Extra ",
+              " Warning - lighter"
+            ],
+            "value": "#ffce39",
+            "blend": "normal",
+            "sass": "$color-extra---warning-lighter",
+            "reference": "color-extra---warning-lighter",
+            "machineName": "-warning-lighter"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "100:1231",
+            "name": " Danger",
+            "group": "extra-",
+            "subgroup": null,
+            "groups": [
+              "Extra ",
+              " Danger"
+            ],
+            "value": "#dc3545",
+            "blend": "normal",
+            "sass": "$color-extra---danger",
+            "reference": "color-extra---danger",
+            "machineName": "-danger"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1201:2073",
+            "name": " Danger - darker",
+            "group": "extra-",
+            "subgroup": null,
+            "groups": [
+              "Extra ",
+              " Danger - darker"
+            ],
+            "value": "#c32b3a",
+            "blend": "normal",
+            "sass": "$color-extra---danger-darker",
+            "reference": "color-extra---danger-darker",
+            "machineName": "-danger-darker"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1201:2074",
+            "name": " Danger - lighter",
+            "group": "extra-",
+            "subgroup": null,
+            "groups": [
+              "Extra ",
+              " Danger - lighter"
+            ],
+            "value": "#f35d6c",
+            "blend": "normal",
+            "sass": "$color-extra---danger-lighter",
+            "reference": "color-extra---danger-lighter",
+            "machineName": "-danger-lighter"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "30:114",
+            "name": " White",
+            "group": "neutral-",
+            "subgroup": null,
+            "groups": [
+              "Neutral ",
+              " White"
+            ],
+            "value": "#ffffff",
+            "blend": "normal",
+            "sass": "$color-neutral---white",
+            "reference": "color-neutral---white",
+            "machineName": "-white"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:2935",
+            "name": " Gray 100",
+            "group": "neutral-",
+            "subgroup": null,
+            "groups": [
+              "Neutral ",
+              " Gray 100"
+            ],
+            "value": "#f8f8f8",
+            "blend": "normal",
+            "sass": "$color-neutral---gray-100",
+            "reference": "color-neutral---gray-100",
+            "machineName": "-gray-100"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:2894",
+            "name": " Blue - darker",
+            "group": "primary-",
+            "subgroup": null,
+            "groups": [
+              "Primary ",
+              " Blue - darker"
+            ],
+            "value": "#0f69c1",
+            "blend": "normal",
+            "sass": "$color-primary---blue-darker",
+            "reference": "color-primary---blue-darker",
+            "machineName": "-blue-darker"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:2895",
+            "name": " Blue - lighter",
+            "group": "primary-",
+            "subgroup": null,
+            "groups": [
+              "Primary ",
+              " Blue - lighter"
+            ],
+            "value": "#258cf2",
+            "blend": "normal",
+            "sass": "$color-primary---blue-lighter",
+            "reference": "color-primary---blue-lighter",
+            "machineName": "-blue-lighter"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:2896",
+            "name": " Purple - darker",
+            "group": "secondary-",
+            "subgroup": null,
+            "groups": [
+              "Secondary ",
+              " Purple - darker"
+            ],
+            "value": "#3b2794",
+            "blend": "normal",
+            "sass": "$color-secondary---purple-darker",
+            "reference": "color-secondary---purple-darker",
+            "machineName": "-purple-darker"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:2897",
+            "name": " Purple - lighter",
+            "group": "secondary-",
+            "subgroup": null,
+            "groups": [
+              "Secondary ",
+              " Purple - lighter"
+            ],
+            "value": "#7158dd",
+            "blend": "normal",
+            "sass": "$color-secondary---purple-lighter",
+            "reference": "color-secondary---purple-lighter",
+            "machineName": "-purple-lighter"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1007:3085",
+            "name": " Base",
+            "group": "border-",
+            "subgroup": null,
+            "groups": [
+              "Border ",
+              " Base"
+            ],
+            "value": "rgba(100, 100, 100, .15)",
+            "blend": "normal",
+            "sass": "$color-border---base",
+            "reference": "color-border---base",
+            "machineName": "-base"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1007:3093",
+            "name": " Dark",
+            "group": "border-",
+            "subgroup": null,
+            "groups": [
+              "Border ",
+              " Dark"
+            ],
+            "value": "rgba(100, 100, 100, .3)",
+            "blend": "normal",
+            "sass": "$color-border---dark",
+            "reference": "color-border---dark",
+            "machineName": "-dark"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1007:3094",
+            "name": " Darker",
+            "group": "border-",
+            "subgroup": null,
+            "groups": [
+              "Border ",
+              " Darker"
+            ],
+            "value": "rgba(0, 0, 0, .3)",
+            "blend": "normal",
+            "sass": "$color-border---darker",
+            "reference": "color-border---darker",
+            "machineName": "-darker"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1007:3095",
+            "name": " Darkest",
+            "group": "border-",
+            "subgroup": null,
+            "groups": [
+              "Border ",
+              " Darkest"
+            ],
+            "value": "rgba(0, 0, 0, .6)",
+            "blend": "normal",
+            "sass": "$color-border---darkest",
+            "reference": "color-border---darkest",
+            "machineName": "-darkest"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1007:3096",
+            "name": " Invert",
+            "group": "border-",
+            "subgroup": null,
+            "groups": [
+              "Border ",
+              " Invert"
+            ],
+            "value": "rgba(200, 200, 200, .2)",
+            "blend": "normal",
+            "sass": "$color-border---invert",
+            "reference": "color-border---invert",
+            "machineName": "-invert"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1007:3097",
+            "name": " Light",
+            "group": "border-",
+            "subgroup": null,
+            "groups": [
+              "Border ",
+              " Light"
+            ],
+            "value": "rgba(200, 200, 200, .4)",
+            "blend": "normal",
+            "sass": "$color-border---light",
+            "reference": "color-border---light",
+            "machineName": "-light"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1007:3098",
+            "name": " Lighter",
+            "group": "border-",
+            "subgroup": null,
+            "groups": [
+              "Border ",
+              " Lighter"
+            ],
+            "value": "rgba(255, 255, 255, .4)",
+            "blend": "normal",
+            "sass": "$color-border---lighter",
+            "reference": "color-border---lighter",
+            "machineName": "-lighter"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1007:3099",
+            "name": " Lightest",
+            "group": "border-",
+            "subgroup": null,
+            "groups": [
+              "Border ",
+              " Lightest"
+            ],
+            "value": "rgba(255, 255, 255, .75)",
+            "blend": "normal",
+            "sass": "$color-border---lightest",
+            "reference": "color-border---lightest",
+            "machineName": "-lightest"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1101:6333",
+            "name": " Blue",
+            "group": "secondary-",
+            "subgroup": null,
+            "groups": [
+              "Secondary ",
+              " Blue"
+            ],
+            "value": "#134872",
+            "blend": "normal",
+            "sass": "$color-secondary---blue",
+            "reference": "color-secondary---blue",
+            "machineName": "-blue"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1101:6335",
+            "name": " Blue - darker",
+            "group": "secondary-",
+            "subgroup": null,
+            "groups": [
+              "Secondary ",
+              " Blue - darker"
+            ],
+            "value": "#103e62",
+            "blend": "normal",
+            "sass": "$color-secondary---blue-darker",
+            "reference": "color-secondary---blue-darker",
+            "machineName": "-blue-darker"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1101:6336",
+            "name": " Blue - lighter",
+            "group": "secondary-",
+            "subgroup": null,
+            "groups": [
+              "Secondary ",
+              " Blue - lighter"
+            ],
+            "value": "#2e6a99",
+            "blend": "normal",
+            "sass": "$color-secondary---blue-lighter",
+            "reference": "color-secondary---blue-lighter",
+            "machineName": "-blue-lighter"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1101:6393",
+            "name": " Gray 200",
+            "group": "neutral-",
+            "subgroup": null,
+            "groups": [
+              "Neutral ",
+              " Gray 200"
+            ],
+            "value": "#e5e5e5",
+            "blend": "normal",
+            "sass": "$color-neutral---gray-200",
+            "reference": "color-neutral---gray-200",
+            "machineName": "-gray-200"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1101:6394",
+            "name": " Gray 300",
+            "group": "neutral-",
+            "subgroup": null,
+            "groups": [
+              "Neutral ",
+              " Gray 300"
+            ],
+            "value": "#cccccc",
+            "blend": "normal",
+            "sass": "$color-neutral---gray-300",
+            "reference": "color-neutral---gray-300",
+            "machineName": "-gray-300"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1101:6395",
+            "name": " Gray 400",
+            "group": "neutral-",
+            "subgroup": null,
+            "groups": [
+              "Neutral ",
+              " Gray 400"
+            ],
+            "value": "#aaaaaa",
+            "blend": "normal",
+            "sass": "$color-neutral---gray-400",
+            "reference": "color-neutral---gray-400",
+            "machineName": "-gray-400"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "30:115",
+            "name": " Gray 500",
+            "group": "neutral-",
+            "subgroup": null,
+            "groups": [
+              "Neutral ",
+              " Gray 500"
+            ],
+            "value": "#888888",
+            "blend": "normal",
+            "sass": "$color-neutral---gray-500",
+            "reference": "color-neutral---gray-500",
+            "machineName": "-gray-500"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1101:6397",
+            "name": "Gray 600",
+            "group": "neutral",
+            "subgroup": null,
+            "groups": [
+              "Neutral",
+              "Gray 600"
+            ],
+            "value": "#6e6e6e",
+            "blend": "normal",
+            "sass": "$color-neutral-gray-600",
+            "reference": "color-neutral-gray-600",
+            "machineName": "gray-600"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1004:2748",
+            "name": " Gray 700",
+            "group": "neutral-",
+            "subgroup": null,
+            "groups": [
+              "Neutral ",
+              " Gray 700"
+            ],
+            "value": "#555555",
+            "blend": "normal",
+            "sass": "$color-neutral---gray-700",
+            "reference": "color-neutral---gray-700",
+            "machineName": "-gray-700"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1101:6398",
+            "name": " Gray 800",
+            "group": "neutral-",
+            "subgroup": null,
+            "groups": [
+              "Neutral ",
+              " Gray 800"
+            ],
+            "value": "#333333",
+            "blend": "normal",
+            "sass": "$color-neutral---gray-800",
+            "reference": "color-neutral---gray-800",
+            "machineName": "-gray-800"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1101:6399",
+            "name": " Gray 900",
+            "group": "neutral-",
+            "subgroup": null,
+            "groups": [
+              "Neutral ",
+              " Gray 900"
+            ],
+            "value": "#191919",
+            "blend": "normal",
+            "sass": "$color-neutral---gray-900",
+            "reference": "color-neutral---gray-900",
+            "machineName": "-gray-900"
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "30:113",
+            "name": " Black",
+            "group": "neutral-",
+            "subgroup": null,
+            "groups": [
+              "Neutral ",
+              " Black"
+            ],
+            "value": "#000000",
+            "blend": "normal",
+            "sass": "$color-neutral---black",
+            "reference": "color-neutral---black",
+            "machineName": "-black"
+          }
+        }
+      ],
+      "typography": [
+        {
+          "type": "add",
+          "object": {
+            "id": "333:2862",
+            "reference": "typography--heading-1",
+            "name": "Heading 1",
+            "machine_name": "heading-1",
+            "group": "",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Medium",
+              "fontWeight": 500,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 56,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -1.12,
+              "lineHeightPx": 61.60000228881836,
+              "lineHeightPercent": 90.89202117919922,
+              "lineHeightPercentFontSize": 110,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "333:2863",
+            "reference": "typography--heading-2",
+            "name": "Heading 2",
+            "machine_name": "heading-2",
+            "group": "",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Medium",
+              "fontWeight": 500,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 40,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.8,
+              "lineHeightPx": 44,
+              "lineHeightPercent": 90.89202117919922,
+              "lineHeightPercentFontSize": 110,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "333:2864",
+            "reference": "typography--heading-3",
+            "name": "Heading 3",
+            "machine_name": "heading-3",
+            "group": "",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Medium",
+              "fontWeight": 500,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 32,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.64,
+              "lineHeightPx": 41.599998474121094,
+              "lineHeightPercent": 107.41783905029297,
+              "lineHeightPercentFontSize": 130,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "333:2865",
+            "reference": "typography--heading-4",
+            "name": "Heading 4",
+            "machine_name": "heading-4",
+            "group": "",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Medium",
+              "fontWeight": 500,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 28,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.56,
+              "lineHeightPx": 36.39999771118164,
+              "lineHeightPercent": 107.41783905029297,
+              "lineHeightPercentFontSize": 130,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "333:2866",
+            "reference": "typography--heading-5",
+            "name": "Heading 5",
+            "machine_name": "heading-5",
+            "group": "",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Medium",
+              "fontWeight": 500,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 24,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.48,
+              "lineHeightPx": 31.19999885559082,
+              "lineHeightPercent": 107.41783905029297,
+              "lineHeightPercentFontSize": 130,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "333:2867",
+            "reference": "typography--heading-6",
+            "name": "Heading 6",
+            "machine_name": "heading-6",
+            "group": "",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 20,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.4,
+              "lineHeightPx": 26,
+              "lineHeightPercent": 107.41783905029297,
+              "lineHeightPercentFontSize": 130,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "333:2868",
+            "reference": "typography--subheading",
+            "name": "Subheading",
+            "machine_name": "subheading",
+            "group": "",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Bold",
+              "fontWeight": 700,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 18,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.36,
+              "lineHeightPx": 28.80000114440918,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "333:2869",
+            "reference": "typography--blockquote",
+            "name": "Blockquote",
+            "machine_name": "blockquote",
+            "group": "",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Italic",
+              "italic": true,
+              "fontWeight": 400,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 24,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.48,
+              "lineHeightPx": 31.19999885559082,
+              "lineHeightPercent": 107.41783905029297,
+              "lineHeightPercentFontSize": 130,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3873",
+            "reference": "typography-button---text-large",
+            "name": "Button / Text Large",
+            "machine_name": "-text-large",
+            "group": "button-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 16,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.32,
+              "lineHeightPx": 20,
+              "lineHeightPercent": 103.28638458251953,
+              "lineHeightPercentFontSize": 125,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3872",
+            "reference": "typography-button---text-medium",
+            "name": "Button / Text Medium",
+            "machine_name": "-text-medium",
+            "group": "button-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 14,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.28,
+              "lineHeightPx": 18,
+              "lineHeightPercent": 106.2374267578125,
+              "lineHeightPercentFontSize": 128.57142639160156,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3874",
+            "reference": "typography-button---text-small",
+            "name": "Button / Text Small",
+            "machine_name": "-text-small",
+            "group": "button-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 12,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.24,
+              "lineHeightPx": 16,
+              "lineHeightPercent": 110.1721420288086,
+              "lineHeightPercentFontSize": 133.3333282470703,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3877",
+            "reference": "typography-form---placeholder-large",
+            "name": "Form / Placeholder Large",
+            "machine_name": "-placeholder-large",
+            "group": "form-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 16,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.32,
+              "lineHeightPx": 20,
+              "lineHeightPercent": 103.28638458251953,
+              "lineHeightPercentFontSize": 125,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3875",
+            "reference": "typography-form---placeholder-medium",
+            "name": "Form / Placeholder Medium",
+            "machine_name": "-placeholder-medium",
+            "group": "form-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 14,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.28,
+              "lineHeightPx": 20,
+              "lineHeightPercent": 118.04158782958984,
+              "lineHeightPercentFontSize": 142.85714721679688,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3876",
+            "reference": "typography-form---placeholder-small",
+            "name": "Form / Placeholder Small",
+            "machine_name": "-placeholder-small",
+            "group": "form-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 12,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.24,
+              "lineHeightPx": 20,
+              "lineHeightPercent": 137.71517944335938,
+              "lineHeightPercentFontSize": 166.6666717529297,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3180",
+            "reference": "typography-xxl---base",
+            "name": "XXL / Base",
+            "machine_name": "-base",
+            "group": "xxl-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 22,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.44,
+              "lineHeightPx": 35.20000076293945,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1002:2601",
+            "reference": "typography-xl---base",
+            "name": "XL / Base",
+            "machine_name": "-base",
+            "group": "xl-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 20,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.4,
+              "lineHeightPx": 32,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3176",
+            "reference": "typography-lg---base",
+            "name": "LG / Base",
+            "machine_name": "-base",
+            "group": "lg-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 18,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.36,
+              "lineHeightPx": 28.80000114440918,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "333:2870",
+            "reference": "typography-md---base",
+            "name": "MD / Base",
+            "machine_name": "-base",
+            "group": "md-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 16,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.32,
+              "lineHeightPx": 25.600000381469727,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3177",
+            "reference": "typography-sm---base",
+            "name": "SM / Base",
+            "machine_name": "-base",
+            "group": "sm-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 14,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.28,
+              "lineHeightPx": 22.399999618530273,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3178",
+            "reference": "typography-xs---base",
+            "name": "XS / Base",
+            "machine_name": "-base",
+            "group": "xs-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 12,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.24,
+              "lineHeightPx": 19.200000762939453,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3179",
+            "reference": "typography-xxs---base",
+            "name": "XXS / Base",
+            "machine_name": "-base",
+            "group": "xxs-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 10,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.2,
+              "lineHeightPx": 16,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "4300:6489",
+            "reference": "typography-xxl---medium",
+            "name": "XXL / Medium",
+            "machine_name": "-medium",
+            "group": "xxl-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 22,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.44,
+              "lineHeightPx": 35.20000076293945,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3213",
+            "reference": "typography-xxl---strong",
+            "name": "XXL / Strong",
+            "machine_name": "-strong",
+            "group": "xxl-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Bold",
+              "fontWeight": 700,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 22,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.44,
+              "lineHeightPx": 35.20000076293945,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "4300:6488",
+            "reference": "typography-xl---medium",
+            "name": "XL / Medium",
+            "machine_name": "-medium",
+            "group": "xl-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 20,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.4,
+              "lineHeightPx": 32,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3214",
+            "reference": "typography-xl---strong",
+            "name": "XL / Strong",
+            "machine_name": "-strong",
+            "group": "xl-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Bold",
+              "fontWeight": 700,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 20,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.4,
+              "lineHeightPx": 32,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "4300:6487",
+            "reference": "typography-lg---medium",
+            "name": "LG / Medium",
+            "machine_name": "-medium",
+            "group": "lg-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 18,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.36,
+              "lineHeightPx": 28.80000114440918,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3215",
+            "reference": "typography-lg---strong",
+            "name": "LG / Strong",
+            "machine_name": "-strong",
+            "group": "lg-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Bold",
+              "fontWeight": 700,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 18,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.36,
+              "lineHeightPx": 28.80000114440918,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "4300:6486",
+            "reference": "typography-md---medium",
+            "name": "MD / Medium",
+            "machine_name": "-medium",
+            "group": "md-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 16,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.32,
+              "lineHeightPx": 25.600000381469727,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3216",
+            "reference": "typography-md---strong",
+            "name": "MD / Strong",
+            "machine_name": "-strong",
+            "group": "md-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Bold",
+              "fontWeight": 700,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 16,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.32,
+              "lineHeightPx": 25.600000381469727,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "4300:6485",
+            "reference": "typography-sm---medium",
+            "name": "SM / Medium",
+            "machine_name": "-medium",
+            "group": "sm-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 14,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.28,
+              "lineHeightPx": 22.399999618530273,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3217",
+            "reference": "typography-sm---strong",
+            "name": "SM / Strong",
+            "machine_name": "-strong",
+            "group": "sm-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Bold",
+              "fontWeight": 700,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 14,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.28,
+              "lineHeightPx": 22.399999618530273,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "4300:6484",
+            "reference": "typography-xs---medium",
+            "name": "XS / Medium",
+            "machine_name": "-medium",
+            "group": "xs-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 12,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.24,
+              "lineHeightPx": 19.200000762939453,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3218",
+            "reference": "typography-xs---strong",
+            "name": "XS / Strong",
+            "machine_name": "-strong",
+            "group": "xs-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Bold",
+              "fontWeight": 700,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 12,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.24,
+              "lineHeightPx": 19.200000762939453,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "4300:6483",
+            "reference": "typography-xxs---medium",
+            "name": "XXS / Medium",
+            "machine_name": "-medium",
+            "group": "xxs-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 10,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.2,
+              "lineHeightPx": 16,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3219",
+            "reference": "typography-xxs---strong",
+            "name": "XXS / Strong",
+            "machine_name": "-strong",
+            "group": "xxs-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Bold",
+              "fontWeight": 700,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 10,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.2,
+              "lineHeightPx": 16,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "4284:5071",
+            "reference": "typography-form---text-large",
+            "name": "Form / Text Large",
+            "machine_name": "-text-large",
+            "group": "form-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 16,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.32,
+              "lineHeightPx": 20,
+              "lineHeightPercent": 103.28638458251953,
+              "lineHeightPercentFontSize": 125,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "4284:5069",
+            "reference": "typography-form---text-medium",
+            "name": "Form / Text Medium",
+            "machine_name": "-text-medium",
+            "group": "form-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 14,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.28,
+              "lineHeightPx": 20,
+              "lineHeightPercent": 118.04158782958984,
+              "lineHeightPercentFontSize": 142.85714721679688,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "4284:5070",
+            "reference": "typography-form---text-small",
+            "name": "Form / Text Small",
+            "machine_name": "-text-small",
+            "group": "form-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Semi Bold",
+              "fontWeight": 600,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 12,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.24,
+              "lineHeightPx": 20,
+              "lineHeightPercent": 137.71517944335938,
+              "lineHeightPercentFontSize": 166.6666717529297,
+              "lineHeightUnit": "PIXELS",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3878",
+            "reference": "typography-form---label",
+            "name": "Form / Label",
+            "machine_name": "-label",
+            "group": "form-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 12,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.24,
+              "lineHeightPx": 19.200000762939453,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "type": "add",
+          "object": {
+            "id": "1003:3879",
+            "reference": "typography-form---help",
+            "name": "Form / Help",
+            "machine_name": "-help",
+            "group": "form-",
+            "values": {
+              "fontFamily": "Inter",
+              "fontPostScriptName": null,
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "paragraphSpacing": 20,
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontSize": 12,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.24,
+              "lineHeightPx": 19.200000762939453,
+              "lineHeightPercent": 132.20657348632812,
+              "lineHeightPercentFontSize": 160,
+              "lineHeightUnit": "FONT_SIZE_%",
+              "color": "#000000"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
     "timestamp": "2025-04-03T15:28:06.930Z",
     "design": {
       "colors": [

@@ -1,0 +1,109 @@
+/** @type {import('handoff-app').Component} */
+module.exports = {
+  "id": "input",
+  "title": "Inputs",
+  "figma": "https://www.figma.com/design/IGYfyraLDa0BpVXkxHY2tE/Starter-%5BV2%5D?node-id=100-656&m=dev",
+  "description": "Form input controls like <input> and <textarea>. These fields will allow users to submit short and long form text input.",
+  "type": "element",
+  "group": "Atomic Elements",
+  "categories": [
+    "forms",
+    "input",
+    "text"
+  ],
+  "tags": [],
+  "should_do": [
+    "Be direct and consistent with CTA labels.",
+    "Keep to 2 words if possible."
+  ],
+  "should_not_do": [
+    "Avoid having competing CTA buttons.",
+    "Avoid lengthy text with button labels."
+  ],
+  "preview_options": {
+    "group_by": "Type"
+  },
+  "properties": {
+    "type": {
+      "name": "Type",
+      "description": "This should be the type of button",
+      "type": "text",
+      "default": "primary",
+      "enum": [
+        "primary",
+        "secondary",
+        "tertiary"
+      ],
+      "rules": {
+        "required": true,
+        "content": {
+          "min": 5,
+          "max": 15
+        }
+      }
+    },
+    "label": {
+      "name": "Label",
+      "description": "This should be the text that appears on the button",
+      "type": "text",
+      "default": "Primary CTA",
+      "rules": {
+        "required": true,
+        "content": {
+          "min": 5,
+          "max": 60
+        }
+      }
+    },
+    "url": {
+      "name": "URL",
+      "description": "This should be the URL that the button links to",
+      "type": "text",
+      "default": "#",
+      "rules": {
+        "required": true,
+        "content": {
+          "min": 1,
+          "max": 1000
+        }
+      }
+    }
+  },
+  "entries": {
+    "scss": "./style.scss",
+    "js": "./script.js",
+    "template": "./template.hbs"
+  },
+  "options": {
+    "transformer": {
+      "cssRootClass": "btn",
+      "tokenNameSegments": [
+        "${component}",
+        "${variant.type}",
+        "${variant.size}",
+        "${part}",
+        "${variant.theme}",
+        "${variant.state}",
+        "${property}"
+      ],
+      "defaults": {
+        "Theme": "light",
+        "State": "default",
+        "Type": "default",
+        "Activity": "",
+        "Layout": "",
+        "Size": ""
+      },
+      "replace": {
+        "State": {
+          "default": ""
+        },
+        "Size": {
+          "small": "sm",
+          "medium": "md",
+          "large": "lg"
+        }
+      }
+    }
+  }
+};
