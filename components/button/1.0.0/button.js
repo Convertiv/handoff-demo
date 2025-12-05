@@ -3,6 +3,7 @@ module.exports = {
   "id": "button",
   "title": "Button",
   "description": "These are all of the buttons that are used throughout the site.",
+  "image": "/images/components/button.png",
   "figma": "https://www.figma.com/design/IGYfyraLDa0BpVXkxHY2tE/Starter-%5BV2%5D?node-id=36-291&m=dev",
   "type": "element",
   "group": "Forms",

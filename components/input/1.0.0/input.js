@@ -4,6 +4,7 @@ module.exports = {
   "title": "Inputs",
   "figma": "https://www.figma.com/design/IGYfyraLDa0BpVXkxHY2tE/Starter-%5BV2%5D?node-id=100-656&m=dev",
   "description": "Form input controls like <input> and <textarea>. These fields will allow users to submit short and long form text input.",
+  "image": "/images/components/input.png",
   "type": "element",
   "group": "Atomic Elements",
   "categories": [

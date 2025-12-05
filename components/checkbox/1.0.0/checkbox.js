@@ -4,6 +4,7 @@ module.exports = {
   "title": "Checkboxes",
   "figma": "https://www.figma.com/design/IGYfyraLDa0BpVXkxHY2tE/Starter-%5BV2%5D?node-id=104-673&m=dev",
   "description": "Checkboxes create an on/off boolean switch that can be built into array.",
+  "image": "/images/components/checkbox.png",
   "type": "element",
   "group": "Forms",
   "entries": {

@@ -3,6 +3,7 @@ module.exports = {
   "id": "solutions",
   "title": "Solutions",
   "description": "A banner alert component to display important information to users. This is a bold, highly visible component that can be used to draw attention to important information. \n\nIt includes a call to action button to direct users elsewhere.  Because of the high visiblity, the CTA is required.",
+  "image": "/images/components/solutions.png",
   "type": "block",
   "group": "Sections",
   "entries": {
