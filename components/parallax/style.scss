@@ -1,0 +1,80 @@
+@import "../../../sass/main.scss";
+
+.parallax {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // Height variants
+  &--small {
+    min-height: 300px;
+  }
+
+  &--medium {
+    min-height: 450px;
+  }
+
+  &--large {
+    min-height: 600px;
+  }
+
+  &--extra-large {
+    min-height: 80vh;
+  }
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+    // Fallback for mobile devices where fixed attachment doesn't work well
+    @media (max-width: 768px) {
+      background-attachment: scroll;
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: 2;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    padding: 3rem 0;
+  }
+
+  &__title {
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    margin-bottom: 0;
+  }
+
+  &__actions {
+    margin-top: 2rem;
+  }
+}
+
+
+

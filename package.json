@@ -41,7 +41,7 @@
     "@sparticuz/chromium": "^137.0.1",
     "axe-core": "^4.11.0",
     "puppeteer": "^24.25.0",
-    "handoff-app": "0.18.0-canary.0"
+    "handoff-app": "^0.18.0"
   },
   "devDependencies": {
     "typescript": "^5.7.3"

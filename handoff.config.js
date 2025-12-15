@@ -38,7 +38,15 @@ module.exports = {
     scss: "./sass/main.scss",
     js: "./js/main.js",
     bundle: "./js/main.js",
-    components: ["./components"],
+    components: [
+      './components',
+      'components/select',
+      'components/radio',
+      'components/badge',
+      'components/modal',
+      'components/tooltip',
+      'components/switch',
+    ],
   },
   logo: "base-horizontal.svg",
   assets_zip_links: {
