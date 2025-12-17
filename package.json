@@ -4,11 +4,12 @@
   "description": "A demo of the figma design token pipeline built on handoff (www.handoff.com)",
   "main": "index.js",
   "scripts": {
-    "build:code": "tsc",
     "start": "handoff-app start",
     "build": "handoff-app build:app",
     "fetch": "handoff-app fetch",
     "validate": "handoff-app validate:components",
+    "build:app": "handoff-app build:app --skip-components",
+    "build:components": "handoff-app build:components",
     "build:exporter": "cd util/exporter && tsc",
     "export": "node util/exporter/dist/index.js export:components",
     "import": "node util/exporter/dist/index.js import:components"
