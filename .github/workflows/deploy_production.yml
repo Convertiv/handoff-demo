@@ -31,12 +31,12 @@ jobs:
         run: |
           git config --global user.email "ops@convertiv.com"
           git config --global user.name "Convertiv Development"
-      - name: Fetch from figma
-        run: |
-          npm install
-          npm run fetch
-          git commit -a -m "[skip ci] updating changelog with latest figma changes"
-          git push
+      # - name: Fetch from figma
+      #   run: |
+      #     npm install
+      #     npm run fetch
+      #     git commit -a -m "[skip ci] updating changelog with latest figma changes"
+      #     git push
       - name: Build static site
         run: |
           npm run build
