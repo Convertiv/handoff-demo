@@ -58,18 +58,18 @@ const validateComponent = async (component) => {
     if (!fs.existsSync(screenshotFilePath)) {
       const selector = await page.$('.preview-body');
       console.log("Selector", selector);
-
-      const bounding_box = await selector.boundingBox();
-      console.log(bounding_box)
-      await selector.screenshot({
-        path: screenshotFilePath,
-        clip: {
-          x: bounding_box.x,
-          y: bounding_box.y,
-          width: Math.min(bounding_box.width, page.viewport().width),
-          height: 400,
-        }
-      });
+      if (selector) {
+        const bounding_box = await selector.boundingBox();
+        await selector.screenshot({
+          path: screenshotFilePath,
+          clip: {
+            x: bounding_box.x,
+            y: bounding_box.y,
+            width: Math.min(bounding_box.width, page.viewport().width),
+            height: 400,
+          }
+        });
+      }
 
     }
     // Run axe inside the page context
