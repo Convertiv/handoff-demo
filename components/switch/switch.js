@@ -6,7 +6,7 @@ module.exports = {
   type: "element",
   figmaComponentId: "switch",
   entries: {
-    template: './switch.tsx',
+    template: './switch.hbs',
     scss: './switch.scss',
   },
 };

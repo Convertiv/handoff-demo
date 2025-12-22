@@ -6,7 +6,7 @@ module.exports = {
   type: "element",
   figmaComponentId: "modal",
   entries: {
-    template: './modal.tsx',
+    template: './modal.hbs',
     scss: './modal.scss',
   },
 };

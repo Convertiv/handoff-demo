@@ -6,7 +6,7 @@ module.exports = {
   type: "element",
   figmaComponentId: "select",
   entries: {
-    template: './select.tsx',
+    template: './select.hbs',
     scss: './select.scss',
   },
 };

@@ -6,7 +6,8 @@ module.exports = {
   type: "element",
   figmaComponentId: "tooltip",
   entries: {
-    template: './tooltip.tsx',
+    template: './tooltip.hbs',
     scss: './tooltip.scss',
+    script: './tooltip.js',
   },
 };

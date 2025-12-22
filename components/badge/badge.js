@@ -6,7 +6,7 @@ module.exports = {
   type: "element",
   figmaComponentId: "badge",
   entries: {
-    template: './badge.tsx',
+    template: './badge.hbs',
     scss: './badge.scss',
   },
   properties: {
