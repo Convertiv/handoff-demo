@@ -7,5 +7,6 @@ module.exports = {
   figmaComponentId: "radio",
   entries: {
     scss: './radio.scss',
+    template: './template.hbs',
   },
 };

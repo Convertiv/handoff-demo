@@ -1,0 +1,13 @@
+<head>
+  {{{style}}}
+</head>
+
+<body class="preview-body">
+<span class="badge bg-{{properties.Type}} {{#if properties.Pill}}rounded-pill{{/if}}">
+  {{#if properties.Icon}}
+    <span class="me-1">{{{properties.Icon}}}</span>
+  {{/if}}
+  {{#field "Label"}}{{properties.Label}}{{/field}}
+</span>
+
+</body>

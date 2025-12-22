@@ -10,7 +10,6 @@ const validateComponent = async (component) => {
   // Optional: Load any fonts you need.
   // detect if we are on a mac
   const isMac = process.platform === "darwin";
-  console.log("isMac", isMac);
   let browser;
   if (isMac) {
     browser = await puppeteer.launch();
@@ -25,6 +24,9 @@ const validateComponent = async (component) => {
   const previews = Object.keys(component.previews);
   const output = [];
   const logOutput = [];
+  if(!component.id) {
+    throw new Error("Component ID is required. No ID found for component: " + component.title);
+  }
   const css = await fs.readFileSync(
     path.join(__dirname, "..", "public/api/component", `${component.id}.css`),
     "utf8"
@@ -37,6 +39,8 @@ const validateComponent = async (component) => {
       "public/api/component",
       component.previews[preview].url
     );
+    console.log("previewPath", previewPath);
+
     let html = fs.readFileSync(previewPath, "utf8");
     // Load your component HTML in a blank page
 
@@ -57,7 +61,6 @@ const validateComponent = async (component) => {
     const screenshotFilePath = path.join(screenshotPath, `${component.id}.png`);
     if (!fs.existsSync(screenshotFilePath)) {
       const selector = await page.$('.preview-body');
-      console.log("Selector", selector);
       if (selector) {
         const bounding_box = await selector.boundingBox();
         await selector.screenshot({
@@ -109,7 +112,6 @@ const validateComponent = async (component) => {
       passed: a11yPassed,
       messages: a11yMessages,
     });
-    console.log("Accessibility output", output);
   }
   await browser.close();
   // Write the log output to a file
