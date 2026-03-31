@@ -17,10 +17,6 @@ wide: false
 menu:
 ---
 
-import { Eye } from "lucide-react";
-import { Hero } from "handoff-app/src/app/components/Hero";
-import CardsWithIcons from "handoff-app/src/app/components/cards/CardsWithIcons";
-
 ## What should we be looking for?
 
 When reviewing a site for accessibility, consider the following questions:
@@ -42,38 +38,52 @@ Handoff web properties should follow the guidelines provided in the [WCAG 2.2, L
 At the highest level, the WCAG 2.2 standard calls for sites to meet standards
 in 4 areas -
 
-<CardsWithIcons
-  items={[
-    {
-      title: "Perceivable",
-      description: `Users need to be able to perceive the content. This covers alt text, captions, layout, contrast, and visual behaviors.`,
-      icon: Eye,
-      link: "https://www.w3.org/TR/WCAG21/#perceivable",
-      cta: "Support Perceivable",
-    },
-    {
-      title: "Operable",
-      description: `Users need to be able to operate the site behaviors. This covers keyboard accessibility, timing issues, animation, and navigation.`,
-      icon: Eye,
-      link: "https://www.w3.org/TR/WCAG21/#operable",
-      cta: "Support Operable",
-    },
-    {
-      title: "Understandable",
-      description: `Users need to able to understand the content and behavior. This section covers language, input validation, errors, and predictability of response.`,
-      icon: Eye,
-      link: "https://www.w3.org/TR/WCAG21/#understandable",
-      cta: "Support Understandable",
-    },
-    {
-      title: "Robust",
-      description: `The environment needs to be robust and valid. Many of the tools used to access our sites are impaired by invalid, poorly formed, or poorly structured client code. Ensuring that the output is well formed and valid will help all our users.`,
-      icon: Eye,
-      link: "https://www.w3.org/TR/WCAG21/#robust",
-      cta: "Support Robust",
-    },
-  ]}
-/>
+<div class="row card-grid">
+  <div class="col-md-6 mb-4">
+    <div class="card card-feature h-100">
+      <div class="card-body">
+        <div class="card-content">
+          <h3>Perceivable</h3>
+          <p class="desc">Users need to be able to perceive the content. This covers alt text, captions, layout, contrast, and visual behaviors.</p>
+        </div>
+        <a href="https://www.w3.org/TR/WCAG21/#perceivable" class="btn btn-primary">Support Perceivable</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 mb-4">
+    <div class="card card-feature h-100">
+      <div class="card-body">
+        <div class="card-content">
+          <h3>Operable</h3>
+          <p class="desc">Users need to be able to operate the site behaviors. This covers keyboard accessibility, timing issues, animation, and navigation.</p>
+        </div>
+        <a href="https://www.w3.org/TR/WCAG21/#operable" class="btn btn-primary">Support Operable</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 mb-4">
+    <div class="card card-feature h-100">
+      <div class="card-body">
+        <div class="card-content">
+          <h3>Understandable</h3>
+          <p class="desc">Users need to able to understand the content and behavior. This section covers language, input validation, errors, and predictability of response.</p>
+        </div>
+        <a href="https://www.w3.org/TR/WCAG21/#understandable" class="btn btn-primary">Support Understandable</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 mb-4">
+    <div class="card card-feature h-100">
+      <div class="card-body">
+        <div class="card-content">
+          <h3>Robust</h3>
+          <p class="desc">The environment needs to be robust and valid. Many of the tools used to access our sites are impaired by invalid, poorly formed, or poorly structured client code. Ensuring that the output is well formed and valid will help all our users.</p>
+        </div>
+        <a href="https://www.w3.org/TR/WCAG21/#robust" class="btn btn-primary">Support Robust</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## Features
 
